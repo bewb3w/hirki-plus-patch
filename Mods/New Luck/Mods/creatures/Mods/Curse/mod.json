@@ -1,0 +1,18 @@
+{
+  "name": "Curse Luck Scaling",
+  "description": "Adds Luck-based scaling to the Curse attack of Mummies.\n\nThis module currently affects **Mummies**. They keep their existing Curse attack, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Mummy** — keeps its existing **Curse** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Curse chance is reduced by 12%.\n  * **-2 Luck**: Curse chance is reduced by 8%.\n  * **-1 Luck**: Curse chance is reduced by 4%.\n  * **+1 Luck**: Curse chance is increased by an additional 10%.\n  * **+2 Luck**: Curse chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Curse chance is increased by an additional 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Curse.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

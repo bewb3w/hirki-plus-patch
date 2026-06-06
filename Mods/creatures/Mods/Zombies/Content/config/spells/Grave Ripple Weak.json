@@ -1,0 +1,62 @@
+{
+  "graveRippleWeak": {
+    "type": "ability",
+    "targetType": "CREATURE",
+    "name": "Grave Ripple",
+    "school": {},
+    "level": 0,
+    "power": 1,
+    "defaultGainChance": 0,
+    "gainChance": {},
+    "flags": {
+      "negative": true,
+      "damage": true,
+      "special": true
+    },
+    "targetCondition": {
+      "noneOf": {
+        "bonus.NON_LIVING": "absolute",
+        "bonus.MECHANICAL": "absolute",
+        "bonus.SIEGE_WEAPON": "absolute",
+        "bonus.UNDEAD": "absolute",
+        "bonus.GARGOYLE": "absolute"
+      }
+    },
+    "sounds": {
+      "cast": "DEATHRIP"
+    },
+    "levels": {
+      "base": {
+        "description": "Sends a weaker wave of grave-born death across the battlefield that damages all living units except undead and other non-living targets.",
+        "cost": 0,
+        "targetModifier": {
+          "smart": false,
+          "clearAffected": false
+        },
+        "range": "X",
+        "battleEffects": {
+          "damageAllLiving": {
+            "type": "core:damage"
+          }
+        },
+        "power": 0
+      },
+      "none": {},
+      "basic": {},
+      "advanced": {},
+      "expert": {}
+    },
+    "animation": {
+      "affect": [
+        "GRAVRIP0"
+      ]
+    },
+    "graphics": {
+      "iconImmune": "GRAVICON_S",
+      "iconScenarioBonus": "GRAVICON_S",
+      "iconEffect": "GRAVICON_CAST",
+      "iconBook": "GRAVICON_L",
+      "iconScroll": "GRAVICON_L"
+    }
+  }
+}

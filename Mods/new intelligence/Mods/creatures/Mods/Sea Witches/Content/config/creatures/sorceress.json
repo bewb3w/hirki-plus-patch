@@ -1,0 +1,284 @@
+{
+  "hota.cove:sorceress": {
+    "abilities": {
+      "intelligenceSorceressBasicArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceSorceressBasicArmyTotalT2",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 2+ Sorceresses.\nGrants more combat mana.\nScales with Sorceress count."
+      },
+      "intelligenceSorceressBasicArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceSorceressBasicArmyTotalT10"
+      },
+      "intelligenceSorceressBasicArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 9,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceSorceressBasicArmyTotalT20"
+      },
+      "intelligenceSorceressBasicArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 12,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceSorceressBasicArmyTotalT30"
+      },
+      "intelligenceSorceressAdvancedArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceSorceressAdvancedArmyTotalT2"
+      },
+      "intelligenceSorceressAdvancedArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceSorceressAdvancedArmyTotalT10"
+      },
+      "intelligenceSorceressAdvancedArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceSorceressAdvancedArmyTotalT20"
+      },
+      "intelligenceSorceressAdvancedArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceSorceressAdvancedArmyTotalT30"
+      },
+      "intelligenceSorceressExpertArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceSorceressExpertArmyTotalT2"
+      },
+      "intelligenceSorceressExpertArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceSorceressExpertArmyTotalT10"
+      },
+      "intelligenceSorceressExpertArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceSorceressExpertArmyTotalT20"
+      },
+      "intelligenceSorceressExpertArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.cove:sorceress",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceSorceressExpertArmyTotalT30"
+      }
+    }
+  }
+}

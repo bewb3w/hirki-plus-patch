@@ -1,0 +1,363 @@
+{
+  "core:dimensionDoor": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusDimensionDoorMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.dimensionDoor",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          },
+          "castsPerDay": 1
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusDimensionDoorMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.dimensionDoor",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusDimensionDoorMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.dimensionDoor",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusDimensionDoorMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.dimensionDoor",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "core:fly": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusFlyMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.fly",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusFlyMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.fly",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusFlyMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.fly",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusFlyMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.fly",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "core:townPortal": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusTownPortalMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.townPortal",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusTownPortalMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.townPortal",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusTownPortalMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.townPortal",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusTownPortalMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.townPortal",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "core:waterWalk": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusWaterWalkMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.waterWalk",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusWaterWalkMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.waterWalk",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusWaterWalkMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.waterWalk",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusWaterWalkMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.waterWalk",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "core:summonBoat": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusSummonBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.summonBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusSummonBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.summonBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusSummonBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.summonBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusSummonBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.summonBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "core:scuttleBoat": {
+    "levels": {
+      "none": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusScuttleBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.scuttleBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "basic": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusScuttleBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.scuttleBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "advanced": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusScuttleBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.scuttleBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      },
+      "expert": {
+        "adventureEffect": {
+          "bonuses": {
+            "hplusScuttleBoatMomentumMarker": {
+              "type": "SPECIFIC_SPELL_POWER",
+              "subtype": "spell.scuttleBoat",
+              "val": 0,
+              "valueType": "ADDITIVE_VALUE",
+              "duration": "N_DAYS",
+              "turns": 2
+            }
+          }
+        }
+      }
+    }
+  }
+}

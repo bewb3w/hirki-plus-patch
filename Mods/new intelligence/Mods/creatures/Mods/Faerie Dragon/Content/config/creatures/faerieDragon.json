@@ -1,0 +1,119 @@
+{
+  "core:fairieDragon": {
+    "abilities": {
+      "intelligenceFaerieDragonBasicPlus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "core:fairieDragon",
+          "minimum": 0,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceFaerieDragonBasicPlus",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 1+ Faerie Dragon.\nGrants hero combat mana.\nScales every 2 dragons."
+      },
+      "intelligenceFaerieDragonBasicMinus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": -5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "core:fairieDragon",
+          "minimum": 0,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceFaerieDragonBasicMinus"
+      },
+      "intelligenceFaerieDragonAdvancedFlat": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "core:fairieDragon",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceFaerieDragonAdvancedFlat"
+      },
+      "intelligenceFaerieDragonExpertPlus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "core:fairieDragon",
+          "minimum": 0,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceFaerieDragonExpertPlus"
+      },
+      "intelligenceFaerieDragonExpertMinus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": -5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "core:fairieDragon",
+          "minimum": 0,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceFaerieDragonExpertMinus"
+      }
+    }
+  }
+}

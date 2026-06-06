@@ -1,0 +1,18 @@
+{
+  "name": "Estates",
+  "description": "Improves **Estates** into a stronger economic support skill.\n\nEstates now provides daily gold income and improves Marketplace exchange rates for the hero's player and any allies. In solo games, the owner receives the full benefit; in allied games, the same benefits are shared across the team.\n\nBenefits from multiple Estates heroes on the same team can stack, making the skill much more valuable while preserving its economic identity.\n\n## Skill Effects\n\n* **Basic Estates:** +250 gold per day and +1 Marketplace access for the hero's player and allies\n* **Advanced Estates:** +500 gold per day and +2 Marketplace access for the hero's player and allies\n* **Expert Estates:** +1000 gold per day and +3 Marketplace access for the hero's player and allies\n\n## Specialist Interaction\n\nLord Haart's Estates specialty increases the shared gold income, but does not increase Marketplace exchange rates.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "changelog": {
+    "1.0.0": [
+      "Initial release"
+    ]
+  },
+  "skills": [
+    "config/skills/Estates.json"
+  ],
+  "depends": [
+    "hota"
+  ]
+}

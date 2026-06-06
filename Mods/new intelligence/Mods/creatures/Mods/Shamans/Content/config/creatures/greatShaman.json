@@ -1,0 +1,284 @@
+{
+  "hota.bulwark:greatShaman": {
+    "abilities": {
+      "intelligenceGreatShamanBasicArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceGreatShamanBasicArmyTotalT2",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 2+ Great Shamans.\nGrants more combat mana.\nScales with stack size."
+      },
+      "intelligenceGreatShamanBasicArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceGreatShamanBasicArmyTotalT10"
+      },
+      "intelligenceGreatShamanBasicArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 9,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceGreatShamanBasicArmyTotalT20"
+      },
+      "intelligenceGreatShamanBasicArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 12,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceGreatShamanBasicArmyTotalT30"
+      },
+      "intelligenceGreatShamanAdvancedArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceGreatShamanAdvancedArmyTotalT2"
+      },
+      "intelligenceGreatShamanAdvancedArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceGreatShamanAdvancedArmyTotalT10"
+      },
+      "intelligenceGreatShamanAdvancedArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceGreatShamanAdvancedArmyTotalT20"
+      },
+      "intelligenceGreatShamanAdvancedArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceGreatShamanAdvancedArmyTotalT30"
+      },
+      "intelligenceGreatShamanExpertArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceGreatShamanExpertArmyTotalT2"
+      },
+      "intelligenceGreatShamanExpertArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceGreatShamanExpertArmyTotalT10"
+      },
+      "intelligenceGreatShamanExpertArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligenceGreatShamanExpertArmyTotalT20"
+      },
+      "intelligenceGreatShamanExpertArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.bulwark:greatShaman",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceGreatShamanExpertArmyTotalT30"
+      }
+    }
+  }
+}

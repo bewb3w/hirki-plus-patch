@@ -1,0 +1,97 @@
+{
+	"core:mirth": {
+		"targetType": "CREATURE",
+		"animation": {
+			"affect": [
+				"C09SPW0"
+			]
+		},
+		"sounds": {
+			"cast": "MIRTH"
+		},
+		"levels": {
+			"base": {
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": {
+					"moraleAdd": {
+						"type": "MORALE",
+						"duration": "N_TURNS",
+						"valueType": "ADDITIVE_VALUE"
+					},
+					"moraleMin": {
+						"type": "MORALE",
+						"duration": "N_TURNS",
+						"valueType": "INDEPENDENT_MAX"
+					}
+				}
+			},
+			"none": {
+				"cost": 7,
+				"effects": {
+					"moraleAdd": {
+						"val": 1
+					},
+					"moraleMin": {
+						"val": 1
+					}
+				},
+				"description": "{Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale."
+			},
+			"basic": {
+				"cost": 5,
+				"effects": {
+					"moraleAdd": {
+						"val": 1
+					},
+					"moraleMin": {
+						"val": 1
+					}
+				},
+				"description": "{Basic Mirth}\n\nIncreases Morale of target allied unit by +1.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +1 Morale."
+			},
+			"advanced": {
+				"cost": 4,
+				"effects": {
+					"moraleAdd": {
+						"val": 2
+					},
+					"moraleMin": {
+						"val": 2
+					}
+				},
+				"description": "{Advanced Mirth}\n\nIncreases Morale of target allied unit by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce that unit below +2 Morale."
+			},
+			"expert": {
+				"cost": 3,
+				"range": "X",
+				"effects": {
+					"moraleAdd": {
+						"val": 2
+					},
+					"moraleMin": {
+						"val": 2
+					}
+				},
+				"description": "{Expert Mirth}\n\nIncreases Morale of all allied units by +2.\n\nWhile Mirth lasts, Morale penalties cannot reduce affected units below +2 Morale."
+			}
+		},
+		"counters": {
+			"spell.sorrow": true
+		},
+		"flags": {
+			"positive": true
+		},
+		"targetCondition": {
+			"noneOf": {
+				"bonus.MIND_IMMUNITY": "normal",
+				"bonus.NON_LIVING": "normal",
+				"bonus.MECHANICAL": "normal",
+				"bonus.SIEGE_WEAPON": "absolute",
+				"bonus.UNDEAD": "absolute"
+			}
+		}
+	}
+}

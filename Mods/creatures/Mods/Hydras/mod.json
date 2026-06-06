@@ -1,0 +1,26 @@
+{
+  "name": "Hydras",
+  "description": "Hydra and Chaos Hydra gain the Bloodwake chain, a staged active ability system that lets them gather power and release damaging pulses around themselves.\n\n## Shared Features\n\n* **Increased durability** — **Hydra** has increased Health and Defense, rising to 200 Health and 20 Defense. **Chaos Hydra** has increased Health and Defense, rising to 300 Health and 25 Defense.\n* **Bloodwake** — both units can activate **Bloodwake** on themselves to unlock later abilities in the chain.\n* **Uses** — Bloodwake and Pulse abilities share a large 20-use combat pool.\n* **Dispel protection** — Bloodwake states cannot be removed by **Dispel**.\n* **Pulse targeting** — Pulse abilities affect nearby enemy units only.\n* **Scaling** — Pulse damage scales with the number of units in the stack.\n\n## Bloodwake Chain\n\n* **Bloodwake 1** — the Hydra spends its turn gathering strength. On the next round, it can use **Pulse I** or advance to **Bloodwake 2**. This state lasts 4 rounds.\n* **Bloodwake 2** — the Hydra spends its turn gathering greater fury. On the next round, it can use **Pulse I**, **Pulse II**, or advance to **Bloodwake 3**. This state lasts 3 rounds.\n* **Bloodwake 3** — the Hydra enters a frenzy-like state until its next attack.\n\n## Pulse I\n\n* **Effect** — deals damage to nearby enemy units and reduces their Speed.\n* **Persistence** — the Speed reduction lasts until the end of combat, cannot be removed by **Dispel**, and can combine with other Speed-reducing effects.\n* **Stacking** — the Speed reduction is cumulative, but Speed cannot be reduced below 2.\n* **Hydra** — affects enemies within 1 hex and reduces Speed by 1.\n* **Chaos Hydra** — affects enemies within 2 hexes and reduces Speed by 2.\n\n## Pulse II\n\n* **Effect** — deals damage to nearby enemy units and reduces their Defense.\n* **Persistence** — the Defense reduction lasts until the end of combat, cannot be removed by **Dispel**, and can combine with other Defense-reducing effects.\n* **Stacking** — the Defense reduction is cumulative.\n* **Hydra** — affects enemies within 1 hex and reduces Defense by 3.\n* **Chaos Hydra** — affects enemies within 2 hexes and reduces Defense by 4.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Hydra.json",
+    "config/creatures/Chaos Hydra.json"
+  ],
+  "spells": [
+    "config/spells/Chaos Hydra Bloodwake 1.json",
+    "config/spells/Chaos Hydra Bloodwake 2.json",
+    "config/spells/Hydra Pulse 1 Slow Shared.json",
+    "config/spells/Chaos Hydra Bloodwake 3.json",
+    "config/spells/Hydra Pulse 2 DisruptingRay.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

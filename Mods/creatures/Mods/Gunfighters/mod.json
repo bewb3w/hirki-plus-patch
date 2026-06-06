@@ -1,0 +1,20 @@
+{
+  "name": "Gunfighters",
+  "description": "Gunslinger and Bounty Hunter gain Precision spellcasting.\n\n## Shared Features\n\n* **Spell** — both units cast **Precision**.\n* **Targeting** — both units can cast **Precision** on other allied shooter units, but not on their own stack.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n* **Compatibility** — this module does not require New Ranged. If the New Ranged Precision module is active, these units use the active version of Precision.\n\n## Gunslinger\n\n* **Spell level** — casts **Basic Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 6 or more units in the stack, and 3 casts at 12 or more units in the stack.\n\n## Bounty Hunter\n\n* **Spell level** — casts **Advanced Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 5 or more units in the stack, and 3 casts at 10 or more units in the stack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.factory"
+  ],
+  "creatures": [
+    "config/creatures/Gunslinger.json",
+    "config/creatures/Bounty Hunter.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Precision",
+  "description": "Reworks Precision for the New Ranged package.\n\n## Spell Changes\n\n* **No Mastery / Basic Precision** — increases target allied shooter's Attack by +3 for ranged attacks only.\n* **Advanced Precision** — increases target allied shooter's Attack by +6 for ranged attacks only. **Additionally**, extends its full-damage shooting range by 1 hex, up to 11 hexes, and grants +1 Speed for spell duration.\n* **Expert Precision** — increases all allied shooters' Attack by +6 for ranged attacks only. **Additionally**, extends their full-damage shooting range by 2 hexes, up to 12 hexes, and grants +1 Speed for spell duration.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "spells": [
+    "config/spells/Precision.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

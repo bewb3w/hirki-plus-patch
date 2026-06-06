@@ -1,0 +1,40 @@
+{
+	"core:monk": {
+		"abilities": {
+			"monkBaseCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 4,
+					"stepValue": 1
+				}
+			},
+			"monkExtraCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16,
+					"stepValue": 1
+				}
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"monkCure": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.cure",
+				"val": 1
+			},
+			"curePower": {
+				"type": "CREATURE_SPELL_POWER",
+				"val": 35
+			}
+		}
+	}
+}

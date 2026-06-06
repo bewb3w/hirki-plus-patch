@@ -1,0 +1,17 @@
+{
+  "core:goldenBow": {
+    "class": "RELIC",
+    "value": 18000,
+    "text": {
+      "description": "Eliminates range and obstacle penalties for the hero's ranged troops."
+    },
+    "bonuses": {
+      "noDistancePenalty": {
+        "type": "NO_DISTANCE_PENALTY"
+      },
+      "noWallPenalty": {
+        "type": "NO_WALL_PENALTY"
+      }
+    }
+  }
+}

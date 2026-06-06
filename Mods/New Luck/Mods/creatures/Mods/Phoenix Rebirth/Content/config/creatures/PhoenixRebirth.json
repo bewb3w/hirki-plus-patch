@@ -1,0 +1,93 @@
+{
+	"core:phoenix": {
+		"abilities": {
+			"rebirth": {
+				"type": "REBIRTH",
+				"val": 20,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"rebirth_luck_minus_1": {
+				"type": "REBIRTH",
+				"val": 17,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"rebirth_luck_minus_2": {
+				"type": "REBIRTH",
+				"val": 13,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"rebirth_luck_minus_3": {
+				"type": "REBIRTH",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"rebirth_luck_1": {
+				"type": "REBIRTH",
+				"val": 22,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"rebirth_luck_2": {
+				"type": "REBIRTH",
+				"val": 25,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"rebirth_luck_3": {
+				"type": "REBIRTH",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

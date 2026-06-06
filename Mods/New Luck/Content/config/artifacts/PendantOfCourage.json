@@ -1,0 +1,20 @@
+{
+  "core:pendantOfCourage": {
+    "class": "RELIC",
+    "value": 20000,
+    "text": {
+      "name": "Pendant of Courage",
+      "description": "{Pendant of Courage}\n\nWhen worn, this item bestows +2 Luck and Morale to your hero's troops."
+    },
+    "bonuses": {
+      "luckBonus": {
+        "type": "LUCK",
+        "val": 2
+      },
+      "moraleBonus": {
+        "type": "MORALE",
+        "val": 2
+      }
+    }
+  }
+}

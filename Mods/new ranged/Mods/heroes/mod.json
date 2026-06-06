@@ -1,0 +1,15 @@
+{
+  "name": "Ranged Heroes",
+  "description": "Hero-side ranged and war machine adjustments for the New Ranged package.\n\n* **Torosar** — keeps **Torosar** starting with **Basic Tactics**. His original **Basic Mysticism** is replaced by **Basic Artillery**, better supporting his **Ballista** specialty and the New Ranged package.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Heroes",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

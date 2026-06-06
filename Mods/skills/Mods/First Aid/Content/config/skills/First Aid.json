@@ -1,0 +1,58 @@
+{
+	"core:firstAid": {
+		"specialty": [
+			"stackhp"
+		],
+		"base": {
+			"effects": {
+				"damageCap": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "firstAidTent"
+						}
+					]
+				}
+			}
+		},
+		"basic": {
+			"effects": {
+				"damageCap": {
+					"val": 40
+				}
+			},
+			"description": "{Basic First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 50 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +5% maximum Health.\n\nThe First Aid Tent cannot lose more than 40% of its maximum Health from a single attack."
+		},
+		"advanced": {
+			"effects": {
+				"damageCap": {
+					"val": 30
+				}
+			},
+			"description": "{Advanced First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 75 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +10% maximum Health.\n\nThe First Aid Tent cannot lose more than 30% of its maximum Health from a single attack."
+		},
+		"expert": {
+			"effects": {
+				"damageCap": {
+					"val": 20
+				},
+				"damageCapAmmoCart": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 20,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						}
+					]
+				}
+			},
+			"description": "{Expert First Aid}\n\nAllows manual control of the First Aid Tent and increases its healing to up to 100 Health.\n\nWhile the First Aid Tent remains active, allied creatures gain +15% maximum Health.\n\nThe First Aid Tent and Ammo Cart cannot lose more than 20% of their maximum Health from a single attack."
+		}
+	}
+}

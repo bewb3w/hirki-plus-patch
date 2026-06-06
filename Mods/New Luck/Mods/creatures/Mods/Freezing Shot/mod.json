@@ -1,0 +1,19 @@
+{
+  "name": "Freezing Shot Luck Scaling",
+  "description": "Adds Luck-based scaling to the Freezing Shot attack of Shamans and Great Shamans.\n\nThis module gives **Shamans** a new chance to trigger **Freezing Shot** when they have positive Luck, while **Great Shamans** keep their existing Freezing Shot attack and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Shaman** — gains a chance to trigger **Freezing Shot** only with positive Luck.\n  * **+1 Luck**: 7% Freezing Shot chance.\n  * **+2 Luck**: 14% Freezing Shot chance.\n  * **+3 or higher Luck**: 20% Freezing Shot chance.\n\n* **Great Shaman** — keeps its existing **Freezing Shot** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Freezing Shot chance is reduced by 10%.\n  * **-2 Luck**: Freezing Shot chance is reduced by 7%.\n  * **-1 Luck**: Freezing Shot chance is reduced by 3%.\n  * **+1 Luck**: Freezing Shot chance is increased by an additional 10%.\n  * **+2 Luck**: Freezing Shot chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Freezing Shot chance is increased by an additional 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.bulwark"
+  ],
+  "creatures": [
+    "config/creatures/FreezingShot.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

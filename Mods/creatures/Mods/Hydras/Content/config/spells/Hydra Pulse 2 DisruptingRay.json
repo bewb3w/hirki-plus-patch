@@ -1,0 +1,162 @@
+{
+  "hydraPulseBlastSharedDisruptingRay": {
+    "type": "ability",
+    "name": "Hydra Pulse II",
+    "targetType": "CREATURE",
+    "school": {
+      "air": false,
+      "earth": false,
+      "fire": false,
+      "water": false
+    },
+    "level": 2,
+    "power": 1,
+    "defaultGainChance": 0,
+    "gainChance": {
+      "castle": 0,
+      "rampart": 0,
+      "conflux": 0
+    },
+    "flags": {
+      "negative": true,
+      "damage": true,
+      "special": true,
+      "nonMagical": false,
+      "persistent": true
+    },
+    "canCastOnSelf": true,
+    "canCastOnlyOnSelf": true,
+    "levels": {
+      "base": {
+        "description": "{Pulse II}\nDeals 105 damage × the number of Hydras in the stack.\nReduces enemy Defense until the end of combat. This effect is cumulative.\nAffects nearby enemy units."
+      },
+      "none": {
+        "cost": 0,
+        "power": 0,
+        "targetModifier": {
+          "smart": true,
+          "clearAffected": false
+        },
+        "range": "0-1",
+        "battleEffects": {
+          "pulseDamage": {
+            "type": "core:damage",
+            "ignoreImmunity": false
+          },
+          "applyDefenseShred": {
+            "type": "core:timed",
+            "cumulative": true,
+            "bonus": {
+              "defenseDown": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primarySkill.defence",
+                "val": -3,
+                "duration": "ONE_BATTLE"
+              }
+            }
+          }
+        }
+      },
+      "basic": {
+        "cost": 0,
+        "power": 0,
+        "targetModifier": {
+          "smart": true,
+          "clearAffected": false
+        },
+        "range": "0-1",
+        "battleEffects": {
+          "pulseDamage": {
+            "type": "core:damage",
+            "ignoreImmunity": false
+          },
+          "applyDefenseShred": {
+            "type": "core:timed",
+            "cumulative": true,
+            "bonus": {
+              "defenseDown": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primarySkill.defence",
+                "val": -3,
+                "duration": "ONE_BATTLE"
+              }
+            }
+          }
+        }
+      },
+      "advanced": {
+        "cost": 0,
+        "power": 0,
+        "targetModifier": {
+          "smart": true,
+          "clearAffected": false
+        },
+        "range": "0-2",
+        "battleEffects": {
+          "pulseDamage": {
+            "type": "core:damage",
+            "ignoreImmunity": false
+          },
+          "applyDefenseShred": {
+            "type": "core:timed",
+            "cumulative": true,
+            "bonus": {
+              "defenseDown": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primarySkill.defence",
+                "val": -4,
+                "duration": "ONE_BATTLE"
+              }
+            }
+          }
+        }
+      },
+      "expert": {
+        "cost": 0,
+        "power": 0,
+        "targetModifier": {
+          "smart": true,
+          "clearAffected": false
+        },
+        "range": "0-2",
+        "battleEffects": {
+          "pulseDamage": {
+            "type": "core:damage",
+            "ignoreImmunity": false
+          },
+          "applyDefenseShred": {
+            "type": "core:timed",
+            "cumulative": true,
+            "bonus": {
+              "defenseDown": {
+                "type": "PRIMARY_SKILL",
+                "subtype": "primarySkill.defence",
+                "val": -4,
+                "duration": "ONE_BATTLE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "graphics": {
+      "iconEffect": "pulse2_dray_icon_battle.png"
+    },
+    "animation": {
+      "affect": [
+        {
+          "defName": "C07SPA1",
+          "transparency": 0.5
+        }
+      ],
+      "projectile": [
+        {
+          "defName": "hydra_bloodwake/PMAGEX.def"
+        }
+      ]
+    },
+    "sounds": {
+      "cast": "DISRUPTR"
+    }
+  }
+}

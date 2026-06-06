@@ -1,0 +1,18 @@
+{
+  "name": "Scouting",
+  "description": "Improves **Scouting** into a stronger exploration and information support skill.\n\nScouting keeps its hero-only scouting radius bonus and now also improves Thieves' Guild access for the hero's player and any allies. In solo games, the owner receives the full information benefit; in allied games, the same benefits are shared across the team.\n\nBenefits from multiple Scouting heroes on the same team can stack, making the skill more useful while preserving its exploration identity.\n\n## Skill Effects\n\n* **Basic Scouting:** +1 scouting radius for the hero and +1 Thieves' Guild access for the hero's player and allies\n* **Advanced Scouting:** +2 scouting radius for the hero and +2 Thieves' Guild access for the hero's player and allies\n* **Expert Scouting:** +3 scouting radius for the hero and +3 Thieves' Guild access for the hero's player and allies\n\n## Specialist Interaction\n\nScouting specialties increase only the specialist hero's own scouting radius with hero level, and do not increase Thieves' Guild access.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release"
+    ]
+  },
+  "skills": [
+    "config/skills/Scouting.json"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "core:tower": {
+    "town": {
+      "buildings": {
+        "blacksmith": {
+          "warMachine": "hirkyAmmoCartArtifact"
+        }
+      }
+    }
+  },
+  "core:inferno": {
+    "town": {
+      "buildings": {
+        "blacksmith": {
+          "warMachine": "hirkyAmmoCartArtifact"
+        }
+      }
+    }
+  },
+  "core:stronghold": {
+    "town": {
+      "buildings": {
+        "blacksmith": {
+          "warMachine": "hirkyAmmoCartArtifact"
+        }
+      }
+    }
+  },
+  "hota.factory:factory": {
+    "town": {
+      "buildings": {
+        "blacksmith": {
+          "warMachine": "hirkyAmmoCartArtifact"
+        }
+      }
+    }
+  }
+}

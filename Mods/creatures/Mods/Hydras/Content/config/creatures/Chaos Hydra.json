@@ -1,0 +1,165 @@
+{
+  "core:chaosHydra": {
+    "defense": 25,
+    "hitPoints": 300,
+    "abilities": {
+      "hydraSharedCasts": {
+        "type": "CASTS",
+        "val": 20
+      },
+      "ignition1Caster": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraPulseIgnitionChaos1",
+        "val": 1,
+        "limiters": [
+          "noneOf",
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos1"
+          },
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos2"
+          }
+        ],
+        "icon": "bloodwake1_icon.png",
+        "description": "{Bloodwake}\nArms the Hydra.\nUnlocks Pulse I\nand Bloodwake 2."
+      },
+      "pulse1CasterWhenArmed1": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraPulseBlastSharedSlow",
+        "val": 2,
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos1"
+          }
+        ]
+      },
+      "ignition2CasterWhenArmed1": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraPulseIgnitionChaos2",
+        "val": 1,
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos1"
+          }
+        ],
+        "icon": "bloodwake2_icon.png",
+        "description": "{Bloodwake}\nArms the Hydra further.\nUnlocks Pulse II\nand Bloodwake 3."
+      },
+      "pulse2CasterWhenArmed2": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraPulseBlastSharedDisruptingRay",
+        "val": 2,
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos2"
+          }
+        ]
+      },
+      "bloodwake3CasterWhenArmed2": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraBloodwake3",
+        "val": 1,
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos2"
+          }
+        ],
+        "icon": "bloodwake3_icon.png",
+        "description": "{Bloodwake}\nBloodwake 3.\nHydra casts Bloodwake 3\non itself."
+      },
+      "pulse1CasterWhenArmed2": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.hydraPulseBlastSharedSlow",
+        "val": 2,
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos2"
+          }
+        ]
+      },
+      "pulse1BasePower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "spell.hydraPulseBlastSharedSlow",
+        "val": 70
+      },
+      "pulse1DamagePerStack": {
+        "type": "SPECIFIC_SPELL_DAMAGE",
+        "subtype": "spell.hydraPulseBlastSharedSlow",
+        "val": 100,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "stepSize": 1
+        }
+      },
+      "pulse1DamageBaseOffset": {
+        "type": "SPECIFIC_SPELL_DAMAGE",
+        "subtype": "spell.hydraPulseBlastSharedSlow",
+        "val": -100
+      },
+      "pulse2BasePower": {
+        "type": "SPECIFIC_SPELL_POWER",
+        "subtype": "spell.hydraPulseBlastSharedDisruptingRay",
+        "val": 105
+      },
+      "pulse2DamagePerStack": {
+        "type": "SPECIFIC_SPELL_DAMAGE",
+        "subtype": "spell.hydraPulseBlastSharedDisruptingRay",
+        "val": 100,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "stepSize": 1
+        }
+      },
+      "pulse2DamageBaseOffset": {
+        "type": "SPECIFIC_SPELL_DAMAGE",
+        "subtype": "spell.hydraPulseBlastSharedDisruptingRay",
+        "val": -100
+      },
+      "bloodwakeDispelShieldBW1": {
+        "type": "HATES_TRAIT",
+        "subtype": "UNDEAD",
+        "val": 0,
+        "icon": "bloodwake_dispel_shield_icon.png",
+        "description": "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos1"
+          }
+        ]
+      },
+      "bloodwakeDispelShieldBW2": {
+        "type": "HATES_TRAIT",
+        "subtype": "UNDEAD",
+        "val": 0,
+        "icon": "bloodwake_dispel_shield_icon.png",
+        "description": "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.hydraPulseIgnitionChaos2"
+          }
+        ]
+      }
+    },
+    "graphics": {
+      "animation": "hydra_bloodwake/CCHYDR.def"
+    }
+  }
+}

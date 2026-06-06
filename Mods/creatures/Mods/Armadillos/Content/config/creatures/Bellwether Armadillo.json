@@ -1,0 +1,35 @@
+{
+	"hota.factory:bellwetherArmadillo": {
+		"abilities": {
+			"bellwetherBaseCasts": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 2,
+					"stepSize": 6,
+					"stepValue": 1
+				}
+			},
+			"bellwetherExtraCasts": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"stepSize": 50,
+					"stepValue": 1
+				}
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"bellwetherStone": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.stoneSkin",
+				"val": 2
+			}
+		}
+	}
+}

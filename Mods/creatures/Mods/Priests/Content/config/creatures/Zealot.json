@@ -1,0 +1,118 @@
+{
+	"core:zealot": {
+		"abilities": {
+			"zealotBaseCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 3,
+					"stepValue": 1
+				}
+			},
+			"zealotExtraCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 12,
+					"stepValue": 1
+				}
+			},
+			"zealotThirdCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24,
+					"stepValue": 1
+				}
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"zealotCure": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.cure",
+				"val": 2
+			},
+			"zealotBless": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.bless",
+				"val": 3
+			},
+			"zealotBlessDurationBase": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 2
+			},
+			"zealotBlessDuration8": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8,
+					"stepValue": 1
+				}
+			},
+			"zealotBlessDuration16": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16,
+					"stepValue": 1
+				}
+			},
+			"zealotBlessDuration24": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24,
+					"stepValue": 1
+				}
+			},
+			"zealotBlessDuration36": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 36,
+					"stepValue": 1
+				}
+			},
+			"zealotBlessDuration48": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 48,
+					"stepValue": 1
+				}
+			},
+			"curePower": {
+				"type": "CREATURE_SPELL_POWER",
+				"val": 35
+			}
+		},
+		"sound": {
+			"shoot": "MONKSHOT.wav"
+		}
+	}
+}

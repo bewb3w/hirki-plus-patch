@@ -1,0 +1,19 @@
+{
+  "name": "Priests",
+  "description": "A support module for Monks and Zealots designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Monk and Zealot stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Zealots provide stronger scaling and earlier support, making the upgrade more meaningful beyond its normal combat improvements. Listed values are total combat mana bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Monk** — requires Intelligence and at least 4 Monks.\n  * **Basic Intelligence**: 4 or more Monks grant 4 **total combat mana**; 10 grant 9; 20 grant 14; 30 grant 20.\n  * **Advanced Intelligence**: 4 or more Monks grant 7 **total combat mana**; 10 grant 16; 20 grant 26; 30 grant 36.\n  * **Expert Intelligence**: 4 or more Monks grant 11 **total combat mana**; 10 grant 26; 20 grant 46; 30 grant 71.\n\n* **Zealot** — requires Intelligence and at least 2 Zealots.\n  * **Basic Intelligence**: 2 or more Zealots grant 4 **total combat mana**; 10 grant 10; 20 grant 19; 30 grant 32.\n  * **Advanced Intelligence**: 2 or more Zealots grant 8 **total combat mana**; 10 grant 22; 20 grant 42; 30 grant 69.\n  * **Expert Intelligence**: 2 or more Zealots grant 13 **total combat mana**; 10 grant 37; 20 grant 72; 30 grant 117.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/monk.json",
+    "config/creatures/zealot.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

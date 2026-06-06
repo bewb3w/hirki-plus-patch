@@ -1,0 +1,15 @@
+{
+  "name": "Luck Spells",
+  "description": "Spell modules tied to the reworked luck system.\n\nThese modules make luck-control spells more practical and more reliable while preserving their original tactical identity.\n\n## Included Spell Changes\n\n* **Fortune and Misfortune Independent Luck** — reworks Fortune and Misfortune into stronger luck-control spells with reduced mana costs. **Fortune** increases Luck and protects affected units from ordinary Luck penalties. Luck-reducing artifacts and effects cannot bring affected units below Fortune's minimum positive Luck result, although Hourglass of the Evil Hour can still suppress positive Luck entirely. **Misfortune** decreases Luck and prevents ordinary Luck bonuses from raising affected units above its maximum negative Luck result. Luck-boosting artifacts and effects cannot raise affected units above Misfortune's negative cap. The spells remain direct counters to each other.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

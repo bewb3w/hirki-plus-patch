@@ -1,0 +1,284 @@
+{
+	"core:monk": {
+		"abilities": {
+			"intelligenceMonkBasicArmyTotalT4": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 4
+				},
+				"stacking": "intelligenceMonkBasicArmyTotalT4",
+				"icon": "intelligence_adv_medium.png",
+				"description": "{Arcane Support}\nReq. Intelligence & 4+ Monks.\nGrants hero combat mana.\nScales with Monk count."
+			},
+			"intelligenceMonkBasicArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 5,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceMonkBasicArmyTotalT10"
+			},
+			"intelligenceMonkBasicArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 5,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceMonkBasicArmyTotalT20"
+			},
+			"intelligenceMonkBasicArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceMonkBasicArmyTotalT30"
+			},
+			"intelligenceMonkAdvancedArmyTotalT4": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 3,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 4
+				},
+				"stacking": "intelligenceMonkAdvancedArmyTotalT4"
+			},
+			"intelligenceMonkAdvancedArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceMonkAdvancedArmyTotalT10"
+			},
+			"intelligenceMonkAdvancedArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 5,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceMonkAdvancedArmyTotalT20"
+			},
+			"intelligenceMonkAdvancedArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceMonkAdvancedArmyTotalT30"
+			},
+			"intelligenceMonkExpertArmyTotalT4": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 4
+				},
+				"stacking": "intelligenceMonkExpertArmyTotalT4"
+			},
+			"intelligenceMonkExpertArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceMonkExpertArmyTotalT10"
+			},
+			"intelligenceMonkExpertArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 10,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceMonkExpertArmyTotalT20"
+			},
+			"intelligenceMonkExpertArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 15,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.monk",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceMonkExpertArmyTotalT30"
+			}
+		}
+	}
+}

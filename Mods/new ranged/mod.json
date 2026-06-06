@@ -1,0 +1,33 @@
+{
+  "name": "New Ranged",
+  "description": "A dedicated ranged-combat package designed for use with Horn of the Abyss on VCMI.\n\nThis package reworks ranged combat through updated skills, spell support, shooter ammo economy, selected hero adjustments and artifact value polish.\n\n## Included Systems\n\n* **Archery** — improves ranged damage and full-damage shooting range, while supporting the package's **reduced** ammo economy through total ammo pool bonuses. Expert Archery also adds a tactical rider through Basic Forgetfulness after ranged attacks.\n* **Artillery** — preserves the original Ballista control, double-shot and double-damage progression, while **adding protection** against losing ranged war machines too quickly.\n* **Archery and Artillery Synergy** — allows Ballista and Cannon to receive controlled **Archery bonuses** when both skill modules are enabled and the hero has both skills.\n* **Shooter Ammo** — creates a fixed baseline for **shooter ammo** across ranged creatures and reduces Ballista to 16 shots, while Cannon keeps its ammo pool.\n* **Ammo Cart** — replaces unlimited ammunition with a fixed **+5 total ammo** supply for allied ranged units during combat.\n* **Precision** — keeps No Mastery and Basic Precision close to the original spell, while Advanced and Expert Precision **gain additional ranged-combat utility**.\n* **Torosar** — keeps Torosar starting with Basic Tactics. His original Basic Mysticism is replaced by Basic **Artillery**, better supporting his Ballista specialty and the New Ranged package.\n* **Ranged Artifacts** — changes Golden Bow to **relic** class and increases its value to better match its power. Bow of the Sharpshooter also has its value increased.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Expansion",
+  "depends": [
+    "hota",
+    "hota.cannon",
+    "hota.cove",
+    "hota.factory",
+    "hota.bulwark"
+  ],
+  "artifacts": [
+    "config/artifacts/GoldenBow.json",
+    "config/artifacts/BowOfTheSharpshooter.json",
+    "config/artifacts/AmmoCart.json"
+  ],
+  "creatures": [
+    "config/creatures/AmmoCart.json"
+  ],
+  "factions": [
+    "config/factions/AmmoCartBlacksmiths.json"
+  ],
+  "objects": [
+    "config/objects/WarMachineFactory.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

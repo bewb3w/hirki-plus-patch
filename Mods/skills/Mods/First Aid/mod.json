@@ -1,0 +1,18 @@
+{
+  "name": "First Aid",
+  "description": "Enhances First Aid by increasing the durability of the First Aid Tent with each skill level, allowing the hero to benefit from its army health bonus for longer.\n\nFirst Aid Tent increases the maximum health of all creatures in the hero's army. This core effect is preserved, while the Tent also gains a stronger damage cap as the skill improves. At Expert level, the Ammo Cart also receives damage cap protection.\n\n## Skill Effects\n\n* **Basic First Aid:** First Aid Tent increases creature maximum health by 5%; First Aid Tent cannot lose more than 40% of its maximum health from a single attack\n* **Advanced First Aid:** First Aid Tent increases creature maximum health by 10%; First Aid Tent cannot lose more than 30% of its maximum health from a single attack\n* **Expert First Aid:** First Aid Tent increases creature maximum health by 15%; First Aid Tent and Ammo Cart cannot lose more than 20% of their maximum health from a single attack\n\n## Specialist Interaction\n\nFirst Aid specialties increase only the First Aid Tent's creature maximum health bonus with hero level, and do not increase the damage cap.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release"
+    ]
+  },
+  "skills": [
+    "config/skills/First Aid.json"
+  ]
+}

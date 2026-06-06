@@ -1,0 +1,18 @@
+{
+  "name": "Magic Resistance Luck Scaling",
+  "description": "Adds Luck-based scaling to the Magic Resistance ability of Dwarves, Battle Dwarves and Crystal Dragons.\n\nThese creatures keep their existing **Magic Resistance** ability, while its chance is modified by both positive and negative Luck. **Battle Dwarves** receive the strongest scaling, while **Dwarves** and **Crystal Dragons** use separate values suited to their roles.\n\n## Creature Changes\n\n* **Dwarf** — keeps its existing **Magic Resistance** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Magic Resistance chance is reduced to 10%.\n  * **-2 Luck**: Magic Resistance chance is reduced to 13%.\n  * **-1 Luck**: Magic Resistance chance is reduced to 17%.\n  * **Neutral Luck**: Magic Resistance chance remains at 20%.\n  * **+1 Luck**: Magic Resistance chance is increased to 27%.\n  * **+2 Luck**: Magic Resistance chance is increased to 34%.\n  * **+3 or higher Luck**: Magic Resistance chance is increased to 40%.\n\n* **Battle Dwarf** — keeps its existing **Magic Resistance** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Magic Resistance chance is reduced to 20%.\n  * **-2 Luck**: Magic Resistance chance is reduced to 27%.\n  * **-1 Luck**: Magic Resistance chance is reduced to 33%.\n  * **Neutral Luck**: Magic Resistance chance remains at 40%.\n  * **+1 Luck**: Magic Resistance chance is increased to 50%.\n  * **+2 Luck**: Magic Resistance chance is increased to 60%.\n  * **+3 or higher Luck**: Magic Resistance chance is increased to 70%.\n\n* **Crystal Dragon** — keeps its existing **Magic Resistance** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Magic Resistance chance is reduced to 10%.\n  * **-2 Luck**: Magic Resistance chance is reduced to 13%.\n  * **-1 Luck**: Magic Resistance chance is reduced to 17%.\n  * **Neutral Luck**: Magic Resistance chance remains at 20%.\n  * **+1 Luck**: Magic Resistance chance is increased to 30%.\n  * **+2 Luck**: Magic Resistance chance is increased to 40%.\n  * **+3 or higher Luck**: Magic Resistance chance is increased to 50%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/MagicResistance.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

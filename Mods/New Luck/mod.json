@@ -1,0 +1,21 @@
+{
+  "name": "New Luck",
+  "description": "A dedicated Luck rework designed for use with Horn of the Abyss on VCMI.\n\nThis module keeps the original Luck skill values and expands Luck into a broader gameplay system:\n\n* **Basic Luck** — increases Luck by 1. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n* **Advanced Luck** — increases Luck by 2. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n* **Expert Luck** — increases Luck by 3. Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities.\n\nLuck-based creature ability scaling is handled through separate optional creature modules. Exact affected creatures, thresholds and values are listed in each individual creature module description.\n\n## Included Systems\n\n* **Pendant of Courage** — changes Pendant of Courage to **relic class**, increases its value and reduces its bonus from +3 Luck and +3 Morale to +2 Luck and +2 Morale.\n\n* **Luck Spells** — includes reworked **Fortune and Misfortune**. These spells use reduced mana costs and act as direct counters to each other while controlling positive and negative Luck more reliably.\n\n* **Luck Creature Abilities** — adds **Luck scaling** to selected creature abilities. Some creatures **gain a new** positive Luck unlock, while others have existing abilities modified by positive and negative Luck.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Expansion",
+  "depends": [
+    "hota"
+  ],
+  "skills": [
+    "config/skills/Luck.json"
+  ],
+  "artifacts": [
+    "config/artifacts/PendantOfCourage.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

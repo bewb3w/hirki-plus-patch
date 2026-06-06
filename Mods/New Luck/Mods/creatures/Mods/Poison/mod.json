@@ -1,0 +1,19 @@
+{
+  "name": "Poison Luck Scaling",
+  "description": "Adds Luck-based scaling to the Poison attacks of Wyverns, Wyvern Monarchs, Sea Serpents and Haspids.\n\nThis module gives **Wyverns** a new chance to trigger **Poison** when they have positive Luck. **Wyvern Monarchs**, **Sea Serpents** and **Haspids** keep their existing Poison attacks and have their chances modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Wyvern** — gains a chance to trigger **Poison** only with positive Luck.\n  * **+1 Luck**: 6% Poison chance.\n  * **+2 Luck**: 13% Poison chance.\n  * **+3 or higher Luck**: 20% Poison chance.\n\n* **Wyvern Monarch** — keeps its existing **Poison** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Poison chance is reduced by 20%.\n  * **-2 Luck**: Poison chance is reduced by 13%.\n  * **-1 Luck**: Poison chance is reduced by 6%.\n  * **+1 Luck**: Poison chance is increased by an additional 6%.\n  * **+2 Luck**: Poison chance is increased by an additional 13%.\n  * **+3 or higher Luck**: Poison chance is increased by an additional 20%.\n\n* **Sea Serpent** — keeps its existing **Poison** attack and has its chance adjusted by Luck, with more conservative positive scaling.\n  * **-3 or lower Luck**: Poison chance is reduced by 20%.\n  * **-2 Luck**: Poison chance is reduced by 13%.\n  * **-1 Luck**: Poison chance is reduced by 6%.\n  * **+1 Luck**: Poison chance is increased by an additional 3%.\n  * **+2 Luck**: Poison chance is increased by an additional 7%.\n  * **+3 or higher Luck**: Poison chance is increased by an additional 10%.\n\n* **Haspid** — keeps its existing **Poison** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Poison chance is reduced by 20%.\n  * **-2 Luck**: Poison chance is reduced by 13%.\n  * **-1 Luck**: Poison chance is reduced by 6%.\n  * **+1 Luck**: Poison chance is increased by an additional 6%.\n  * **+2 Luck**: Poison chance is increased by an additional 13%.\n  * **+3 or higher Luck**: Poison chance is increased by an additional 20%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.cove"
+  ],
+  "creatures": [
+    "config/creatures/Poison.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "core:zombieLord": {
+    "abilities": {
+      "zombieLordBaseCast": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10,
+          "stepValue": 1
+        }
+      },
+      "zombieLordExtraCasts": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "stepSize": 100,
+          "stepValue": 1
+        }
+      },
+      "noCastByDefault": {
+        "type": "NO_SPELLCAST_BY_DEFAULT"
+      },
+      "zombieLordGraveRipple": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.graveRipple",
+        "val": 1
+      },
+      "zombieLordCreatureSpellPower": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 100
+      }
+    }
+  }
+}

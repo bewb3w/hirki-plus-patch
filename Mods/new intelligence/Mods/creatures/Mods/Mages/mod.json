@@ -1,0 +1,19 @@
+{
+  "name": "Mages",
+  "description": "A support module for Mages and Arch Mages designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Mage and Arch Mage stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Arch Mages start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Mage** — requires Intelligence and at least 4 Mages.\n  * **Basic Intelligence**: 4 or more Mages grant 3 **total combat mana**; 10 grant 7; 20 grant 11; 30 grant 15.\n  * **Advanced Intelligence**: 4 or more Mages grant 5 **total combat mana**; 10 grant 11; 20 grant 18; 30 grant 25.\n  * **Expert Intelligence**: 4 or more Mages grant 8 **total combat mana**; 10 grant 18; 20 grant 29; 30 grant 40.\n\n* **Arch Mage** — requires Intelligence and at least 2 Arch Mages.\n  * **Basic Intelligence**: 2 or more Arch Mages grant 2 **total combat mana**; 10 grant 7; 20 grant 15; 30 grant 25.\n  * **Advanced Intelligence**: 2 or more Arch Mages grant 5 **total combat mana**; 10 grant 14; 20 grant 26; 30 grant 40.\n  * **Expert Intelligence**: 2 or more Arch Mages grant 10 **total combat mana**; 10 grant 24; 20 grant 41; 30 grant 60.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/mage.json",
+    "config/creatures/archMage.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

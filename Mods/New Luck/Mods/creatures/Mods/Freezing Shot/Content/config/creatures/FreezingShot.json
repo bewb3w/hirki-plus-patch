@@ -1,0 +1,133 @@
+{
+	"hota.bulwark:shaman": {
+		"abilities": {
+			"freezing_shot_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 7,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"freezing_shot_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 14,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"freezing_shot_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 20,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"hota.bulwark:greatShaman": {
+		"abilities": {
+			"freezing_shot_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": -10,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"freezing_shot_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": -7,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"freezing_shot_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": -3,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"freezing_shot_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 10,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"freezing_shot_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 20,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"freezing_shot_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "freezingShot",
+				"val": 30,
+				"addInfo": [0, 1],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "core:walkingDead": {
+    "abilities": {
+      "walkingDeadBaseCast": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20,
+          "stepValue": 1
+        }
+      },
+      "walkingDeadExtraCasts": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "stepSize": 200,
+          "stepValue": 1
+        }
+      },
+      "noCastByDefault": {
+        "type": "NO_SPELLCAST_BY_DEFAULT"
+      },
+      "walkingDeadGraveRipple": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.graveRippleWeak",
+        "val": 1
+      },
+      "walkingDeadCreatureSpellPower": {
+        "type": "CREATURE_SPELL_POWER",
+        "val": 50
+      }
+    }
+  }
+}

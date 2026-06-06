@@ -1,0 +1,47 @@
+{
+  "hota.factory:gunslinger": {
+    "abilities": {
+      "hirkyGunslingerPrecisionCast2": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2,
+          "stepValue": 1
+        }
+      },
+      "hirkyGunslingerPrecisionCast6": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 6,
+          "stepValue": 1
+        }
+      },
+      "hirkyGunslingerPrecisionCast12": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 12,
+          "stepValue": 1
+        }
+      },
+      "hirkyGunslingerNoCastByDefault": {
+        "type": "NO_SPELLCAST_BY_DEFAULT"
+      },
+      "hirkyGunslingerPrecision": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.precision",
+        "val": 1
+      }
+    }
+  }
+}

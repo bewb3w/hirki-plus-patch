@@ -1,0 +1,13 @@
+{
+  "name": "Navigation",
+  "description": "Improves **Navigation** into a more flexible water travel skill.\n\nNavigation keeps its original water movement bonus and now also allows heroes to board and disembark ships without ending the turn. Remaining movement is converted between land and water movement during the transition, so the exact amount preserved depends on the hero's current movement and movement modifiers.\n\n## Skill Effects\n\n* **Basic Navigation:** +50% movement over water and free ship boarding/disembarking\n* **Advanced Navigation:** +100% movement over water and free ship boarding/disembarking\n* **Expert Navigation:** +150% movement over water and free ship boarding/disembarking\n\n## Specialist Interaction\n\nNavigation specialties increase only the specialist hero's water movement with hero level, and do not increase the free boarding/disembarking effect directly.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota"
+  ],
+  "skills": [
+    "config/skills/Navigation.json"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "core:halfling": {
+    "shots": 4
+  },
+  "hota.factory:halflingGrenadier": {
+    "shots": 5
+  },
+  "core:masterGremlin": {
+    "shots": 5
+  },
+  "core:archer": {
+    "shots": 4
+  },
+  "core:marksman": {
+    "shots": 5
+  },
+  "core:lizardman": {
+    "shots": 4
+  },
+  "core:lizardWarrior": {
+    "shots": 5
+  },
+  "core:orc": {
+    "shots": 4
+  },
+  "core:orcChieftain": {
+    "shots": 5
+  },
+  "core:woodElf": {
+    "shots": 4
+  },
+  "core:grandElf": {
+    "shots": 5
+  },
+  "hota.bulwark:snowElf": {
+    "shots": 4
+  },
+  "hota.bulwark:steelElf": {
+    "shots": 5
+  },
+  "core:gog": {
+    "shots": 4
+  },
+  "core:magog": {
+    "shots": 5
+  },
+  "core:stormElemental": {
+    "shots": 5
+  },
+  "core:iceElemental": {
+    "shots": 5
+  },
+  "hota.cove:pirate": {
+    "shots": 4
+  },
+  "hota.cove:corsair": {
+    "shots": 5
+  },
+  "hota.cove:seadog": {
+    "shots": 6
+  },
+  "core:mage": {
+    "shots": 5
+  },
+  "core:archMage": {
+    "shots": 6
+  },
+  "core:beholder": {
+    "shots": 4
+  },
+  "core:evilEye": {
+    "shots": 5
+  },
+  "core:medusa": {
+    "shots": 5
+  },
+  "core:medusaQueen": {
+    "shots": 6
+  },
+  "core:monk": {
+    "shots": 5
+  },
+  "core:zealot": {
+    "shots": 6
+  },
+  "hota.bulwark:shaman": {
+    "shots": 5
+  },
+  "hota.bulwark:greatShaman": {
+    "shots": 6
+  },
+  "hota.cove:seaWitch": {
+    "shots": 5
+  },
+  "hota.cove:sorceress": {
+    "shots": 6
+  },
+  "core:lich": {
+    "shots": 5
+  },
+  "core:powerLich": {
+    "shots": 6
+  },
+  "core:cyclop": {
+    "shots": 5
+  },
+  "core:cyclopKing": {
+    "shots": 6
+  },
+  "core:sharpshooter": {
+    "shots": 5
+  },
+  "core:enchanter": {
+    "shots": 5
+  },
+  "hota.factory:gunslinger": {
+    "shots": 5
+  },
+  "hota.factory:bountyHunter": {
+    "shots": 6
+  },
+  "core:titan": {
+    "shots": 7
+  },
+  "core:ballista": {
+    "shots": 16,
+    "abilities": {
+      "ammoCartBallistaPathMarker": {
+        "type": "MAGIC_SCHOOL_SKILL",
+        "subtype": "spellSchool.water",
+        "valueType": "BASE_NUMBER",
+        "val": 1,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "creature.ammoCart"
+          }
+        ]
+      }
+    }
+  },
+  "hota.cannon:cannon": {
+    "abilities": {
+      "ammoCartCannonPathMarker": {
+        "type": "MAGIC_SCHOOL_SKILL",
+        "subtype": "spellSchool.fire",
+        "valueType": "BASE_NUMBER",
+        "val": 1,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "creature.ammoCart"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"hota.factory:armadillo": {
+		"abilities": {
+			"armadilloBaseCasts": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 2,
+					"stepSize": 8,
+					"stepValue": 1
+				}
+			},
+			"armadilloExtraCasts": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"stepSize": 50,
+					"stepValue": 1
+				}
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"armadilloStone": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.stoneSkin",
+				"val": 1
+			}
+		}
+	}
+}

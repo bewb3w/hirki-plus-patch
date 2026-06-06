@@ -1,0 +1,72 @@
+{
+  "cerberusThreefoldBite": {
+    "type": "ability",
+    "name": "Threefold Bite",
+    "targetType": "CREATURE",
+    "school": {
+      "air": false,
+      "earth": false,
+      "fire": false,
+      "water": false
+    },
+    "level": 0,
+    "power": 1,
+    "defaultGainChance": 0,
+    "gainChance": {
+      "castle": 0,
+      "rampart": 0,
+      "conflux": 0
+    },
+    "flags": {
+      "positive": true,
+      "special": true,
+      "nonMagical": true,
+      "persistent": true
+    },
+    "canCastOnSelf": true,
+    "canCastOnlyOnSelf": true,
+    "canCastWithoutSkip": true,
+    "levels": {
+      "base": {
+        "description": "{Threefold Bite}\nCerberus prepares a focused strike.\nIts next melee attack hits only one target, can be retaliated, and deals triple damage.\nWhile active, Cerberus cannot retaliate.\n3 uses per combat.",
+        "cost": 0,
+        "power": 1,
+        "range": "0",
+        "targetModifier": {
+          "smart": true
+        },
+        "battleEffects": {
+          "threefoldBiteState": {
+            "type": "core:timed",
+            "cumulative": false,
+            "bonus": {
+              "tripleDamage": {
+                "type": "PERCENTAGE_DAMAGE_BOOST",
+                "subtype": "damageTypeMelee",
+                "val": 200,
+                "duration": "N_TURNS",
+                "turns": 1,
+                "hidden": true
+              },
+              "noRetaliationWhileActive": {
+                "type": "NO_RETALIATION",
+                "duration": "N_TURNS",
+                "turns": 1,
+                "hidden": true
+              }
+            }
+          }
+        }
+      },
+      "none": {},
+      "basic": {},
+      "advanced": {},
+      "expert": {}
+    },
+    "graphics": {
+      "iconEffect": "threefold_bite_icon_battle.png",
+      "iconBook": "threefold_bite_icon_popup.png",
+      "iconScroll": "threefold_bite_icon_popup.png"
+    }
+  }
+}

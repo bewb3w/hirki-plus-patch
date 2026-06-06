@@ -1,0 +1,284 @@
+{
+	"core:zealot": {
+		"abilities": {
+			"intelligenceZealotBasicArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceZealotBasicArmyTotalT2",
+				"icon": "intelligence_adv_medium.png",
+				"description": "{Arcane Support}\nReq. Intelligence & 2+ Zealots.\nGrants more combat mana.\nScales with Zealot count."
+			},
+			"intelligenceZealotBasicArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceZealotBasicArmyTotalT10"
+			},
+			"intelligenceZealotBasicArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceZealotBasicArmyTotalT20"
+			},
+			"intelligenceZealotBasicArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 13,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceZealotBasicArmyTotalT30"
+			},
+			"intelligenceZealotAdvancedArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceZealotAdvancedArmyTotalT2"
+			},
+			"intelligenceZealotAdvancedArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 8,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceZealotAdvancedArmyTotalT10"
+			},
+			"intelligenceZealotAdvancedArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 11,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceZealotAdvancedArmyTotalT20"
+			},
+			"intelligenceZealotAdvancedArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 14,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceZealotAdvancedArmyTotalT30"
+			},
+			"intelligenceZealotExpertArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 5,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceZealotExpertArmyTotalT2"
+			},
+			"intelligenceZealotExpertArmyTotalT10": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 10,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 10
+				},
+				"stacking": "intelligenceZealotExpertArmyTotalT10"
+			},
+			"intelligenceZealotExpertArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 15,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceZealotExpertArmyTotalT20"
+			},
+			"intelligenceZealotExpertArmyTotalT30": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 18,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.zealot",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 30
+				},
+				"stacking": "intelligenceZealotExpertArmyTotalT30"
+			}
+		}
+	}
+}

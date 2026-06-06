@@ -1,0 +1,284 @@
+{
+	"hota.factory:hotaCouatl": {
+		"abilities": {
+			"intelligenceCouatlBasicArmyTotalT1": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 8,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 1
+				},
+				"stacking": "intelligenceCouatlBasicArmyTotalT1",
+				"icon": "intelligence_adv_medium.png",
+				"description": "{Arcane Support}\nReq. Intelligence & 1+ Couatl.\nGrants hero combat mana.\nScales with Couatl count."
+			},
+			"intelligenceCouatlBasicArmyTotalT6": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 6
+				},
+				"stacking": "intelligenceCouatlBasicArmyTotalT6"
+			},
+			"intelligenceCouatlBasicArmyTotalT12": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 12
+				},
+				"stacking": "intelligenceCouatlBasicArmyTotalT12"
+			},
+			"intelligenceCouatlBasicArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceCouatlBasicArmyTotalT20"
+			},
+			"intelligenceCouatlAdvancedArmyTotalT1": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 12,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 1
+				},
+				"stacking": "intelligenceCouatlAdvancedArmyTotalT1"
+			},
+			"intelligenceCouatlAdvancedArmyTotalT6": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 6
+				},
+				"stacking": "intelligenceCouatlAdvancedArmyTotalT6"
+			},
+			"intelligenceCouatlAdvancedArmyTotalT12": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 12
+				},
+				"stacking": "intelligenceCouatlAdvancedArmyTotalT12"
+			},
+			"intelligenceCouatlAdvancedArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceCouatlAdvancedArmyTotalT20"
+			},
+			"intelligenceCouatlExpertArmyTotalT1": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 16,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 1
+				},
+				"stacking": "intelligenceCouatlExpertArmyTotalT1"
+			},
+			"intelligenceCouatlExpertArmyTotalT6": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 12,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 6
+				},
+				"stacking": "intelligenceCouatlExpertArmyTotalT6"
+			},
+			"intelligenceCouatlExpertArmyTotalT12": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 8,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 12
+				},
+				"stacking": "intelligenceCouatlExpertArmyTotalT12"
+			},
+			"intelligenceCouatlExpertArmyTotalT20": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 12,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "hota.factory:hotaCouatl",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 20
+				},
+				"stacking": "intelligenceCouatlExpertArmyTotalT20"
+			}
+		}
+	}
+}

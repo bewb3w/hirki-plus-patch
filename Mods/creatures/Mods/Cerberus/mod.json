@@ -1,0 +1,21 @@
+{
+  "name": "Cerberus",
+  "description": "Cerberus gains Threefold Bite, an active focused-strike ability.\n\n## Threefold Bite\n\n* **Activation** — Cerberus activates **Threefold Bite** on itself without spending its action.\n* **Attack** — while active, its next melee attack hits only one target and deals triple damage.\n* **Retaliation** — the target can retaliate, and Cerberus cannot retaliate while **Threefold Bite** is active.\n* **Sweeping attack** — while active, Cerberus does not use its normal three-headed sweeping attack.\n* **Uses** — starts with 3 uses per combat and gains +1 additional use for every 40 units in the stack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Cerberus.json"
+  ],
+  "spells": [
+    "config/spells/Cerberus Threefold Bite.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

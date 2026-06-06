@@ -1,0 +1,19 @@
+{
+  "name": "Fortune and Misfortune Independent Luck",
+  "description": "A paired rework of Fortune and Misfortune designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both luck-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Fortune** — increases Luck and **guarantees a minimum positive Luck** result for affected units while the spell lasts.\n  * **No mastery**: +1 Luck, minimum +1 Luck, 5 mana.\n  * **Basic**: +1 Luck, minimum +1 Luck, 4 mana.\n  * **Advanced**: +2 Luck, minimum +2 Luck, 3 mana.\n  * **Expert**: affects all allied units, +2 Luck, minimum +2 Luck, 2 mana.\n\n* **Misfortune** — decreases Luck and **guarantees a maximum negative Luck** result for affected units while the spell lasts.\n  * **No mastery**: -1 Luck, maximum -1 Luck, 7 mana.\n  * **Basic**: -1 Luck, maximum -1 Luck, 5 mana.\n  * **Advanced**: -2 Luck, maximum -2 Luck, 4 mana.\n  * **Expert**: affects all enemy units, -2 Luck, maximum -2 Luck, 3 mana.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "spells": [
+    "config/spells/Fortune.json",
+    "config/spells/Misfortune.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

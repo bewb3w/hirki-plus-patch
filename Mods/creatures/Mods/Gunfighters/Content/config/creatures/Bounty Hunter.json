@@ -1,0 +1,47 @@
+{
+  "hota.factory:bountyHunter": {
+    "abilities": {
+      "hirkyBountyHunterPrecisionCast2": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2,
+          "stepValue": 1
+        }
+      },
+      "hirkyBountyHunterPrecisionCast5": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 5,
+          "stepValue": 1
+        }
+      },
+      "hirkyBountyHunterPrecisionCast10": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10,
+          "stepValue": 1
+        }
+      },
+      "hirkyBountyHunterNoCastByDefault": {
+        "type": "NO_SPELLCAST_BY_DEFAULT"
+      },
+      "hirkyBountyHunterPrecision": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.precision",
+        "val": 2
+      }
+    }
+  }
+}

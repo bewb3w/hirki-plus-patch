@@ -1,0 +1,18 @@
+{
+  "name": "Pit Lord",
+  "description": "A support module for Pit Lords designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Pit Lord stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Pit Lords expand their dark spellcasting identity by gaining an additional magical support role beyond their normal demon-summoning utility. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Pit Lord** — requires Intelligence and at least 2 Pit Lords.\n  * **Basic Intelligence**: 2 or more Pit Lords grant 5 **total combat mana**; 10 grant 10; 20 grant 16; 30 grant 22.\n  * **Advanced Intelligence**: 2 or more Pit Lords grant 8 **total combat mana**; 10 grant 16; 20 grant 25; 30 grant 34.\n  * **Expert Intelligence**: 2 or more Pit Lords grant 12 **total combat mana**; 10 grant 24; 20 grant 38; 30 grant 52.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/pitLord.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

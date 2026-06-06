@@ -1,0 +1,13 @@
+{
+  "name": "Sorcery",
+  "description": "Reworks **Sorcery** into a combat spellpower amplifier.\n\nSorcery now increases the hero's **Spell Power during combat**, strengthening all spells cast in battle and fully scaling for heroes specialized in Sorcery.\n\n## Skill Effects\n\n* **Basic Sorcery:** +10% Spell Power during combat\n* **Advanced Sorcery:** +20% Spell Power during combat\n* **Expert Sorcery:** +30% Spell Power during combat",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "skills": [
+    "config/skills/Sorcery.json"
+  ],
+  "depends": [
+    "hota"
+  ]
+}

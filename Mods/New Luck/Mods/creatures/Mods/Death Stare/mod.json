@@ -1,0 +1,18 @@
+{
+  "name": "Death Stare Luck Scaling",
+  "description": "Adds Luck-based scaling to the Death Stare ability of Mighty Gorgons.\n\n**Mighty Gorgons** keep their existing **Death Stare** ability, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Mighty Gorgon** — keeps its existing **Death Stare** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Death Stare chance is reduced by 3%.\n  * **-2 Luck**: Death Stare chance is reduced by 2%.\n  * **-1 Luck**: Death Stare chance is reduced by 1%.\n  * **+1 Luck**: Death Stare chance is increased by an additional 1%.\n  * **+2 Luck**: Death Stare chance is increased by an additional 3%.\n  * **+3 or higher Luck**: Death Stare chance is increased by an additional 5%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/DeathStare.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

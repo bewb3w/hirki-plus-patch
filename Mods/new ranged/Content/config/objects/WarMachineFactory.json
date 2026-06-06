@@ -1,0 +1,32 @@
+{
+  "core:warMachineFactory": {
+    "base": {
+      "creatures": [
+        [
+          "ballista"
+        ],
+        [
+          "firstAidTent"
+        ],
+        [
+          "hirkyAmmoCart"
+        ]
+      ]
+    },
+    "types": {
+      "object": {
+        "creatures": [
+          [
+            "ballista"
+          ],
+          [
+            "firstAidTent"
+          ],
+          [
+            "hirkyAmmoCart"
+          ]
+        ]
+      }
+    }
+  }
+}

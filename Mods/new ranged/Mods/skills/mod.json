@@ -1,0 +1,15 @@
+{
+  "name": "Ranged Skills",
+  "description": "Secondary skill modules for the New Ranged package. Archery improves ranged damage, total ammo pool and full-damage shooting range. Artillery preserves original war machine progression while adding protection against losing ranged war machines too quickly. Together, they enable controlled Archery bonuses for Ballista and Cannon.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

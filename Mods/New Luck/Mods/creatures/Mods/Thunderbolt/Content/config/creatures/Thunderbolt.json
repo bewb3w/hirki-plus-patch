@@ -1,0 +1,143 @@
+{
+	"core:roc": {
+		"abilities": {
+			"thunderbolt_power": {
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "spell.thunderbolt",
+				"val": 10
+			},
+			"thunderbolt_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 7,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"thunderbolt_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 14,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"thunderbolt_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 20,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:thunderbird": {
+		"abilities": {
+			"thunderbolt_power": {
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "spell.thunderbolt",
+				"val": 10
+			},
+			"thunderbolt_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": -10,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"thunderbolt_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": -7,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"thunderbolt_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": -3,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"thunderbolt_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 10,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"thunderbolt_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 20,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"thunderbolt_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.thunderbolt",
+				"val": 30,
+				"addInfo": [0, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

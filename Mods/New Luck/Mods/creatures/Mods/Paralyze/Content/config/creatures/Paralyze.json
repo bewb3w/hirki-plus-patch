@@ -1,0 +1,133 @@
+{
+	"core:manticore": {
+		"abilities": {
+			"paralyze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"paralyze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 14,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"paralyze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:scorpicore": {
+		"abilities": {
+			"paralyze_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"paralyze_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"paralyze_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"paralyze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"paralyze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"paralyze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 30,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

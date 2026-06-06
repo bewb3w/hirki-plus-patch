@@ -1,0 +1,20 @@
+{
+  "name": "Armadillos",
+  "description": "Armadillo and Bellwether Armadillo gain Stone Skin spellcasting.\n\n## Shared Features\n\n* **Spell** — both units cast **Stone Skin**.\n* **Targeting** — both units can cast **Stone Skin** on other allied units, but not on their own stack.\n* **Duration** — each **Stone Skin** effect applied by these units lasts 3 turns.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n\n## Armadillo\n\n* **Spell level** — casts **Basic Stone Skin**.\n* **Casts** — 1 cast at 8 or more units in the stack, 2 casts at 16 or more units in the stack, then +1 additional cast for every 50 units in the stack.\n\n## Bellwether Armadillo\n\n* **Spell level** — casts **Advanced Stone Skin**.\n* **Casts** — 1 cast at 6 or more units in the stack, 2 casts at 12 or more units in the stack, then +1 additional cast for every 50 units in the stack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.factory"
+  ],
+  "creatures": [
+    "config/creatures/Armadillo.json",
+    "config/creatures/Bellwether Armadillo.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

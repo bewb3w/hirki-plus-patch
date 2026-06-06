@@ -1,0 +1,284 @@
+{
+  "core:powerLich": {
+    "abilities": {
+      "intelligencePowerLichBasicArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 2,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePowerLichBasicArmyTotalT2",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 2+ Power Liches.\nGrants more combat mana.\nScales with Power Lich."
+      },
+      "intelligencePowerLichBasicArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePowerLichBasicArmyTotalT10"
+      },
+      "intelligencePowerLichBasicArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 8,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePowerLichBasicArmyTotalT20"
+      },
+      "intelligencePowerLichBasicArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 11,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePowerLichBasicArmyTotalT30"
+      },
+      "intelligencePowerLichAdvancedArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePowerLichAdvancedArmyTotalT2"
+      },
+      "intelligencePowerLichAdvancedArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePowerLichAdvancedArmyTotalT10"
+      },
+      "intelligencePowerLichAdvancedArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePowerLichAdvancedArmyTotalT20"
+      },
+      "intelligencePowerLichAdvancedArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePowerLichAdvancedArmyTotalT30"
+      },
+      "intelligencePowerLichExpertArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePowerLichExpertArmyTotalT2"
+      },
+      "intelligencePowerLichExpertArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePowerLichExpertArmyTotalT10"
+      },
+      "intelligencePowerLichExpertArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePowerLichExpertArmyTotalT20"
+      },
+      "intelligencePowerLichExpertArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.powerLich",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePowerLichExpertArmyTotalT30"
+      }
+    }
+  }
+}

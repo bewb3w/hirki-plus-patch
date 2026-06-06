@@ -1,0 +1,284 @@
+{
+  "core:pitLord": {
+    "abilities": {
+      "intelligencePitLordBasicArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePitLordBasicArmyTotalT2",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Intelligence & 2+ Pit Lords.\nGrants hero combat mana.\nScales with Pit Lord count."
+      },
+      "intelligencePitLordBasicArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePitLordBasicArmyTotalT10"
+      },
+      "intelligencePitLordBasicArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePitLordBasicArmyTotalT20"
+      },
+      "intelligencePitLordBasicArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePitLordBasicArmyTotalT30"
+      },
+      "intelligencePitLordAdvancedArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePitLordAdvancedArmyTotalT2"
+      },
+      "intelligencePitLordAdvancedArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePitLordAdvancedArmyTotalT10"
+      },
+      "intelligencePitLordAdvancedArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePitLordAdvancedArmyTotalT20"
+      },
+      "intelligencePitLordAdvancedArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePitLordAdvancedArmyTotalT30"
+      },
+      "intelligencePitLordExpertArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligencePitLordExpertArmyTotalT2"
+      },
+      "intelligencePitLordExpertArmyTotalT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligencePitLordExpertArmyTotalT10"
+      },
+      "intelligencePitLordExpertArmyTotalT20": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 20
+        },
+        "stacking": "intelligencePitLordExpertArmyTotalT20"
+      },
+      "intelligencePitLordExpertArmyTotalT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.pitLord",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligencePitLordExpertArmyTotalT30"
+      }
+    }
+  }
+}

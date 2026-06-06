@@ -1,0 +1,19 @@
+{
+  "name": "Liches",
+  "description": "A support mod for Liches and Power Liches designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Lich and Power Lich stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Power Liches start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Lich** — requires Intelligence and at least 3 Liches.\n  * **Basic Intelligence**: 3 or more Liches grant 3 **total combat mana**; 10 grant 8; 20 grant 13; 30 grant 18.\n  * **Advanced Intelligence**: 3 or more Liches grant 5 **total combat mana**; 10 grant 12; 20 grant 20; 30 grant 28.\n  * **Expert Intelligence**: 3 or more Liches grant 8 **total combat mana**; 10 grant 19; 20 grant 31; 30 grant 42.\n\n* **Power Lich** — requires Intelligence and at least 2 Power Liches.\n  * **Basic Intelligence**: 2 or more Power Liches grant 2 **total combat mana**; 10 grant 8; 20 grant 16; 30 grant 27.\n  * **Advanced Intelligence**: 2+ Power Liches grant 5 **total combat mana**; 10 grant 15; 20 grant 27; 30 grant 42.\n  * **Expert Intelligence**: 2+ Power Liches grant 10 **total combat mana**; 10 grant 25; 20 grant 42; 30 grant 62.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/lich.json",
+    "config/creatures/powerLich.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "core:mysticism": {
+    "basic": {
+      "effects": {
+        "hplusDimensionDoorMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 10,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.dimensionDoor"
+            }
+          ]
+        },
+        "hplusFlyMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 0,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.fly"
+            }
+          ]
+        },
+        "hplusTownPortalMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 0,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.townPortal"
+            }
+          ]
+        },
+        "hplusWaterWalkMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 20,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.waterWalk"
+            }
+          ]
+        },
+        "hplusSummonBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 15,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.summonBoat"
+            }
+          ]
+        },
+        "hplusScuttleBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 15,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.scuttleBoat"
+            }
+          ]
+        }
+      },
+      "description": "{Basic Mysticism}\n\nRegenerates 10% of maximum spell points per day, with a minimum of 5 spell points.\n\nMystic Momentum: successfully casting selected adventure-map control spells grants additional movement on the next day, once per spell per day.\n\nBonuses: Dimension Door +10, Water Walk +20, Summon Boat +15, Scuttle Boat +15."
+    },
+    "advanced": {
+      "effects": {
+        "hplusDimensionDoorMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 20,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.dimensionDoor"
+            }
+          ]
+        },
+        "hplusFlyMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 10,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.fly"
+            }
+          ]
+        },
+        "hplusTownPortalMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 15,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.townPortal"
+            }
+          ]
+        },
+        "hplusWaterWalkMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 40,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.waterWalk"
+            }
+          ]
+        },
+        "hplusSummonBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 30,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.summonBoat"
+            }
+          ]
+        },
+        "hplusScuttleBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 30,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.scuttleBoat"
+            }
+          ]
+        }
+      },
+      "description": "{Advanced Mysticism}\n\nRegenerates 20% of maximum spell points per day, with a minimum of 10 spell points.\n\nMystic Momentum: successfully casting selected adventure-map control spells grants additional movement on the next day, once per spell per day.\n\nBonuses: Fly +10, Town Portal +15, Dimension Door +20, Water Walk +40, Summon Boat +30, Scuttle Boat +30."
+    },
+    "expert": {
+      "effects": {
+        "hplusDimensionDoorMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 40,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.dimensionDoor"
+            }
+          ]
+        },
+        "hplusFlyMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 20,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.fly"
+            }
+          ]
+        },
+        "hplusTownPortalMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 30,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.townPortal"
+            }
+          ]
+        },
+        "hplusWaterWalkMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 60,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.waterWalk"
+            }
+          ]
+        },
+        "hplusSummonBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 45,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.summonBoat"
+            }
+          ]
+        },
+        "hplusScuttleBoatMomentumMovement": {
+          "type": "MOVEMENT",
+          "subtype": "heroMovementLand",
+          "val": 45,
+          "valueType": "ADDITIVE_VALUE",
+          "limiters": [
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "SPECIFIC_SPELL_POWER",
+              "bonusSubtype": "spell.scuttleBoat"
+            }
+          ]
+        }
+      },
+      "description": "{Expert Mysticism}\n\nRegenerates 30% of maximum spell points per day, with a minimum of 15 spell points.\n\nMystic Momentum: successfully casting selected adventure-map control spells grants additional movement on the next day, once per spell per day.\n\nBonuses: Fly +20, Town Portal +30, Dimension Door +40, Water Walk +60, Summon Boat +45, Scuttle Boat +45."
+    }
+  }
+}

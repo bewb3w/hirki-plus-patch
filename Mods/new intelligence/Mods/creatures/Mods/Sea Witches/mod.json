@@ -1,0 +1,20 @@
+{
+  "name": "Sea Witches",
+  "description": "A support mod for Sea Witches and Sorceresses designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Sea Witch and Sorceress stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Sorceresses start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Sea Witch** — requires Intelligence and at least 3 Sea Witches.\n  * **Basic Intelligence**: 3 or more Sea Witches grant 4 **total combat mana**; 10 grant 9; 20 grant 14; 30 grant 20.\n  * **Advanced Intelligence**: 3+ Sea Witches provide a **total combat mana** bonus of 6; 10 grant 13; 20 grant 21; 30 grant 30.\n  * **Expert Intelligence**: 3 or more Sea Witches grant 9 **total combat mana**; 10 grant 20; 20 grant 32; 30 grant 45.\n\n* **Sorceress** — requires Intelligence and at least 2 Sorceresses.\n  * **Basic Intelligence**: 2 or more Sorceresses grant 3 **total combat mana**; 10 grant 9; 20 grant 18; 30 grant 30.\n  * **Advanced Intelligence**: 2+ Sorceresses provide a **total combat mana** bonus of 6; 10 grant 16; 20 grant 29; 30 grant 45.\n  * **Expert Intelligence**: 2 or more Sorceresses grant 11 **total combat mana**; 10 grant 26; 20 grant 44; 30 grant 65.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.cove"
+  ],
+  "creatures": [
+    "config/creatures/seaWitch.json",
+    "config/creatures/sorceress.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

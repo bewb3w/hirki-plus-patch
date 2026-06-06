@@ -1,0 +1,18 @@
+{
+  "name": "Death Blow and Curse Luck Scaling",
+  "description": "Adds Luck-based scaling to the Death Blow and Curse attacks of Black Knights and Dread Knights.\n\nThis module gives **Black Knights** a new chance to trigger **Death Blow** when they have positive Luck. Their existing **Curse** attack is also adjusted by Luck. **Dread Knights** keep both of their existing attacks, with both **Death Blow** and **Curse** modified by positive and negative Luck.\n\n## Creature Changes\n\n* **Black Knight** — gains a chance to trigger **Death Blow** only with positive Luck, while its existing **Curse** attack is adjusted by Luck.\n  * **+1 Luck**: 7% Death Blow chance.\n  * **+2 Luck**: 14% Death Blow chance.\n  * **+3 or higher Luck**: 20% Death Blow chance.\n  * **-3 or lower Luck**: Curse chance is reduced by 10%.\n  * **-2 Luck**: Curse chance is reduced by 7%.\n  * **-1 Luck**: Curse chance is reduced by 3%.\n  * **+1 Luck**: Curse chance is increased by an additional 10%.\n  * **+2 Luck**: Curse chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Curse chance is increased by an additional 30%.\n\n* **Dread Knight** — keeps its existing **Death Blow** and **Curse** attacks, with both chances adjusted by Luck.\n  * **-3 or lower Luck**: Death Blow and Curse chances are reduced by 10%.\n  * **-2 Luck**: Death Blow and Curse chances are reduced by 7%.\n  * **-1 Luck**: Death Blow and Curse chances are reduced by 3%.\n  * **+1 Luck**: Death Blow and Curse chances are increased by an additional 10%.\n  * **+2 Luck**: Death Blow and Curse chances are increased by an additional 20%.\n  * **+3 or higher Luck**: Death Blow and Curse chances are increased by an additional 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/DeathBlowAndCurse.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

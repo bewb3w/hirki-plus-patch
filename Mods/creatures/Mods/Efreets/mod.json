@@ -1,0 +1,19 @@
+{
+  "name": "Efreets",
+  "description": "Efreet and Efreet Sultan gain Protection from Fire spellcasting, using an unused original Heroes III animation from their creature assets for this new battlefield action.\n\n## Shared Features\n\n* **Spell** — both units cast **Protection from Fire**.\n* **Animation** — both units use an unused original Heroes III animation from their creature assets for the new spellcasting action.\n* **Targeting** — both units can cast **Protection from Fire** on other allied units, but not on their own stack.\n* **Scaling** — both the number of casts and spell duration scale with the number of units in the stack.\n\n## Efreet\n\n* **Spell level** — casts **Basic Protection from Fire**.\n* **Casts** — 1 cast at 4 or more units in the stack, 2 casts at 14 or more units in the stack, and 3 casts at 28 or more units in the stack.\n* **Duration** — each **Protection from Fire** effect applied by this unit starts at 3 turns and gains +1 additional turn for every 7 additional units in the stack after 13.\n\n## Efreet Sultan\n\n* **Spell level** — casts **Advanced Protection from Fire**.\n* **Casts** — 1 cast at 3 or more units in the stack, 2 casts at 11 or more units in the stack, and 3 casts at 22 or more units in the stack.\n* **Duration** — each **Protection from Fire** effect applied by this unit starts at 3 turns and gains +1 additional turn for every 5 additional units in the stack after 9.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Efreet.json",
+    "config/creatures/Efreet Sultan.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

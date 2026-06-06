@@ -1,0 +1,67 @@
+{
+	"Rolland": {
+		"class": "knight",
+		"female": false,
+		"special": false,
+		"onlyOnWaterMap": false,
+		"onlyOnMapWithoutWater": false,
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"army": [
+			{
+				"creature": "pikeman",
+				"max": 20,
+				"min": 10
+			},
+			{
+				"creature": "archer",
+				"max": 7,
+				"min": 4
+			},
+			{
+				"creature": "griffin",
+				"max": 5,
+				"min": 4
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"rollandMoraleAdd": {
+					"type": "MORALE",
+					"val": 1,
+					"valueType": "ADDITIVE_VALUE",
+					"propagator": "HERO"
+				},
+				"rollandMoraleMin": {
+					"type": "MORALE",
+					"val": 1,
+					"valueType": "INDEPENDENT_MAX",
+					"propagator": "HERO"
+				}
+			}
+		},
+		"images": {
+			"specialtySmall": "leadership_basic_small.png",
+			"specialtyLarge": "leadership_basic_large.png",
+			"large": "rolland_portrait-large.png",
+			"small": "rolland_portrait-small.png"
+		},
+		"texts": {
+			"name": "Roland",
+			"biography": "Recently freed from the Kreegans, Roland respectfully serves as a general in Erathia's military under his wife Catherine. Someday soon these conflicts will end, and he and Catherine will return to Enroth. However, both must decide what will happen to the Erathian throne.",
+			"specialty": {
+				"name": "The King",
+				"description": "{The King}\n\nAll creatures in Roland's army receive +1 Morale. Ordinary Morale penalties cannot reduce his army below +1 Morale, but the Sorrow spell can still overcome this protection, and effects that disable positive Morale can suppress this bonus.",
+				"tooltip": "Roland grants his army +1 Morale and helps maintain at least +1 Morale, unless stronger effects reduce it further."
+			}
+		}
+	}
+}

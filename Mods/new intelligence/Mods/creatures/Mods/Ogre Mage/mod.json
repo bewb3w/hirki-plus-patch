@@ -1,0 +1,18 @@
+{
+  "name": "Ogre Mage",
+  "description": "A support module for Ogre Mages designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Ogre Mage stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Ogre Mages act as magical Stronghold support, giving the upgraded Ogre line an additional army-support role beyond its normal spellcasting identity. Listed values are **total combat mana** bonuses granted at each threshold.\n\n## Combat Mana Support\n\n* **Ogre Mage** — requires Intelligence and at least 2 Ogre Mages.\n  * **Basic Intelligence**: 2 or more Ogre Mages grant 5 **total combat mana**; 10 grant 10; 20 grant 15; 40 grant 20.\n  * **Advanced Intelligence**: 2 or more Ogre Mages grant 8 **total combat mana**; 10 grant 16; 20 grant 24; 40 grant 32.\n  * **Expert Intelligence**: 2 or more Ogre Mages grant 12 **total combat mana**; 10 grant 24; 20 grant 37; 40 grant 50.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/ogreMage.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

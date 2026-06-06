@@ -1,0 +1,18 @@
+{
+  "name": "Phoenix Rebirth Luck Scaling",
+  "description": "Adds Luck-based scaling to the Rebirth ability of Phoenixes.\n\n**Phoenixes** keep their existing **Rebirth** ability, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Phoenix** — keeps its existing **Rebirth** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Rebirth chance is reduced to 10%.\n  * **-2 Luck**: Rebirth chance is reduced to 13%.\n  * **-1 Luck**: Rebirth chance is reduced to 17%.\n  * **Neutral Luck**: Rebirth chance remains at 20%.\n  * **+1 Luck**: Rebirth chance is increased to 22%.\n  * **+2 Luck**: Rebirth chance is increased to 25%.\n  * **+3 or higher Luck**: Rebirth chance is increased to 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/PhoenixRebirth.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

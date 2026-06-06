@@ -1,0 +1,284 @@
+{
+	"core:magicElemental": {
+		"abilities": {
+			"intelligenceMagicElementalBasicArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 5,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceMagicElementalBasicArmyTotalT2",
+				"icon": "intelligence_adv_medium.png",
+				"description": "{Arcane Support}\nReq. Int. & 2+ Magic Elementals.\nGrants more combat mana.\nScales with Magic count."
+			},
+			"intelligenceMagicElementalBasicArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 7,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligenceMagicElementalBasicArmyTotalT8"
+			},
+			"intelligenceMagicElementalBasicArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligenceMagicElementalBasicArmyTotalT16"
+			},
+			"intelligenceMagicElementalBasicArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligenceMagicElementalBasicArmyTotalT24"
+			},
+			"intelligenceMagicElementalAdvancedArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 10,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceMagicElementalAdvancedArmyTotalT2"
+			},
+			"intelligenceMagicElementalAdvancedArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 10,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligenceMagicElementalAdvancedArmyTotalT8"
+			},
+			"intelligenceMagicElementalAdvancedArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 13,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligenceMagicElementalAdvancedArmyTotalT16"
+			},
+			"intelligenceMagicElementalAdvancedArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 13,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligenceMagicElementalAdvancedArmyTotalT24"
+			},
+			"intelligenceMagicElementalExpertArmyTotalT2": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 15,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 2
+				},
+				"stacking": "intelligenceMagicElementalExpertArmyTotalT2"
+			},
+			"intelligenceMagicElementalExpertArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 17,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligenceMagicElementalExpertArmyTotalT8"
+			},
+			"intelligenceMagicElementalExpertArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 17,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligenceMagicElementalExpertArmyTotalT16"
+			},
+			"intelligenceMagicElementalExpertArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 14,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.magicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligenceMagicElementalExpertArmyTotalT24"
+			}
+		}
+	}
+}

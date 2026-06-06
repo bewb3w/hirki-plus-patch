@@ -1,0 +1,72 @@
+{
+  "hydraPulseIgnitionChaos1": {
+    "type": "ability",
+    "name": "Bloodwake 1",
+    "targetType": "CREATURE",
+    "school": {
+      "air": false,
+      "earth": false,
+      "fire": false,
+      "water": false
+    },
+    "level": 0,
+    "power": 1,
+    "defaultGainChance": 0,
+    "gainChance": {
+      "castle": 0,
+      "rampart": 0,
+      "conflux": 0
+    },
+    "flags": {
+      "positive": true,
+      "special": true,
+      "nonMagical": true,
+      "persistent": true
+    },
+    "canCastOnSelf": true,
+    "canCastOnlyOnSelf": true,
+    "levels": {
+      "base": {
+        "description": "{Bloodwake 1}\nThe Hydra spends its turn gathering strength.\nOn the next round, it may use Pulse I or Bloodwake 2.\nThis state lasts for 4 rounds.",
+        "cost": 0,
+        "power": 1,
+        "range": "0",
+        "targetModifier": {
+          "smart": true
+        },
+        "battleEffects": {
+          "armedState": {
+            "type": "core:timed",
+            "cumulative": false,
+            "bonus": {
+              "immuneDispel": {
+                "type": "SPELL_IMMUNITY",
+                "subtype": "dispel",
+                "duration": "N_TURNS",
+                "turns": 4,
+                "description": "{Hail Hydra Immunity}\nBloodwake cannot be removed by the Dispel spell.",
+                "hidden": true
+              },
+              "immuneDispelHelpful": {
+                "type": "SPELL_IMMUNITY",
+                "subtype": "dispelHelpful",
+                "duration": "N_TURNS",
+                "turns": 4,
+                "hidden": true
+              }
+            }
+          }
+        }
+      },
+      "none": {},
+      "basic": {},
+      "advanced": {},
+      "expert": {}
+    },
+    "graphics": {
+      "iconEffect": "bloodwake1_icon_battle.png",
+      "iconBook": "bloodwake1_icon_popup.png",
+      "iconScroll": "bloodwake1_icon_popup.png"
+    }
+  }
+}

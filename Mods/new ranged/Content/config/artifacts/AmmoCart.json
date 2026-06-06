@@ -1,0 +1,541 @@
+{
+  "hirkyAmmoCartArtifact": {
+    "class": "SPECIAL",
+    "slot": [
+      "MACH2"
+    ],
+    "type": [
+      "HERO"
+    ],
+    "value": 2000,
+    "text": {
+      "name": "Ammo Cart",
+      "description": "{Ammo Cart}\n\nWhen equipped, this war machine supplies allied ranged units with +5 total ammo for the current battle.",
+      "event": "You find an Ammo Cart. It can supply your ranged units with extra ammunition, so you take it with you."
+    },
+    "warMachine": "hirkyAmmoCart",
+    "graphics": {
+      "image": "hplus/new_ranged/ammo_cart.png",
+      "scenarioBonus": "hplus/new_ranged/ammo_cart.png",
+      "map": "hplus/new_ranged/ammo_cart_map.json"
+    },
+    "bonuses": {
+      "hirkyAmmoSupply_halfling": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:halfling"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_halflingGrenadier": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.factory:halflingGrenadier"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_masterGremlin": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:masterGremlin"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_archer": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:archer"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_marksman": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:marksman"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_lizardman": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:lizardman"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_lizardWarrior": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:lizardWarrior"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_orc": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:orc"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_orcChieftain": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:orcChieftain"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_woodElf": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:woodElf"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_grandElf": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:grandElf"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_snowElf": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.bulwark:snowElf"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_steelElf": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.bulwark:steelElf"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_gog": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:gog"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_magog": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:magog"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_stormElemental": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:stormElemental"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_iceElemental": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:iceElemental"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_pirate": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cove:pirate"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_corsair": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cove:corsair"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_seadog": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cove:seadog"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_mage": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:mage"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_archMage": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:archMage"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_beholder": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:beholder"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_evilEye": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:evilEye"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_medusa": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:medusa"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_medusaQueen": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:medusaQueen"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_monk": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:monk"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_zealot": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:zealot"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_shaman": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.bulwark:shaman"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_greatShaman": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.bulwark:greatShaman"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_seaWitch": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cove:seaWitch"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_sorceress": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cove:sorceress"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_lich": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:lich"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_powerLich": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:powerLich"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_cyclop": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:cyclop"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_cyclopKing": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:cyclopKing"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_sharpshooter": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:sharpshooter"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_enchanter": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:enchanter"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_gunslinger": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.factory:gunslinger"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_bountyHunter": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.factory:bountyHunter"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_titan": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:titan"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_ballista": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "core:ballista"
+          }
+        ]
+      },
+      "hirkyAmmoSupply_cannon": {
+        "type": "SHOTS",
+        "valueType": "ADDITIVE_VALUE",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "creature": "hota.cannon:cannon"
+          }
+        ]
+      }
+    }
+  }
+}

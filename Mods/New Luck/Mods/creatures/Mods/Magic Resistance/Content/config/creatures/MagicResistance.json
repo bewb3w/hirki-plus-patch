@@ -1,0 +1,275 @@
+{
+	"core:dwarf": {
+		"abilities": {
+			"magicResistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 20,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 17,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 13,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"magic_resistance_luck_minus_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"magic_resistance_luck_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 27,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"magic_resistance_luck_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 34,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"magic_resistance_luck_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 40,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:battleDwarf": {
+		"abilities": {
+			"magicResistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 40,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 33,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 27,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"magic_resistance_luck_minus_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 20,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"magic_resistance_luck_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 50,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"magic_resistance_luck_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 60,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"magic_resistance_luck_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 70,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:crystalDragon": {
+		"abilities": {
+			"magicResistance": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 20,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 17,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_resistance_luck_minus_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 13,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"magic_resistance_luck_minus_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"magic_resistance_luck_1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"magic_resistance_luck_2": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 40,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"magic_resistance_luck_3": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 50,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

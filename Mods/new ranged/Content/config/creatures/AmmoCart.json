@@ -1,0 +1,75 @@
+{
+  "hirkyAmmoCart": {
+    "name": {
+      "singular": "Ammo Cart",
+      "plural": "Ammo Carts"
+    },
+    "faction": "neutral",
+    "level": 0,
+    "special": true,
+    "advMapAmount": {
+      "min": 0,
+      "max": 0
+    },
+    "growth": 0,
+    "horde": 0,
+    "cost": {
+      "gold": 2000,
+      "wood": 0,
+      "ore": 0,
+      "crystal": 0,
+      "gems": 0,
+      "mercury": 0,
+      "sulfur": 0
+    },
+    "aiValue": 400,
+    "fightValue": 5,
+    "attack": 0,
+    "defense": 5,
+    "damage": {
+      "min": 0,
+      "max": 0
+    },
+    "hitPoints": 100,
+    "speed": 0,
+    "abilities": {
+      "inactive": {
+        "type": "NOT_ACTIVE",
+        "description": "{Not Active}\nAmmo Cart is excluded from the turn order and acts as a passive war machine."
+      },
+      "noLuck": {
+        "type": "NO_LUCK",
+        "description": "{No Luck}\nThe Ammo Cart is unaffected by luck."
+      },
+      "immuneToFortune": {
+        "type": "SPELL_IMMUNITY",
+        "subtype": "spell.fortune",
+        "hidden": true
+      },
+      "immuneToMisfortune": {
+        "type": "SPELL_IMMUNITY",
+        "subtype": "spell.misfortune",
+        "hidden": true
+      },
+      "siegeWeapon": {
+        "type": "SIEGE_WEAPON",
+        "description": "{Ammo Cart}\nIts artifact supplies allied ranged units with +5 total ammo for the current battle."
+      }
+    },
+    "graphics": {
+      "animation": "SMCART.DEF",
+      "iconSmall": "hplus/new_ranged/ammo_cart_small.png",
+      "iconLarge": "hplus/new_ranged/ammo_cart_large.png",
+      "animationTime": {
+        "attack": 1,
+        "idle": 10,
+        "walk": 1
+      },
+      "timeBetweenFidgets": 1
+    },
+    "sound": {
+      "killed": "CARTKILL.wav",
+      "wince": "CARTWNCE.wav"
+    }
+  }
+}

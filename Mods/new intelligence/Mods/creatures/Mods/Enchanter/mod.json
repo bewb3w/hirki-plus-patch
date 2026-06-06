@@ -1,0 +1,18 @@
+{
+  "name": "Enchanter",
+  "description": "A support module for Enchanters designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Enchanter stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Enchanters reinforce their neutral spellcaster identity by providing strong magical support outside any specific town lineup. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Enchanter** — requires Intelligence and at least 2 Enchanters.\n  * **Basic Intelligence**: 2 or more Enchanters grant 4 **total combat mana**; 4 grant 8; 8 grant 13; 16 grant 18; 28 grant 22; 40 grant 26.\n  * **Advanced Intelligence**: 2 or more Enchanters grant 8 **total combat mana**; 4 grant 15; 8 grant 24; 16 grant 33; 28 grant 46; 40 grant 57.\n  * **Expert Intelligence**: 2 or more Enchanters grant 12 **total combat mana**; 4 grant 27; 8 grant 47; 16 grant 70; 28 grant 97; 40 grant 115.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/enchanter.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,346 @@
+{
+	"core:basilisk": {
+		"abilities": {
+			"stone_gaze_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"stone_gaze_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"stone_gaze_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"stone_gaze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 5,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"stone_gaze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"stone_gaze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 15,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:greaterBasilisk": {
+		"abilities": {
+			"stone_gaze_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"stone_gaze_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"stone_gaze_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"stone_gaze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"stone_gaze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"stone_gaze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 30,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:medusa": {
+		"abilities": {
+			"stone_gaze_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"stone_gaze_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"stone_gaze_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"stone_gaze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 5,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"stone_gaze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"stone_gaze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 15,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:medusaQueen": {
+		"abilities": {
+			"stone_gaze_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"stone_gaze_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"stone_gaze_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"stone_gaze_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"stone_gaze_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"stone_gaze_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 30,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

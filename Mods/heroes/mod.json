@@ -1,0 +1,15 @@
+{
+  "name": "Heroes",
+  "description": "A collection of hero additions and specialty improvements designed for use with Horn of the Abyss on VCMI.\n\nThese modules aim to give selected heroes clearer battlefield roles, stronger identity, and more practical specialties while preserving their original theme whenever possible.\n\n## Included Hero Changes\n\n* **Melodia** — reworks her into a Luck support hero with Basic Wisdom, Basic Luck, Fortune, and a **specialty that grants +1 Luck** while protecting her army from ordinary Luck penalties.\n* **Roland** — adds a **regular playable** version of Roland as a Morale support hero with Basic Leadership, Basic Armorer, and a **specialty that grants +1 Morale** while protecting his army from ordinary Morale penalties.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Heroes",
+  "changelog": {
+    "1.0": [
+      "Initial release"
+    ]
+  },
+  "depends": [
+    "hota"
+  ]
+}

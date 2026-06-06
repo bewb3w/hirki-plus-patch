@@ -1,0 +1,19 @@
+{
+  "name": "Unicorns",
+  "description": "A support mod for Unicorns and War Unicorns designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Unicorn and War Unicorn stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. War Unicorns start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Unicorn** — requires Intelligence and at least 3 Unicorns.\n  * **Basic Intelligence**: 3 or more Unicorns grant 4 **total combat mana**; 8 grant 9; 16 grant 14; 30 grant 20.\n  * **Advanced Intelligence**: 3 or more Unicorns grant 7 **total combat mana**; 8 grant 14; 16 grant 22; 30 grant 30.\n  * **Expert Intelligence**: 3 or more Unicorns grant 11 **total combat mana**; 8 grant 22; 16 grant 34; 30 grant 44.\n\n* **War Unicorn** — requires Intelligence and at least 2 War Unicorns.\n  * **Basic Intelligence**: 2 or more War Unicorns grant 5 **total combat mana**; 8 grant 11; 16 grant 19; 30 grant 28.\n  * **Advanced Intelligence**: 2+ War Unicorns grant 9 **total combat mana**; 8 grant 18; 16 grant 30; 30 grant 42.\n  * **Expert Intelligence**: 2+ War Unicorns grant 14 **total combat mana**; 8 grant 29; 16 grant 45; 30 grant 60.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/unicorn.json",
+    "config/creatures/warUnicorn.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+	"core:unicorn": {
+		"abilities": {
+			"blinds": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 20,
+				"addInfo": [3, 0],
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"spellResistAura": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 20,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"blind_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 17,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"blind_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 13,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"blind_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 10,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"aura_luck_minus_1": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 17,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"aura_luck_minus_2": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 13,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"aura_luck_minus_3": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"blind_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 25,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"blind_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 30,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"blind_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 35,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			},
+			"aura_luck_1": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 25,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"aura_luck_2": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"aura_luck_3": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 35,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:warUnicorn": {
+		"abilities": {
+			"blinds": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 20,
+				"addInfo": [3, 0],
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"spellResistAura": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 20,
+				"limiters": [
+					"noneOf",
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1
+					},
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"blind_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 17,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"blind_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 13,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"blind_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 10,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"aura_luck_minus_1": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 17,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"aura_luck_minus_2": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 13,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"aura_luck_minus_3": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"blind_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 30,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"blind_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 40,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"blind_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 50,
+				"addInfo": [3, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			},
+			"aura_luck_1": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"aura_luck_2": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 40,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"aura_luck_3": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 50,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

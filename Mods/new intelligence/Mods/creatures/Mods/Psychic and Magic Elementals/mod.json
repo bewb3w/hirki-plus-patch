@@ -1,0 +1,19 @@
+{
+  "name": "Psychic and Magic Elementals",
+  "description": "A support mod for Psychic Elementals and Magic Elementals designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Psychic Elemental and Magic Elemental stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Magic Elementals start contributing earlier and provide much stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Psychic Elemental** — requires Intelligence and at least 3 Psychic Elementals.\n  * **Basic Intelligence**: 3 or more Psychic Elementals grant 4 **total combat mana**; 8 grant 10; 16 grant 16; 24 grant 22.\n  * **Advanced Intelligence**: 3 or more Psychic Elementals grant 12 **total combat mana**; 8 grant 26; 16 grant 41; 24 grant 56.\n  * **Expert Intelligence**: 3 or more Psychic Elementals grant 24 **total combat mana**; 8 grant 51; 16 grant 79; 24 grant 106.\n\n* **Magic Elemental** — requires Intelligence and at least 2 Magic Elementals.\n  * **Basic Intelligence**: 2+ Magic Elementals grant 5 **total combat mana**; 8 grant 12; 16 grant 21; 24 grant 30.\n  * **Advanced Intelligence**: 2 or more Magic Elementals grant 15 **total combat mana**; 8 grant 32; 16 grant 54; 24 grant 76.\n  * **Expert Intelligence**: 2 or more Magic Elementals grant 30 **total combat mana**; 8 grant 64; 16 grant 103; 24 grant 139.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/psychicElemental.json",
+    "config/creatures/magicElemental.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

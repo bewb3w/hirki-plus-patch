@@ -1,0 +1,64 @@
+{
+  "core:cerberus": {
+    "abilities": {
+      "threeHeadedAttack": {
+        "type": "MULTIHEX_ENEMY_ATTACK",
+        "addInfo": [
+          "L",
+          "R"
+        ],
+        "limiters": [
+          "noneOf",
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.cerberusThreefoldBite"
+          }
+        ]
+      },
+      "noRetaliation": {
+        "type": "BLOCKS_RETALIATION",
+        "limiters": [
+          "noneOf",
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.cerberusThreefoldBite"
+          }
+        ]
+      },
+      "threefoldBiteCasts": {
+        "type": "CASTS",
+        "val": 3
+      },
+      "threefoldBiteExtraCasts": {
+        "type": "CASTS",
+        "val": 1,
+        "updater": {
+          "type": "TIMES_STACK_SIZE",
+          "minimum": 0,
+          "stepSize": 40,
+          "stepValue": 1
+        }
+      },
+      "threefoldBiteCaster": {
+        "type": "SPELLCASTER",
+        "subtype": "spell.cerberusThreefoldBite",
+        "val": 1,
+        "icon": "threefold_bite_icon.png",
+        "description": "{Threefold Bite}\nTriple-damage single strike.\nTarget can retaliate.\nCerberus cannot retaliate.",
+        "limiters": [
+          "noneOf",
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusSourceType": "SPELL_EFFECT",
+            "bonusSourceID": "spell.cerberusThreefoldBite"
+          }
+        ]
+      }
+    },
+    "sound": {
+      "shoot": "CERBBITE.wav"
+    }
+  }
+}

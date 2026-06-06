@@ -1,0 +1,15 @@
+{
+  "name": "Spells",
+  "description": "A collection of spell reworks and behavior improvements designed for use with Horn of the Abyss on VCMI.\n\nThese modules aim to make underused or overly narrow spells more practical, more attractive, and more meaningful to cast, while preserving their original tactical identity whenever possible.\n\n## Included Spell Changes\n\n* **Mirth and Sorrow Independent Morale** — reworks Mirth and Sorrow into stronger morale-control spells with reduced mana costs. **Mirth** increases Morale and protects affected units from ordinary Morale penalties. Morale-reducing artifacts and creatures cannot bring affected units below Mirth's minimum positive Morale result, although Spirit of Oppression can still suppress positive Morale entirely. **Sorrow** decreases Morale and prevents ordinary Morale bonuses from raising affected units above its maximum negative Morale result. Morale-boosting artifacts and creatures cannot raise affected units above Sorrow's negative cap. The spells remain direct counters to each other.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  },
+  "depends": [
+    "hota"
+  ]
+}

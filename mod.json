@@ -1,0 +1,18 @@
+{
+  "name": "Hirki Plus Patch (H.P.P.)",
+  "description": "A modular gameplay and balance patch for Heroes of Might and Magic III on VCMI, designed for use with Horn of the Abyss.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Expansion",
+  "compatibility": {
+    "min": "1.7.4"
+  },
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

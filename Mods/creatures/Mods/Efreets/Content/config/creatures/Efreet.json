@@ -1,0 +1,53 @@
+{
+	"core:efreet": {
+		"abilities": {
+			"efreetBaseCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 4,
+					"stepValue": 1
+				}
+			},
+			"efreetExtraCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 2,
+					"stepSize": 14,
+					"stepValue": 1
+				}
+			},
+			"efreetDurationScaling": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 1,
+					"stepSize": 7,
+					"stepValue": 1
+				}
+			},
+			"efreetDurationBase": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 2
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"efreetFireProt": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.protectFire",
+				"val": 1
+			}
+		},
+		"sound": {
+			"shoot": "ESULSHOT.wav"
+		}
+	}
+}

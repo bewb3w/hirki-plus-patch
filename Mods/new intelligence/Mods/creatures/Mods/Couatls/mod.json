@@ -1,0 +1,20 @@
+{
+  "name": "Couatls",
+  "description": "A support module for Couatls and Crimson Couatls designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Couatl and Crimson Couatl stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Couatls provide strong early support with a hard cap, while Crimson Couatls start stronger and gain major late scaling from very large stacks. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Couatl** — requires Intelligence and at least 1 Couatl. Couatl support is capped at 20 Couatls.\n  * **Basic Intelligence**: 1 or more Couatls grant 8 **total combat mana**; 6 grant 14; 12 grant 18; 20 grant 24.\n  * **Advanced Intelligence**: 1 or more Couatls grant 12 **total combat mana**; 6 grant 21; 12 grant 27; 20 grant 36.\n  * **Expert Intelligence**: 1 or more Couatls grant 16 **total combat mana**; 6 grant 28; 12 grant 36; 20 grant 48.\n\n* **Crimson Couatl** — requires Intelligence and at least 1 Crimson Couatl. Crimson Couatls keep scaling after 40.\n  * **Basic Intelligence**: 1+ Crimson Couatls grant 10 **total combat mana**; 5 grant 18; 10 grant 24; 18 grant 30; 30 grant 35; 40 grant 40.\n  * **Advanced Intelligence**: 1 or more Crimson Couatls grant 15 **total combat mana**; 5 grant 27; 10 grant 36; 18 grant 45; 30 grant 50; 40 grant 55.\n  * **Expert Intelligence**: 1 or more Crimson Couatls grant 20 **total combat mana**; 5 grant 36; 10 grant 48; 18 grant 60; 30 grant 65; 40 grant 70.\n  * **Late scaling**: at 40+ Crimson Couatls, each additional stack unit adds 5 more **total combat mana**.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.factory"
+  ],
+  "creatures": [
+    "config/creatures/couatl.json",
+    "config/creatures/crimsonCouatl.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

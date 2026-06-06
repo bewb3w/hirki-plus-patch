@@ -1,0 +1,88 @@
+{
+	"core:mummy": {
+		"abilities": {
+			"curse_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -12,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"curse_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -8,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"curse_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -4,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"curse_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 10,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"curse_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 20,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"curse_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 30,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

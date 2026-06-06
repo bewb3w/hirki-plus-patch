@@ -1,0 +1,19 @@
+{
+  "name": "Priests",
+  "description": "Monk and Zealot gain restorative and support spellcasting.\n\n## Shared Features\n\n* **Cure targeting** — both units can cast **Cure** on other allied units, but not on their own stack.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n\n## Monk\n\n* **Spell level** — casts **Basic Cure**.\n* **Casts** — 1 cast at 4 or more units in the stack and 2 casts at 16 or more units in the stack.\n\n## Zealot\n\n* **Spell levels** — casts **Advanced Cure** and **Expert Bless**.\n* **Animation** — uses an unused original Heroes III animation from its original assets for the new spellcasting action.\n* **Shared casts** — 1 cast at 3 or more units in the stack, 2 casts at 12 or more units in the stack, and 3 casts at 24 or more units in the stack.\n* **Bless** — **Expert Bless** is a mass spell and affects all allied units.\n* **Bless duration** — the mass **Bless** effect starts at 3 turns, then increases to 4 turns at 8 or more Zealots in the stack, 5 turns at 16 or more Zealots in the stack, 6 turns at 24 or more Zealots in the stack, 7 turns at 36 or more Zealots in the stack, and 8 turns at 48 or more Zealots in the stack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/monk.json",
+    "config/creatures/Zealot.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

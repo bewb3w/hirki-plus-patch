@@ -1,0 +1,18 @@
+{
+  "name": "Stone Gaze Luck Scaling",
+  "description": "Adds Luck-based scaling to the Stone Gaze attacks of Basilisks, Greater Basilisks, Medusas and Medusa Queens.\n\nThese creatures keep their existing **Stone Gaze** attacks, while their chances are modified by both positive and negative Luck. The upgraded versions receive stronger positive Luck scaling.\n\n## Creature Changes\n\n* **Basilisk** — keeps its existing **Stone Gaze** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Stone Gaze chance is reduced by 10%.\n  * **-2 Luck**: Stone Gaze chance is reduced by 7%.\n  * **-1 Luck**: Stone Gaze chance is reduced by 3%.\n  * **+1 Luck**: Stone Gaze chance is increased by an additional 5%.\n  * **+2 Luck**: Stone Gaze chance is increased by an additional 10%.\n  * **+3 or higher Luck**: Stone Gaze chance is increased by an additional 15%.\n\n* **Greater Basilisk** — keeps its existing **Stone Gaze** attack and has its chance adjusted by Luck, with stronger positive scaling.\n  * **-3 or lower Luck**: Stone Gaze chance is reduced by 10%.\n  * **-2 Luck**: Stone Gaze chance is reduced by 7%.\n  * **-1 Luck**: Stone Gaze chance is reduced by 3%.\n  * **+1 Luck**: Stone Gaze chance is increased by an additional 10%.\n  * **+2 Luck**: Stone Gaze chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Stone Gaze chance is increased by an additional 30%.\n\n* **Medusa** — keeps its existing **Stone Gaze** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Stone Gaze chance is reduced by 10%.\n  * **-2 Luck**: Stone Gaze chance is reduced by 7%.\n  * **-1 Luck**: Stone Gaze chance is reduced by 3%.\n  * **+1 Luck**: Stone Gaze chance is increased by an additional 5%.\n  * **+2 Luck**: Stone Gaze chance is increased by an additional 10%.\n  * **+3 or higher Luck**: Stone Gaze chance is increased by an additional 15%.\n\n* **Medusa Queen** — keeps its existing **Stone Gaze** attack and has its chance adjusted by Luck, with stronger positive scaling.\n  * **-3 or lower Luck**: Stone Gaze chance is reduced by 10%.\n  * **-2 Luck**: Stone Gaze chance is reduced by 7%.\n  * **-1 Luck**: Stone Gaze chance is reduced by 3%.\n  * **+1 Luck**: Stone Gaze chance is increased by an additional 10%.\n  * **+2 Luck**: Stone Gaze chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Stone Gaze chance is increased by an additional 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/StoneGaze.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

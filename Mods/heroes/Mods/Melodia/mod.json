@@ -1,0 +1,13 @@
+{
+  "name": "Melodia",
+  "description": "Reworks Melodia into a Luck support hero.\n\nMelodia starts with Basic Wisdom, Basic Luck, and Fortune. Her Lady Luck specialty grants +1 Luck to all creatures in her army and protects them from ordinary Luck penalties.\n\nDevils, Arch Devils, and Luck-reducing artifacts cannot bring her army **below +1 Luck**. The Misfortune spell can still overcome this protection, while Cursed Ground and Hourglass of the Evil Hour can suppress positive Luck entirely.\n\n## Starting Setup\n\n* **Skills:** Basic Wisdom, Basic Luck\n* **Spell:** Fortune\n\n## Specialty\n\n* **Lady Luck:** +1 Luck for all creatures in Melodia's army, with protection against ordinary Luck penalties\n\n## Display Note\n\nDue to a VCMI display limitation, **Melodia may appear twice** in the Luck modifier list. This is expected and does not mean her specialty grants +2 Luck. One entry represents the +1 Luck bonus, while the other represents the protection effect that keeps her army from falling below +1 Luck against ordinary penalties. The final Luck value shown by the game **remains correct**.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Heroes",
+  "heroes": [
+    "config/heroes/Melodia.json"
+  ],
+  "depends": [
+    "hota"
+  ]
+}

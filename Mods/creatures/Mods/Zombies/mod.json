@@ -1,0 +1,23 @@
+{
+  "name": "Zombies",
+  "description": "Walking Dead and Zombie Lord gain their own unique Death Ripple-like spell named Grave Ripple.\n\n## Shared Features\n\n* **Spell** — both units cast **Grave Ripple**, a battlefield-wide damage spell.\n* **Targeting** — **Grave Ripple** damages all living units on the battlefield, including allied living units. It does not affect undead, non-living units, mechanical units, siege weapons, or gargoyles.\n* **Presentation** — both versions use a dark purple battle effect and matching spell icons.\n* **Scaling** — both the number of casts and spell damage scale with the number of units in the stack.\n\n## Walking Dead\n\n* **Spell version** — casts a weaker version of **Grave Ripple**.\n* **Casts** — 1 cast at 20 or more units in the stack, 2 casts at 200 or more units in the stack, then +1 additional cast for every 200 units in the stack.\n\n## Zombie Lord\n\n* **Spell version** — casts a stronger version of **Grave Ripple** with better stack-size scaling.\n* **Casts** — 1 cast at 10 or more units in the stack, 2 casts at 100 or more units in the stack, then +1 additional cast for every 100 units in the stack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Walking Dead.json",
+    "config/creatures/Zombie Lord.json"
+  ],
+  "spells": [
+    "config/spells/Grave Ripple.json",
+    "config/spells/Grave Ripple Weak.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

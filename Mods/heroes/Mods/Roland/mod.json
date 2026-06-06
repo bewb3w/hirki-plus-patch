@@ -1,0 +1,13 @@
+{
+  "name": "Roland",
+  "description": "Adds a regular playable version of Roland as a Morale support hero.\n\nRoland starts with Basic Leadership and Basic Armorer. His specialty, The King, grants +1 Morale to all creatures in his army and protects them from ordinary Morale penalties.\n\nBone Dragons, Ghost Dragons, and Morale-reducing artifacts cannot bring his army **below +1 Morale**. The Sorrow spell can still overcome this protection, while Cursed Ground and Spirit of Oppression can suppress positive Morale entirely.\n\n## Starting Setup\n\n* **Skills:** Basic Leadership, Basic Armorer\n* **Spell:** none\n\n## Specialty\n\n* **The King:** +1 Morale for all creatures in Roland's army, with protection against ordinary Morale penalties\n\n## Display Note\n\nDue to a VCMI display limitation, **Roland may appear twice** in the Morale modifier list. This is expected and does not mean his specialty grants +2 Morale. One entry represents the +1 Morale bonus, while the other represents the protection effect that keeps his army from falling below +1 Morale against ordinary penalties. The final Morale value shown by the game **remains correct**.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Heroes",
+  "heroes": [
+    "config/heroes/Rolland.json"
+  ],
+  "depends": [
+    "hota"
+  ]
+}

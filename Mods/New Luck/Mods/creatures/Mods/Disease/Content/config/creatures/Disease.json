@@ -1,0 +1,133 @@
+{
+	"core:walkingDead": {
+		"abilities": {
+			"disease_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"disease_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 14,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"disease_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:zombieLord": {
+		"abilities": {
+			"disease_luck_minus_3_or_less": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"disease_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"disease_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"disease_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"disease_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"disease_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 30,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

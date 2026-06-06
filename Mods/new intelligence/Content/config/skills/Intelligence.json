@@ -1,0 +1,50 @@
+{
+  "core:intelligence": {
+    "specialty": [
+      "main"
+    ],
+    "base": {
+      "effects": {
+        "main": {
+          "type": "MANA_PER_KNOWLEDGE_PERCENTAGE"
+        },
+        "combatMana": {
+          "type": "COMBAT_MANA_BONUS"
+        }
+      }
+    },
+    "basic": {
+      "description": "{Basic Intelligence}\n\nBasic Intelligence increases the hero's maximum mana by 20% and grants 5 additional mana during combat. Some allied creatures can further increase combat mana based on their stack size.",
+      "effects": {
+        "main": {
+          "val": 20
+        },
+        "combatMana": {
+          "val": 5
+        }
+      }
+    },
+    "advanced": {
+      "description": "{Advanced Intelligence}\n\nAdvanced Intelligence increases the hero's maximum mana by 35% and grants 10 additional mana during combat. Some allied creatures can further increase combat mana based on their stack size.",
+      "effects": {
+        "main": {
+          "val": 35
+        },
+        "combatMana": {
+          "val": 10
+        }
+      }
+    },
+    "expert": {
+      "description": "{Expert Intelligence}\n\nExpert Intelligence increases the hero's maximum mana by 50% and grants 15 additional mana during combat. Some allied creatures can further increase combat mana based on their stack size.",
+      "effects": {
+        "main": {
+          "val": 50
+        },
+        "combatMana": {
+          "val": 15
+        }
+      }
+    }
+  }
+}

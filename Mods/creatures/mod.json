@@ -1,0 +1,15 @@
+{
+  "name": "Creatures",
+  "description": "Creature-focused modules for Hirki Plus Patch (H.P.P.).\n\nThis parent module groups classic creature changes outside the New Luck and New Intelligence subsystems. These modules add new active abilities, unique creature spells, support spellcasting, and deeper battlefield roles to selected creatures.\n\nDetailed mechanics, thresholds, duration values, targeting rules, and presentation notes are described in the individual child modules.\n\n## Creature Spellcasters\n\n* **Armadillos** — **Armadillo** and **Bellwether Armadillo** gain **Stone Skin** spellcasting for supporting other allied units. Their number of casts scales with stack size.\n* **Efreets** — **Efreet** and **Efreet Sultan** gain **Protection from Fire** spellcasting. Their number of casts and spell duration scale with stack size.\n* **Gunfighters** — **Gunslinger** and **Bounty Hunter** gain **Precision** spellcasting for supporting allied shooters.\n* **Priests** — **Monk** and **Zealot** gain restorative and support spellcasting. **Monk** casts **Cure**, while **Zealot** adds stronger **Cure** and mass **Bless** support.\n* **Zombies** — **Walking Dead** and **Zombie Lord** gain their own unique Death Ripple-like spell named **Grave Ripple**. **Zombie Lord** casts a stronger version with better scaling.\n\n## Creature Special Abilities\n\n* **Cerberus** — gains **Threefold Bite**, an active focused-strike ability that turns its next attack into a single-target triple-damage melee strike.\n* **Hydras** — **Hydra** and **Chaos Hydra** gain the **Bloodwake** chain, increased durability, and Pulse abilities that damage nearby enemies while applying persistent Speed and Defense reductions.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

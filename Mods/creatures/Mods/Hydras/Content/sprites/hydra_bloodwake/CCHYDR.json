@@ -1,0 +1,50 @@
+{
+  "basepath": "hydra_bloodwake/",
+  "sequences": [
+    {
+      "group": 30,
+      "frames": [
+        "ccast_def_00.png",
+        "ccast_def_01.png",
+        "ccast_def_02.png",
+        "ccast_def_03.png",
+        "ccast_def_04.png",
+        "ccast_def_05.png",
+        "ccast_def_06.png",
+        "ccast_def_07.png",
+        "ccast_def_08.png",
+        "ccast_def_09.png"
+      ]
+    },
+    {
+      "group": 31,
+      "frames": [
+        "ccast_def_00.png",
+        "ccast_def_01.png",
+        "ccast_def_02.png",
+        "ccast_def_03.png",
+        "ccast_def_04.png",
+        "ccast_def_05.png",
+        "ccast_def_06.png",
+        "ccast_def_07.png",
+        "ccast_def_08.png",
+        "ccast_def_09.png"
+      ]
+    },
+    {
+      "group": 32,
+      "frames": [
+        "ccast_def_00.png",
+        "ccast_def_01.png",
+        "ccast_def_02.png",
+        "ccast_def_03.png",
+        "ccast_def_04.png",
+        "ccast_def_05.png",
+        "ccast_def_06.png",
+        "ccast_def_07.png",
+        "ccast_def_08.png",
+        "ccast_def_09.png"
+      ]
+    }
+  ]
+}

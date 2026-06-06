@@ -1,0 +1,140 @@
+{
+  "core:creatureBank": {
+    "types": {
+      "hota.mapsupport": {
+        "spit": {
+          "rewards": [
+            {
+              "message": 34,
+              "appearChance": {
+                "min": 0,
+                "max": 30
+              },
+              "mapDice": 0,
+              "guards": [
+                {
+                  "amount": 4,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 4,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 4,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 4,
+                  "type": "basilisk"
+                }
+              ],
+              "creatures": [
+                {
+                  "amount": 1,
+                  "type": "hydra"
+                }
+              ]
+            },
+            {
+              "message": 34,
+              "appearChance": {
+                "min": 30,
+                "max": 60
+              },
+              "mapDice": 1,
+              "guards": [
+                {
+                  "amount": 6,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 6,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 6,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 6,
+                  "type": "basilisk"
+                }
+              ],
+              "creatures": [
+                {
+                  "amount": 2,
+                  "type": "hydra"
+                }
+              ]
+            },
+            {
+              "message": 34,
+              "appearChance": {
+                "min": 60,
+                "max": 90
+              },
+              "mapDice": 2,
+              "guards": [
+                {
+                  "amount": 8,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 8,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 8,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 8,
+                  "type": "basilisk"
+                }
+              ],
+              "creatures": [
+                {
+                  "amount": 3,
+                  "type": "hydra"
+                }
+              ]
+            },
+            {
+              "message": 34,
+              "appearChance": {
+                "min": 90,
+                "max": 100
+              },
+              "mapDice": 3,
+              "guards": [
+                {
+                  "amount": 12,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 12,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 12,
+                  "type": "basilisk"
+                },
+                {
+                  "amount": 12,
+                  "type": "basilisk"
+                }
+              ],
+              "creatures": [
+                {
+                  "amount": 4,
+                  "type": "hydra"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

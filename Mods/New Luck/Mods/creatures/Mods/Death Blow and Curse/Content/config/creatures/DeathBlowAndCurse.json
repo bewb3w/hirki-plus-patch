@@ -1,0 +1,279 @@
+{
+	"core:blackKnight": {
+		"abilities": {
+			"death_blow_luck_1": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 7,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"death_blow_luck_2": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 14,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"death_blow_luck_3": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 20,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			},
+			"curse_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -10,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"curse_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -7,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"curse_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -3,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"curse_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 10,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"curse_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 20,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"curse_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 30,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:dreadKnight": {
+		"abilities": {
+			"death_blow_luck_minus_3": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": -10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"death_blow_luck_minus_2": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": -7,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"death_blow_luck_minus_1": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": -3,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"death_blow_luck_1": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"death_blow_luck_2": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 20,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"death_blow_luck_3": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			},
+			"curse_luck_minus_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -10,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"curse_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -7,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"curse_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": -3,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"curse_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 10,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"curse_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 20,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"curse_luck_3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 30,
+				"addInfo": [2, 0],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

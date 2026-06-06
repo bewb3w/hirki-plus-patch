@@ -1,0 +1,18 @@
+{
+  "name": "Aging Luck Scaling",
+  "description": "Adds Luck-based scaling to the Aging ability of Bone Dragons and Ghost Dragons.\n\nThis module gives **Bone Dragons** a new chance to trigger **Aging** when they have positive Luck, while **Ghost Dragons** keep their existing Aging ability and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Bone Dragon** — gains a chance to trigger **Aging** only with positive Luck.\n  * **+1 Luck**: 6% Aging chance.\n  * **+2 Luck**: 13% Aging chance.\n  * **+3 or higher Luck**: 20% Aging chance.\n\n* **Ghost Dragon** — keeps its existing Aging ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Aging chance is reduced by 10%.\n  * **-2 Luck**: Aging chance is reduced by 7%.\n  * **-1 Luck**: Aging chance is reduced by 3%.\n  * **+1 Luck**: Aging chance is increased by an additional 10%.\n  * **+2 Luck**: Aging chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Aging chance is increased by an additional 30%.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/Aging.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "core:enchanter": {
+    "abilities": {
+      "intelligenceEnchanterBasicArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT2",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 2+ Enchanters.\nGrants hero combat mana.\nScales with Enchanter count."
+      },
+      "intelligenceEnchanterBasicArmyTotalT4": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 4
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT4"
+      },
+      "intelligenceEnchanterBasicArmyTotalT8": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 8
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT8"
+      },
+      "intelligenceEnchanterBasicArmyTotalT16": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 16
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT16"
+      },
+      "intelligenceEnchanterBasicArmyTotalT28": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 28
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT28"
+      },
+      "intelligenceEnchanterBasicArmyTotalT40": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 40
+        },
+        "stacking": "intelligenceEnchanterBasicArmyTotalT40"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT2"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT4": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 3,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 4
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT4"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT8": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 8
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT8"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT16": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 16
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT16"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT28": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 9,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 28
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT28"
+      },
+      "intelligenceEnchanterAdvancedArmyTotalT40": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 7,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 40
+        },
+        "stacking": "intelligenceEnchanterAdvancedArmyTotalT40"
+      },
+      "intelligenceEnchanterExpertArmyTotalT2": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 4,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 2
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT2"
+      },
+      "intelligenceEnchanterExpertArmyTotalT4": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 8,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 4
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT4"
+      },
+      "intelligenceEnchanterExpertArmyTotalT8": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 11,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 8
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT8"
+      },
+      "intelligenceEnchanterExpertArmyTotalT16": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 14,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 16
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT16"
+      },
+      "intelligenceEnchanterExpertArmyTotalT28": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 14,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 28
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT28"
+      },
+      "intelligenceEnchanterExpertArmyTotalT40": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 7,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "creature.enchanter",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 40
+        },
+        "stacking": "intelligenceEnchanterExpertArmyTotalT40"
+      }
+    }
+  }
+}

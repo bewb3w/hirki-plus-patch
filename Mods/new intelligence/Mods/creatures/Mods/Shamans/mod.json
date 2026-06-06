@@ -1,0 +1,20 @@
+{
+  "name": "Shamans",
+  "description": "A support mod for Shamans and Great Shamans designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Shaman and Great Shaman stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Great Shamans start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Shaman** — requires Intelligence and at least 3 Shamans.\n  * **Basic Intelligence**: 3 or more Shamans grant 4 **total combat mana**; 10 grant 10; 20 grant 16; 30 grant 22.\n  * **Advanced Intelligence**: 3 or more Shamans grant 7 **total combat mana**; 10 grant 15; 20 grant 24; 30 grant 34.\n  * **Expert Intelligence**: 3 or more Shamans grant 10 **total combat mana**; 10 grant 23; 20 grant 36; 30 grant 50.\n\n* **Great Shaman** — requires Intelligence and at least 2 Great Shamans.\n  * **Basic Intelligence**: 2 or more Great Shamans grant 3 **total combat mana**; 10 grant 9; 20 grant 18; 30 grant 30.\n  * **Advanced Intelligence**: 2+ Great Shamans grant 6 **total combat mana**; 10 grant 16; 20 grant 29; 30 grant 45.\n  * **Expert Intelligence**: 2+ Great Shamans grant 11 **total combat mana**; 10 grant 26; 20 grant 44; 30 grant 65.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota",
+    "hota.bulwark"
+  ],
+  "creatures": [
+    "config/creatures/shaman.json",
+    "config/creatures/greatShaman.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

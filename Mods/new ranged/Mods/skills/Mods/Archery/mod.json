@@ -1,0 +1,22 @@
+{
+  "name": "Archery",
+  "description": "Reworks Archery for the New Ranged package. Basic / Advanced / Expert Archery improve ranged damage by 15% / 25% / 50%, increase total ammo pool by 1 / 2 / 3 shots, and from Advanced onward extend full-damage shooting range by 1 hex, up to 11 hexes. Expert Archery also makes ranged attacks inflict Basic Forgetfulness on the target. With Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota",
+    "hota.cove",
+    "hota.factory",
+    "hota.bulwark",
+    "hota.cannon"
+  ],
+  "skills": [
+    "config/skills/Archery.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

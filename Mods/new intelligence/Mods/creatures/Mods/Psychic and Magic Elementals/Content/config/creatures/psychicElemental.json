@@ -1,0 +1,284 @@
+{
+	"core:psychicElemental": {
+		"abilities": {
+			"intelligencePsychicElementalBasicArmyTotalT3": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 4,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 3
+				},
+				"stacking": "intelligencePsychicElementalBasicArmyTotalT3",
+				"icon": "intelligence_adv_medium.png",
+				"description": "{Arcane Support}\nReq. Int. & 3+ Psychic Elem.\nGrants hero combat mana.\nScales with Psychic Elem. count."
+			},
+			"intelligencePsychicElementalBasicArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligencePsychicElementalBasicArmyTotalT8"
+			},
+			"intelligencePsychicElementalBasicArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligencePsychicElementalBasicArmyTotalT16"
+			},
+			"intelligencePsychicElementalBasicArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 6,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 5,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligencePsychicElementalBasicArmyTotalT24"
+			},
+			"intelligencePsychicElementalAdvancedArmyTotalT3": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 8,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 3
+				},
+				"stacking": "intelligencePsychicElementalAdvancedArmyTotalT3"
+			},
+			"intelligencePsychicElementalAdvancedArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 8,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligencePsychicElementalAdvancedArmyTotalT8"
+			},
+			"intelligencePsychicElementalAdvancedArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligencePsychicElementalAdvancedArmyTotalT16"
+			},
+			"intelligencePsychicElementalAdvancedArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 9,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 10,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligencePsychicElementalAdvancedArmyTotalT24"
+			},
+			"intelligencePsychicElementalExpertArmyTotalT3": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 12,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 3
+				},
+				"stacking": "intelligencePsychicElementalExpertArmyTotalT3"
+			},
+			"intelligencePsychicElementalExpertArmyTotalT8": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 13,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 8
+				},
+				"stacking": "intelligencePsychicElementalExpertArmyTotalT8"
+			},
+			"intelligencePsychicElementalExpertArmyTotalT16": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 13,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 16
+				},
+				"stacking": "intelligencePsychicElementalExpertArmyTotalT16"
+			},
+			"intelligencePsychicElementalExpertArmyTotalT24": {
+				"type": "COMBAT_MANA_BONUS",
+				"val": 12,
+				"propagator": "HERO",
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "COMBAT_MANA_BONUS",
+						"bonusSourceType": "SECONDARY_SKILL",
+						"bonusSourceID": "secondarySkill.intelligence",
+						"bonusMinValue": 15,
+						"bonusMaxValue": 15
+					}
+				],
+				"updater": {
+					"type": "TIMES_ARMY_SIZE",
+					"filteredCreature": "creature.psychicElemental",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 24
+				},
+				"stacking": "intelligencePsychicElementalExpertArmyTotalT24"
+			}
+		}
+	}
+}

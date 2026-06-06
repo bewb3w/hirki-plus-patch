@@ -1,0 +1,13 @@
+{
+  "core:luck": {
+    "basic": {
+      "description": "{Basic Luck}\n\nIncreases the Luck of all hero's creatures by 1, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+    },
+    "advanced": {
+      "description": "{Advanced Luck}\n\nIncreases the Luck of all hero's creatures by 2, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+    },
+    "expert": {
+      "description": "{Expert Luck}\n\nIncreases the Luck of all hero's creatures by 3, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+	"core:mightyGorgon": {
+		"abilities": {
+			"death_stare_luck_minus_1": {
+				"type": "DEATH_STARE",
+				"val": -1,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"death_stare_luck_minus_2": {
+				"type": "DEATH_STARE",
+				"val": -2,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"death_stare_luck_minus_3": {
+				"type": "DEATH_STARE",
+				"val": -3,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"death_stare_luck_1": {
+				"type": "DEATH_STARE",
+				"val": 1,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"death_stare_luck_2": {
+				"type": "DEATH_STARE",
+				"val": 3,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"death_stare_luck_3": {
+				"type": "DEATH_STARE",
+				"val": 5,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

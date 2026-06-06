@@ -1,0 +1,76 @@
+{
+	"core:fairieDragon": {
+		"abilities": {
+			"magic_mirror_luck_minus_3": {
+				"type": "MAGIC_MIRROR",
+				"val": -10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"magic_mirror_luck_minus_2": {
+				"type": "MAGIC_MIRROR",
+				"val": -7,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"magic_mirror_luck_minus_1": {
+				"type": "MAGIC_MIRROR",
+				"val": -3,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"magic_mirror_luck_1": {
+				"type": "MAGIC_MIRROR",
+				"val": 10,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"magic_mirror_luck_2": {
+				"type": "MAGIC_MIRROR",
+				"val": 20,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"magic_mirror_luck_3_plus": {
+				"type": "MAGIC_MIRROR",
+				"val": 30,
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

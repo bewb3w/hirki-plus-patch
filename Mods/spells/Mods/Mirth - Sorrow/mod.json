@@ -1,0 +1,19 @@
+{
+  "name": "Mirth and Sorrow Independent Morale",
+  "description": "A paired rework of Mirth and Sorrow designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both morale-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Mirth** — increases Morale and **guarantees a minimum positive Morale** result for affected units while the spell lasts.\n  * **No mastery**: +1 Morale, minimum +1 Morale, 7 mana.\n  * **Basic**: +1 Morale, minimum +1 Morale, 5 mana.\n  * **Advanced**: +2 Morale, minimum +2 Morale, 4 mana.\n  * **Expert**: affects all allied units, +2 Morale, minimum +2 Morale, 3 mana.\n\n* **Sorrow** — decreases Morale and **guarantees a maximum negative Morale** result for affected units while the spell lasts.\n  * **No mastery**: -1 Morale, maximum -1 Morale, 12 mana.\n  * **Basic**: -1 Morale, maximum -1 Morale, 9 mana.\n  * **Advanced**: -2 Morale, maximum -2 Morale, 7 mana.\n  * **Expert**: affects all enemy units, -2 Morale, maximum -2 Morale, 5 mana.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Spells",
+  "depends": [
+    "hota"
+  ],
+  "spells": [
+    "config/spells/Mirth.json",
+    "config/spells/Sorrow.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

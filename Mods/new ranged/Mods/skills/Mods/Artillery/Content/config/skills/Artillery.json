@@ -1,0 +1,295 @@
+{
+	"core:artillery": {
+		"base": {
+			"effects": {
+				"damageCap": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "ballista"
+						}
+					],
+					"valueType": "INDEPENDENT_MIN"
+				},
+				"cannonExtra": {
+					"subtype": "cannon",
+					"type": "BONUS_DAMAGE_CHANCE",
+					"valueType": "BASE_NUMBER"
+				},
+				"damagePowerCannon": {
+					"subtype": "cannon",
+					"type": "BONUS_DAMAGE_PERCENTAGE",
+					"valueType": "BASE_NUMBER"
+				},
+				"damageCapCannon": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "cannon"
+						}
+					],
+					"valueType": "INDEPENDENT_MIN"
+				},
+				"manualControlCannon": {
+					"type": "MANUAL_CONTROL",
+					"subtype": "cannon",
+					"val": 100
+				},
+				"cannonSiegeShot": {
+					"type": "CATAPULT_EXTRA_SHOTS",
+					"subtype": "cannonSiegeShot"
+				}
+			}
+		},
+		"basic": {
+			"effects": {
+				"marker_ballista": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:ballista"
+						}
+					]
+				},
+				"marker_cannon": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "hota.cannon:cannon"
+						}
+					]
+				},
+				"damageCap": {
+					"val": 50
+				},
+				"damageCapCannon": {
+					"val": 40
+				},
+				"cannonExtra": {
+					"val": 0
+				},
+				"damagePowerCannon": {
+					"val": 0
+				},
+				"cannonSiegeShot": {
+					"val": 1
+				},
+				"damageCapAmmoCartBallistaPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 50,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.water",
+							"bonusMinValue": 1
+						}
+					]
+				},
+				"damageCapAmmoCartCannonPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 40,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.fire",
+							"bonusMinValue": 1
+						}
+					]
+				}
+			},
+			"description": "{Basic Artillery}\n\nGives the hero control of the Ballista. Ballista shots have a 50% chance to deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 50% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 40%."
+		},
+		"advanced": {
+			"effects": {
+				"marker_ballista": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 2,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:ballista"
+						}
+					]
+				},
+				"marker_cannon": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 2,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "hota.cannon:cannon"
+						}
+					]
+				},
+				"damageCap": {
+					"val": 40
+				},
+				"damageCapCannon": {
+					"val": 30
+				},
+				"cannonExtra": {
+					"val": 100
+				},
+				"damagePowerCannon": {
+					"val": 100
+				},
+				"cannonSiegeShot": {
+					"val": 2
+				},
+				"damageCapAmmoCartBallistaPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 40,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.water",
+							"bonusMinValue": 1
+						}
+					]
+				},
+				"damageCapAmmoCartCannonPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 30,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.fire",
+							"bonusMinValue": 1
+						}
+					]
+				}
+			},
+			"description": "{Advanced Artillery}\n\nGives the hero control of the Ballista. The Ballista shoots twice per round, and its shots have a 75% chance to deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 40% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 30%."
+		},
+		"expert": {
+			"effects": {
+				"marker_ballista": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 3,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:ballista"
+						}
+					]
+				},
+				"marker_cannon": {
+					"type": "MAGIC_SCHOOL_SKILL",
+					"subtype": "spellSchool.air",
+					"valueType": "BASE_NUMBER",
+					"propagator": "ARMY",
+					"val": 3,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "hota.cannon:cannon"
+						}
+					]
+				},
+				"damageCap": {
+					"val": 30
+				},
+				"damageCapCannon": {
+					"val": 20
+				},
+				"cannonExtra": {
+					"val": 100
+				},
+				"damagePowerCannon": {
+					"val": 200
+				},
+				"cannonSiegeShot": {
+					"val": 3
+				},
+				"damageCapAmmoCartBallistaPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 30,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.water",
+							"bonusMinValue": 1
+						}
+					]
+				},
+				"damageCapAmmoCartCannonPath": {
+					"type": "DAMAGE_RECEIVED_CAP",
+					"propagator": "ARMY",
+					"val": 20,
+					"valueType": "INDEPENDENT_MIN",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "creature.ammoCart"
+						},
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "MAGIC_SCHOOL_SKILL",
+							"bonusSubtype": "spellSchool.fire",
+							"bonusMinValue": 1
+						}
+					]
+				}
+			},
+			"description": "{Expert Artillery}\n\nGives the hero control of the Ballista. The Ballista shoots twice per round, and its shots always deal double damage.\n\nWith Archery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.\n\nAdditionally, Ballista and its Ammo Cart cannot lose more than 30% of their Health from a single attack; Cannon and its Ammo Cart cannot lose more than 20%."
+		}
+	}
+}

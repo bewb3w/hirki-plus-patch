@@ -1,0 +1,16 @@
+{
+  "name": "Mysticism",
+  "description": "Enhances Mysticism as a mana recovery and adventure-map momentum skill.\n\nMysticism keeps the Horn of the Abyss daily spell point regeneration and adds Mystic Momentum. After successfully casting selected adventure-map control spells, the hero gains additional movement on the next day, once per supported spell per day.\n\n## Skill Effects\n\n* **Basic Mysticism:** regenerates 10% of maximum spell points per day, minimum 5; Mystic Momentum bonuses for Dimension Door, Water Walk, Summon Boat, and Scuttle Boat\n* **Advanced Mysticism:** regenerates 20% of maximum spell points per day, minimum 10; adds Mystic Momentum bonuses for Fly and Town Portal, and improves all supported control spell bonuses\n* **Expert Mysticism:** regenerates 30% of maximum spell points per day, minimum 15; further improves all Mystic Momentum bonuses\n\n## Supported Mystic Momentum Spells\n\n* **Basic:** Dimension Door, Water Walk, Summon Boat, Scuttle Boat\n* **Advanced and Expert:** Fly, Town Portal, Dimension Door, Water Walk, Summon Boat, Scuttle Boat\n\n## Specialist Interaction\n\nMysticism specialties increase only the spell point regeneration with hero level, and do not increase Mystic Momentum movement bonuses.\n\n## Implementation Note\n\nMystic Momentum uses supporting spell markers on the affected adventure-map control spells. The movement bonus is granted on the next day after a successful cast and is limited to once per supported spell per day.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota"
+  ],
+  "spells": [
+    "config/spells/Control Spells Mystic Momentum Markers.json"
+  ],
+  "skills": [
+    "config/skills/Mysticism.json"
+  ]
+}

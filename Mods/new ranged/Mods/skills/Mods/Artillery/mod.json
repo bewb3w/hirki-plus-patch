@@ -1,0 +1,19 @@
+{
+  "name": "Artillery",
+  "description": "Reworks Artillery for the New Ranged package while preserving the original Ballista control, double-shot and double-damage progression. Additionally, Ballista and Ammo Cart cannot lose more than 50% / 40% / 30% of their Health from a single attack at Basic / Advanced / Expert Artillery. Cannon and its Ammo Cart path cannot lose more than 40% / 30% / 20% of their Health from a single attack.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Skills",
+  "depends": [
+    "hota",
+    "hota.cannon"
+  ],
+  "skills": [
+    "config/skills/Artillery.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

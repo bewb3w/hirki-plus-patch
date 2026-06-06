@@ -1,0 +1,50 @@
+{
+	"core:efreetSultan": {
+		"abilities": {
+			"sultanBaseCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 1,
+					"stepSize": 3,
+					"stepValue": 1
+				}
+			},
+			"sultanExtraCast": {
+				"type": "CASTS",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 0,
+					"maximum": 2,
+					"stepSize": 11,
+					"stepValue": 1
+				}
+			},
+			"sultanDurationScaling": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 1,
+				"updater": {
+					"type": "TIMES_STACK_SIZE",
+					"minimum": 1,
+					"stepSize": 5,
+					"stepValue": 1
+				}
+			},
+			"sultanDurationBase": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 2
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"sultanFireProt": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.protectFire",
+				"val": 2
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Intelligence Creatures",
+  "description": "Creature support modules for New Intelligence, designed for use with Horn of the Abyss on VCMI.\n\nThese optional modules add Intelligence-based combat mana support to selected magical, mystical, or knowledge-themed creature lines. Exact thresholds, scaling values, and creature-specific details are listed in each individual module description.\n\n## Included Creature Support\n\n* **Mages** — **Arch Mages** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Mages**.\n* **Priests** — **Zealots** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Monks**.\n* **Sea Witches** — **Sorceresses** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Sea Witches**.\n* **Liches** — **Power Liches** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Liches**.\n* **Shamans** — **Great Shamans** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Shamans**.\n* **Unicorns** — **War Unicorns** start contributing at a smaller required stack size and provide stronger **total combat mana** support than base **Unicorns**.\n* **Psychic and Magic Elementals** — **Magic Elementals** start contributing at a smaller required stack size and provide much stronger **total combat mana** support than base **Psychic Elementals**.\n* **Couatls** — both **Couatls** and **Crimson Couatls** start providing support from a stack of 1 creature. **Crimson Couatls** provide stronger support than base **Couatls** and gain uncapped late **total combat mana** scaling from very large stacks.\n* **Ogre Mage** — expands the spellcasting identity of **Ogre Mages** by giving them an additional magical support role through Intelligence-based **total combat mana**.\n* **Pit Lord** — expands the dark spellcasting identity of **Pit Lords** with Intelligence-based **total combat mana** support, giving them an additional magical role.\n* **Medusa Queen** — expands the mystical identity of **Medusa Queens** with Intelligence-based **total combat mana** support, giving them an additional magical role.\n* **Greater Basilisk** — expands the petrifying mystical nature of **Greater Basilisks** with Intelligence-based **total combat mana** support, giving them an additional magical role.\n* **Yeti Runemaster** — gives **Yeti Runemasters** Intelligence-based **total combat mana** support, expanding their runic mystical role.\n* **Enchanter** — gives **Enchanters** Intelligence-based **total combat mana** support, reinforcing their neutral spellcaster role.\n* **Faerie Dragon** — gives **Faerie Dragons** magical support based on Intelligence, with uncapped **total combat mana** scaling.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

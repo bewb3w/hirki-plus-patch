@@ -1,0 +1,133 @@
+{
+	"core:boneDragon": {
+		"abilities": {
+			"aging_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 6,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"aging_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 13,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"aging_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	},
+	"core:ghostDragon": {
+		"abilities": {
+			"aging_luck_minus_3_or_less": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": -10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMaxValue": -3
+					}
+				]
+			},
+			"aging_luck_minus_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": -7,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -2,
+						"bonusMaxValue": -2
+					}
+				]
+			},
+			"aging_luck_minus_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": -3,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": -1,
+						"bonusMaxValue": -1
+					}
+				]
+			},
+			"aging_luck_1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 10,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 1,
+						"bonusMaxValue": 1
+					}
+				]
+			},
+			"aging_luck_2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 20,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 2,
+						"bonusMaxValue": 2
+					}
+				]
+			},
+			"aging_luck_3_plus": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.age",
+				"val": 30,
+				"addInfo": [0, 2],
+				"limiters": [
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType": "LUCK",
+						"bonusMinValue": 3
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Faerie Dragon",
+  "description": "A support module for Faerie Dragons designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Faerie Dragon stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Faerie Dragons reinforce their neutral spellcaster identity with uncapped magical support, starting from a stack of 1 creature and gaining more support every 2 Faerie Dragons. **Total combat mana** values below are shown at selected stack sizes.\n\n## Combat Mana Support\n\n* **Faerie Dragon** — requires Intelligence and at least 1 Faerie Dragon. Support starts from 1 creature and scales every 2 Faerie Dragons without a hard cap.\n  * **Basic Intelligence**: 1+ Faerie Dragons grant 5 **total combat mana**; 3 grant 10; 5 grant 15; 10 grant 25; 20 grant 50; 40 grant 100.\n  * **Advanced Intelligence**: 1 or more Faerie Dragons grant 10 **total combat mana**; 3 grant 15; 5 grant 20; 10 grant 30; 20 grant 55; 40 grant 105.\n  * **Expert Intelligence**: 1+ Faerie Dragons grant 15 **total combat mana**; 3 grant 25; 5 grant 35; 10 grant 55; 20 grant 105; 40 grant 205.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Creatures",
+  "depends": [
+    "hota"
+  ],
+  "creatures": [
+    "config/creatures/faerieDragon.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

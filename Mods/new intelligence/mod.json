@@ -1,0 +1,18 @@
+{
+  "name": "New Intelligence",
+  "description": "A larger Intelligence rework designed for use with Horn of the Abyss on VCMI.\n\nThis module keeps HotA-style maximum mana values for Intelligence and adds a combat mana bonus during battle:\n\n* **Basic Intelligence** — increases maximum mana by 20% and grants 5 additional combat mana.\n* **Advanced Intelligence** — increases maximum mana by 35% and grants 10 additional combat mana.\n* **Expert Intelligence** — increases maximum mana by 50% and grants 15 additional combat mana.\n\nSelected magical, mystical, or knowledge-themed allied creatures can further support **heroes with Intelligence** by granting additional **total combat mana** based on army composition and stack size. Different supported creature lines can be combined to increase the total combat mana bonus, **but splitting the same supported creature into multiple stacks does not duplicate its support bonus**. Where both a base creature and its upgrade are supported by the same module, using them together is allowed and can contribute to that line's support bonus.\n\n## Creature Support Overview\n\nCreature support is handled through separate optional modules. Exact thresholds and values are listed in each individual creature module description.\n\nSupported creature lines include:\n\n* **Mages** — both **Mage** and **Arch Mage** can provide support.\n* **Priests** — both **Monk** and **Zealot** can provide support.\n* **Sea Witches** — both **Sea Witch** and **Sorceress** can provide support.\n* **Liches** — both **Lich** and **Power Lich** can provide support.\n* **Shamans** — both **Shaman** and **Great Shaman** can provide support.\n* **Unicorns** — both **Unicorn** and **War Unicorn** can provide support.\n* **Psychic and Magic Elementals** — both **Psychic Elemental** and **Magic Elemental** can provide support.\n* **Couatls** — both **Couatl** and **Crimson Couatl** can provide support.\n* **Enchanter** — **Enchanter** can provide support.\n* **Faerie Dragon** — **Faerie Dragon** can provide support.\n* **Ogre Mage** — only the upgraded **Ogre Mage** can provide support.\n* **Pit Lord** — only the upgraded **Pit Lord** can provide support.\n* **Yeti Runemaster** — only the upgraded **Yeti Runemaster** can provide support.\n* **Medusa Queen** — only the upgraded **Medusa Queen** can provide support.\n* **Greater Basilisk** — only the upgraded **Greater Basilisk** can provide support.",
+  "author": "bew_",
+  "version": "1.0.0",
+  "modType": "Expansion",
+  "depends": [
+    "hota"
+  ],
+  "skills": [
+    "config/skills/Intelligence.json"
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release."
+    ]
+  }
+}

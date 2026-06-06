@@ -1,0 +1,488 @@
+{
+  "hota.factory:crimsonCouatl": {
+    "abilities": {
+      "intelligenceCrimsonCouatlBasicT1": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 10,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicT1",
+        "icon": "intelligence_adv_medium.png",
+        "description": "{Arcane Support}\nReq. Int. & 1+ Crimson Couatls.\nGrants hero combat mana.\nBig late scaling at 40+."
+      },
+      "intelligenceCrimsonCouatlBasicT5": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 8,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 5
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicT5"
+      },
+      "intelligenceCrimsonCouatlBasicT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicT10"
+      },
+      "intelligenceCrimsonCouatlBasicT18": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 6,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 18
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicT18"
+      },
+      "intelligenceCrimsonCouatlBasicT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicT30"
+      },
+      "intelligenceCrimsonCouatlAdvancedT1": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 15,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedT1"
+      },
+      "intelligenceCrimsonCouatlAdvancedT5": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 12,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 5
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedT5"
+      },
+      "intelligenceCrimsonCouatlAdvancedT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 9,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedT10"
+      },
+      "intelligenceCrimsonCouatlAdvancedT18": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 9,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 18
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedT18"
+      },
+      "intelligenceCrimsonCouatlAdvancedT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedT30"
+      },
+      "intelligenceCrimsonCouatlExpertT1": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 20,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertT1"
+      },
+      "intelligenceCrimsonCouatlExpertT5": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 16,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 5
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertT5"
+      },
+      "intelligenceCrimsonCouatlExpertT10": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 12,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 10
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertT10"
+      },
+      "intelligenceCrimsonCouatlExpertT18": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 12,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 18
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertT18"
+      },
+      "intelligenceCrimsonCouatlExpertT30": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 1,
+          "stepSize": 30
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertT30"
+      },
+      "intelligenceCrimsonCouatlBasicTailPlus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicTailPlus"
+      },
+      "intelligenceCrimsonCouatlBasicTailMinus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": -5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 5,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 39,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlBasicTailMinus"
+      },
+      "intelligenceCrimsonCouatlAdvancedTailPlus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedTailPlus"
+      },
+      "intelligenceCrimsonCouatlAdvancedTailMinus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": -5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 10,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 39,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlAdvancedTailMinus"
+      },
+      "intelligenceCrimsonCouatlExpertTailPlus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": 5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertTailPlus"
+      },
+      "intelligenceCrimsonCouatlExpertTailMinus": {
+        "type": "COMBAT_MANA_BONUS",
+        "val": -5,
+        "propagator": "HERO",
+        "limiters": [
+          {
+            "type": "HAS_ANOTHER_BONUS_LIMITER",
+            "bonusType": "COMBAT_MANA_BONUS",
+            "bonusSourceType": "SECONDARY_SKILL",
+            "bonusSourceID": "secondarySkill.intelligence",
+            "bonusMinValue": 15,
+            "bonusMaxValue": 15
+          }
+        ],
+        "updater": {
+          "type": "TIMES_ARMY_SIZE",
+          "filteredCreature": "hota.factory:crimsonCouatl",
+          "minimum": 0,
+          "maximum": 39,
+          "stepSize": 1
+        },
+        "stacking": "intelligenceCrimsonCouatlExpertTailMinus"
+      }
+    }
+  }
+}
