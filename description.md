@@ -2,7 +2,7 @@
 
 **Hirki Plus Patch (H.P.P.)** is a modular gameplay and balance patch for Heroes of Might and Magic III on VCMI, designed for use with **Horn of the Abyss**.
 
-The patch focuses on making underused creatures, skills, spells, heroes, war machines, and map interactions more practical and interesting while preserving the classic feel of Heroes III. Its changes are intentionally modular, so players can enable the parts they want and keep the rest of their setup close to the original game.
+The patch focuses on making underused creatures, skills, spells, heroes, and war machines more practical and interesting while preserving the classic feel of Heroes III. Its changes are intentionally modular, so players can enable the parts they want and keep the rest of their setup close to the original game.
 
 ## A Modular Patch for Heroes III
 
@@ -75,10 +75,6 @@ Creature-focused modules add new active abilities, unique creature spells, suppo
 * **Zombies** gain a Death Ripple-like spell named Grave Ripple.
 * **Cerberus** gains Threefold Bite, an active focused-strike ability for a single-target triple-damage melee attack.
 * **Hydras** gain the Bloodwake chain, increased durability, and Pulse abilities that damage nearby enemies while applying persistent Speed and Defense reductions.
-
-## Map Objects
-
-For map objects, H.P.P. adds a small Fortress-flavored reward tweak to the **Spit creature bank**. Instead of a gold reward, the object can reward **Hydras**, while keeping its original guards, visuals, layout, terrain placement, and behavior.
 
 ## Compatibility
 
