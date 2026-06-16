@@ -1,8 +1,12 @@
 {
   "name": "Disease Luck Scaling",
   "description": "Adds Luck-based scaling to the Disease attack of Walking Dead and Zombie Lords.\n\nThis module gives **Walking Dead** a new chance to trigger **Disease** when they have positive Luck, while **Zombie Lords** keep their existing Disease attack and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Walking Dead** — gains a chance to trigger **Disease** only with positive Luck.\n  * **+1 Luck**: 7% Disease chance.\n  * **+2 Luck**: 14% Disease chance.\n  * **+3 or higher Luck**: 20% Disease chance.\n\n* **Zombie Lord** — keeps its existing **Disease** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Disease chance is reduced by 10%.\n  * **-2 Luck**: Disease chance is reduced by 7%.\n  * **-1 Luck**: Disease chance is reduced by 3%.\n  * **+1 Luck**: Disease chance is increased by an additional 10%.\n  * **+2 Luck**: Disease chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Disease chance is increased by an additional 30%.",
+  "polish": {
+    "name": "Choroba — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do zdolności **Choroba** u **Ożywieńców** i **Zombie**.\n\nTen moduł daje **Ożywieńcom** nową szansę na wywołanie **Choroby**, ale tylko przy dodatnim szczęściu. **Zombie** zachowują swoją istniejącą zdolność **Choroby**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Ożywieniec** — zyskuje szansę na wywołanie **Choroby** tylko przy dodatnim szczęściu.\n  * **+1 szczęścia**: 7% szansy na Chorobę.\n  * **+2 szczęścia**: 14% szansy na Chorobę.\n  * **+3 lub więcej szczęścia**: 20% szansy na Chorobę.\n\n* **Zombie** — zachowuje swoją istniejącą zdolność **Choroby**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Chorobę jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa na Chorobę jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa na Chorobę jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa na Chorobę jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa na Chorobę jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa na Chorobę jest zwiększona o dodatkowe 30%."
+  },
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"

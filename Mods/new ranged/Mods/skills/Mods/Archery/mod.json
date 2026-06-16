@@ -1,8 +1,8 @@
 {
   "name": "Archery",
-  "description": "Reworks Archery for the New Ranged package. Basic / Advanced / Expert Archery improve ranged damage by 15% / 25% / 50%, increase total ammo pool by 1 / 2 / 3 shots, and from Advanced onward extend full-damage shooting range by 1 hex, up to 11 hexes. Expert Archery also makes ranged attacks inflict Basic Forgetfulness on the target. With Artillery, Ballista and Cannon can receive matching Archery bonuses based on both skill levels.",
+  "description": "Reworks the **Archery** skill for the New Ranged package.\n\n## Skill Changes\n\n* **Basic Archery** — increases damage dealt by ranged units by 15% and increases their maximum ammo by 1.\n* **Advanced Archery** — increases damage dealt by ranged units by 25%, increases their maximum ammo by 2, and extends their full-damage shooting range by 1 hex, up to 11 hexes.\n* **Expert Archery** — increases damage dealt by ranged units by 50%, increases their maximum ammo by 3, extends their full-damage shooting range by 1 hex, up to 11 hexes, and makes their ranged attacks apply **Basic Forgetfulness** to the target.\n\n## Artillery Synergy\n\nWith **Artillery**, **Ballista** and **Cannon** can receive matching **Archery** bonuses based on both skill levels.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
   "depends": [
     "hota",
@@ -18,5 +18,12 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ],
+    "name": "Łucznictwo",
+    "description": "Przebudowuje umiejętność **Łucznictwo** dla pakietu New Ranged.\n\n## Zmiany umiejętności\n\n* **Podstawowe Łucznictwo** — zwiększa obrażenia zadawane przez jednostki strzelające o 15% i zwiększa ich maksymalną liczbę strzałów o 1.\n* **Zaawansowane Łucznictwo** — zwiększa obrażenia zadawane przez jednostki strzelające o 25%, zwiększa ich maksymalną liczbę strzałów o 2 i zwiększa zasięg strzału bez kary za odległość o 1 heks, maksymalnie do 11 heksów.\n* **Eksperckie Łucznictwo** — zwiększa obrażenia zadawane przez jednostki strzelające o 50%, zwiększa ich maksymalną liczbę strzałów o 3, zwiększa zasięg strzału bez kary za odległość o 1 heks, maksymalnie do 11 heksów, oraz sprawia, że ich ataki dystansowe nakładają na cel **Podstawowe Zapomnienie**.\n\n## Synergia z Artylerią\n\nZ umiejętnością **Artyleria**, **Balista** i **Działo** mogą otrzymać odpowiadające premie **Łucznictwa** zależne od poziomu obu umiejętności."
   }
 }

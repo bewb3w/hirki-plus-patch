@@ -1,0 +1,34 @@
+{
+	"name": "Mermaids - Oceanid's Call",
+	"description": "Preserves the normal **Mermaids** luck reward and adds an additional creature upgrade reward.\n\nWhen a hero visits **Mermaids**, the object still grants its normal **+1 Luck** bonus for the next battle. In addition, if the hero has **Nymphs**, the mermaids can answer the call of their kin and transform those units into **Oceanids**.\n\n## Oceanid's Call\n\n* **Nymphs** are transformed into **Oceanids**.\n* Heroes without Nymphs receive only the normal Mermaids luck reward.\n\n## Visit and Luck Rules\n\nThe transformation only happens when **Mermaids** can actually bless the hero with their luck effect. If the hero already has the active Mermaids bonus, the object remains unavailable until that bonus expires.\n\nThis keeps the free transformation tied to real use of the Mermaids' blessing and prevents repeated upgrades without first using the received luck.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota",
+		"hota.cove"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Syreny — Zew Okeanid",
+		"description": "Zachowuje normalną nagrodę **Syren** do szczęścia i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater odwiedza **Syreny**, obiekt nadal przyznaje normalny bonus **+1 do szczęścia** w następnej bitwie. Dodatkowo, jeśli bohater ma **Nereidy**, syreny mogą odpowiedzieć na zew swoich morskich pobratymczyń i przemienić je w **Okeanidy**.\n\n## Zew Okeanid\n\n* **Nereidy** są przemieniane w **Okeanidy**.\n* Bohaterowie bez Nereid otrzymują tylko normalną nagrodę Syren do szczęścia.\n\n## Zasady wizyty i szczęścia\n\nPrzemiana następuje tylko wtedy, gdy **Syreny** mogą faktycznie obdarzyć bohatera swoim błogosławieństwem szczęścia. Jeśli bohater ma już aktywny bonus Syren, obiekt pozostaje niedostępny do czasu wygaśnięcia tego bonusu.\n\nDzięki temu darmowa przemiana jest powiązana z realnym użyciem błogosławieństwa Syren i zapobiega powtarzaniu darmowych ulepszeń bez wcześniejszego wykorzystania otrzymanego szczęścia.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/MermaidsOceanidsCall.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Pillar of Fire - Efreet Ascension",
+	"description": "Preserves the normal **Pillar of Fire** reveal effect and adds an additional creature upgrade reward.\n\nWhen a hero visits a **Pillar of Fire**, the object still reveals nearby terrain as usual. In addition, if the hero has **Efreets**, the fire of the pillar can elevate them into **Efreet Sultans**.\n\n## Efreet Ascension\n\n* **Efreets** are transformed into **Efreet Sultans**.\n* Heroes without Efreets receive only the normal Pillar of Fire reveal effect.\n\n## Unlimited Visit Rules\n\nThe **Pillar of Fire** keeps its original unlimited visit behavior. The ascension can therefore happen again if a hero later brings new Efreets to the object.\n\nThis follows the object's native behavior instead of replacing it with an artificial one-time limit, while still requiring actual Efreets for every free upgrade.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Wieża ognia — Sułtańskie wyniesienie",
+		"description": "Zachowuje normalny efekt odsłaniania terenu przez **Wieżę ognia** i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater odwiedza **Wieżę ognia**, obiekt nadal odsłania pobliski teren jak zwykle. Dodatkowo, jeśli bohater ma **Ifryty**, ogień wieży może wynieść je do rangi **Sułtańskich Ifrytów**.\n\n## Sułtańskie wyniesienie\n\n* **Ifryty** są przemieniane w **Sułtańskie Ifryty**.\n* Bohaterowie bez Ifrytów otrzymują tylko normalny efekt odsłaniania terenu przez Wieżę ognia.\n\n## Zasady nieograniczonych wizyt\n\n**Wieża ognia** zachowuje swoje oryginalne zachowanie nieograniczonych wizyt. Wyniesienie może więc nastąpić ponownie, jeśli bohater później przyprowadzi do obiektu nowe Ifryty.\n\nDzięki temu obiekt działa zgodnie ze swoim natywnym charakterem, bez sztucznego ograniczenia do jednej wizyty, ale każde darmowe ulepszenie nadal wymaga faktycznej obecności Ifrytów.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/PillarOfFireEfreetAscension.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

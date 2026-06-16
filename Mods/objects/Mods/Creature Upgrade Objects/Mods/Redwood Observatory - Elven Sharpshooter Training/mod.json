@@ -1,0 +1,33 @@
+{
+	"name": "Redwood Observatory - Elven Sharpshooter Training",
+	"description": "Preserves the normal **Redwood Observatory** terrain reveal effect and adds a one-time elven creature upgrade reward.\n\nWhen a hero visits a **Redwood Observatory**, the object still reveals the surrounding lands. In addition, the observatory can train elven shooters once per object. After the training has been used, later visits continue to reveal terrain but no longer grant additional upgrades.\n\n## Elven Sharpshooter Training\n\n* **Grand Elves** are transformed into **Sharpshooters**.\n* **Wood Elves** are transformed into **Grand Elves**.\n* If the hero has both Wood Elves and Grand Elves, only the stronger upgrade is applied: **Grand Elves -> Sharpshooters**.\n\n## Visit Rules\n\nThe upgrade reward is available only once per Redwood Observatory. Heroes without eligible elven units still use the observatory normally and reveal nearby terrain without consuming the one-time training reward. Once the upgrade reward is used, the observatory remains useful as a normal reveal object on later visits.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Obserwatorium — Szkolenie elfickich strzelców",
+		"description": "Zachowuje normalny efekt odsłaniania terenu przez **Obserwatorium** i dodaje jednorazową nagrodę ulepszenia elfickich jednostek.\n\nGdy bohater odwiedza **Obserwatorium**, obiekt nadal odsłania okoliczne ziemie. Dodatkowo obserwatorium może raz na obiekt wyszkolić elfickich strzelców. Po wykorzystaniu szkolenia późniejsze wizyty nadal odsłaniają teren, ale nie przyznają już kolejnych ulepszeń.\n\n## Szkolenie elfickich strzelców\n\n* **Wysokie Elfy** są przemieniane w **Strzelców**.\n* **Elfy** są przemieniane w **Wysokie Elfy**.\n* Jeśli bohater ma jednocześnie Elfy i Wysokie Elfy, działa tylko silniejsze ulepszenie: **Wysokie Elfy -> Strzelcy**.\n\n## Zasady wizyty\n\nNagroda ulepszenia jest dostępna tylko raz dla danego Obserwatorium. Bohaterowie bez odpowiednich elfickich jednostek nadal korzystają z obserwatorium normalnie i odsłaniają pobliski teren bez zużywania jednorazowego szkolenia. Po wykorzystaniu nagrody z ulepszeniem obserwatorium pozostaje użyteczne jako normalny obiekt odsłaniający teren przy późniejszych wizytach.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/RedwoodObservatoryElvenSharpshooterTraining.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

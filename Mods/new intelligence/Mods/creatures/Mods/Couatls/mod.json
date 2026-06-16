@@ -2,7 +2,7 @@
   "name": "Couatls",
   "description": "A support module for Couatls and Crimson Couatls designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Couatl and Crimson Couatl stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Couatls provide strong early support with a hard cap, while Crimson Couatls start stronger and gain major late scaling from very large stacks. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Couatl** — requires Intelligence and at least 1 Couatl. Couatl support is capped at 20 Couatls.\n  * **Basic Intelligence**: 1 or more Couatls grant 8 **total combat mana**; 6 grant 14; 12 grant 18; 20 grant 24.\n  * **Advanced Intelligence**: 1 or more Couatls grant 12 **total combat mana**; 6 grant 21; 12 grant 27; 20 grant 36.\n  * **Expert Intelligence**: 1 or more Couatls grant 16 **total combat mana**; 6 grant 28; 12 grant 36; 20 grant 48.\n\n* **Crimson Couatl** — requires Intelligence and at least 1 Crimson Couatl. Crimson Couatls keep scaling after 40.\n  * **Basic Intelligence**: 1+ Crimson Couatls grant 10 **total combat mana**; 5 grant 18; 10 grant 24; 18 grant 30; 30 grant 35; 40 grant 40.\n  * **Advanced Intelligence**: 1 or more Crimson Couatls grant 15 **total combat mana**; 5 grant 27; 10 grant 36; 18 grant 45; 30 grant 50; 40 grant 55.\n  * **Expert Intelligence**: 1 or more Crimson Couatls grant 20 **total combat mana**; 5 grant 36; 10 grant 48; 18 grant 60; 30 grant 65; 40 grant 70.\n  * **Late scaling**: at 40+ Crimson Couatls, each additional stack unit adds 5 more **total combat mana**.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -15,6 +15,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Koatle i Karmazynowe Koatle",
+    "description": "Moduł wsparcia dla **Koatli** i **Karmazynowych Koatli**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Koatli** i **Karmazynowych Koatli** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. Obie jednostki zaczynają wspierać już od 1 jednostki w oddziale. **Koatle** zapewniają mocne wczesne wsparcie z twardym limitem przy 20 jednostkach, a **Karmazynowe Koatle** zaczynają mocniej i zyskują duże późne skalowanie z bardzo dużych oddziałów. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez daną linię jednostek na danym progu.\n\n## Wsparcie many bojowej\n\n* **Koatl** — wymaga Inteligencji i co najmniej 1 Koatla. Wsparcie Koatli jest ograniczone do 20 Koatli.\n  * **Podstawowa Inteligencja**: 1 lub więcej Koatli daje 8 punktów **łącznej many bojowej**; 6 daje 14; 12 daje 18; 20 daje 24.\n  * **Zaawansowana Inteligencja**: 1 lub więcej Koatli daje 12 punktów **łącznej many bojowej**; 6 daje 21; 12 daje 27; 20 daje 36.\n  * **Ekspercka Inteligencja**: 1 lub więcej Koatli daje 16 punktów **łącznej many bojowej**; 6 daje 28; 12 daje 36; 20 daje 48.\n\n* **Karmazynowy Koatl** — wymaga Inteligencji i co najmniej 1 Karmazynowego Koatla. Karmazynowe Koatle skalują się dalej po osiągnięciu 40 jednostek.\n  * **Podstawowa Inteligencja**: 1 lub więcej Karmazynowych Koatli daje 10 punktów **łącznej many bojowej**; 5 daje 18; 10 daje 24; 18 daje 30; 30 daje 35; 40 daje 40.\n  * **Zaawansowana Inteligencja**: 1 lub więcej Karmazynowych Koatli daje 15 punktów **łącznej many bojowej**; 5 daje 27; 10 daje 36; 18 daje 45; 30 daje 50; 40 daje 55.\n  * **Ekspercka Inteligencja**: 1 lub więcej Karmazynowych Koatli daje 20 punktów **łącznej many bojowej**; 5 daje 36; 10 daje 48; 18 daje 60; 30 daje 65; 40 daje 70.\n  * **Późne skalowanie**: przy 40+ Karmazynowych Koatli każda kolejna jednostka w oddziale dodaje jeszcze 5 punktów **łącznej many bojowej**.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

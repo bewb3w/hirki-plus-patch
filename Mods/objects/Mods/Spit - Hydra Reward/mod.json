@@ -1,0 +1,23 @@
+{
+	"name": "Spit - Hydra Reward",
+	"description": "Spit becomes a Fortress-flavored creature bank that rewards Hydras instead of gold.\n\n## Reward Changes\n\n* **Reward type** — Spit now rewards **Hydras** instead of gold.\n* **Reward scaling** — stronger Spit variants reward 1, 2, 3, or 4 Hydras.\n* **Guards** — Spit keeps its Basilisk guards, with four guard stacks scaling by object strength.\n* **Scope** — this module only changes Spit rewards and keeps the original visuals, layout, terrain placement, and object behavior.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota",
+		"hota.mapobjects"
+	],
+	"objects": [
+		"config/objects/Spit.json"
+	],
+	"polish": {
+		"name": "Barłóg — Nagroda Hydr",
+		"description": "Barłóg staje się bankiem stworzeń o klimacie **Fortecy** i daje **Hydry** zamiast złota.\n\n## Zmiany nagród\n\n* **Typ nagrody** — **Barłóg** daje teraz **Hydry** zamiast złota.\n* **Skalowanie nagrody** — silniejsze warianty **Barłogu** dają 1, 2, 3 albo 4 **Hydry**.\n* **Strażnicy** — **Barłóg** zachowuje **Bazyliszki** jako strażników, w czterech oddziałach skalujących się z siłą obiektu.\n* **Zakres** — ten moduł zmienia tylko nagrody **Barłogu** i zachowuje oryginalną grafikę, układ, teren występowania oraz zachowanie obiektu."
+	},
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

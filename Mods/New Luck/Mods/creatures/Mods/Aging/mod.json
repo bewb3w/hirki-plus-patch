@@ -1,8 +1,12 @@
 {
   "name": "Aging Luck Scaling",
   "description": "Adds Luck-based scaling to the Aging ability of Bone Dragons and Ghost Dragons.\n\nThis module gives **Bone Dragons** a new chance to trigger **Aging** when they have positive Luck, while **Ghost Dragons** keep their existing Aging ability and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Bone Dragon** — gains a chance to trigger **Aging** only with positive Luck.\n  * **+1 Luck**: 6% Aging chance.\n  * **+2 Luck**: 13% Aging chance.\n  * **+3 or higher Luck**: 20% Aging chance.\n\n* **Ghost Dragon** — keeps its existing Aging ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Aging chance is reduced by 10%.\n  * **-2 Luck**: Aging chance is reduced by 7%.\n  * **-1 Luck**: Aging chance is reduced by 3%.\n  * **+1 Luck**: Aging chance is increased by an additional 10%.\n  * **+2 Luck**: Aging chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Aging chance is increased by an additional 30%.",
+  "polish": {
+    "name": "Postarzanie — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do zdolności **Postarzanie** u **Kościanych smoków** i **Upiornych smoków**.\n\nTen moduł daje **Kościanym smokom** nową szansę na wywołanie **Postarzania**, ale tylko przy dodatnim szczęściu. **Upiorne smoki** zachowują swoją istniejącą zdolność **Postarzania**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Kościany smok** — zyskuje szansę na wywołanie **Postarzania** tylko przy dodatnim szczęściu.\n  * **+1 szczęścia**: 6% szansy na Postarzanie.\n  * **+2 szczęścia**: 13% szansy na Postarzanie.\n  * **+3 lub więcej szczęścia**: 20% szansy na Postarzanie.\n\n* **Upiorny smok** — zachowuje swoją istniejącą zdolność **Postarzania**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Postarzanie jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa na Postarzanie jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa na Postarzanie jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa na Postarzanie jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa na Postarzanie jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa na Postarzanie jest zwiększona o dodatkowe 30%."
+  },
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"

@@ -1,7 +1,7 @@
 {
 	"core:navigation": {
 		"basic": {
-			"description": "{Basic Navigation}\n\nBasic Navigation increases the hero's movement over water by 50% and allows boarding and disembarking without ending the turn, granting 100 movement points upon landing.",
+			"description": "{Basic Navigation}\n\nBasic Navigation increases the hero's movement over water by 50%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
 			"effects": {
 				"boarding": {
 					"type": "FREE_SHIP_BOARDING",
@@ -11,7 +11,7 @@
 			}
 		},
 		"advanced": {
-			"description": "{Advanced Navigation}\n\nAdvanced Navigation increases the hero's movement over water by 100% and allows boarding and disembarking without ending the turn, granting 300 movement points upon landing.",
+			"description": "{Advanced Navigation}\n\nAdvanced Navigation increases the hero's movement over water by 100%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
 			"effects": {
 				"boarding": {
 					"type": "FREE_SHIP_BOARDING",
@@ -21,7 +21,7 @@
 			}
 		},
 		"expert": {
-			"description": "{Expert Navigation}\n\nExpert Navigation increases the hero's movement over water by 150% and allows boarding and disembarking without ending the turn, granting 600 movement points upon landing.",
+			"description": "{Expert Navigation}\n\nExpert Navigation increases the hero's movement over water by 150%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
 			"effects": {
 				"boarding": {
 					"type": "FREE_SHIP_BOARDING",

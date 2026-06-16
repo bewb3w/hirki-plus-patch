@@ -2,7 +2,7 @@
   "name": "Greater Basilisk",
   "description": "A support module for Greater Basilisks designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Greater Basilisk stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Greater Basilisks gain an additional mystical support role, extending their petrifying magical nature beyond their normal combat abilities. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Greater Basilisk** — requires Intelligence and at least 3 Greater Basilisks.\n  * **Basic Intelligence**: 3 or more Greater Basilisks grant 6 **total combat mana**; 10 grant 12; 20 grant 15; 30 grant 18.\n  * **Advanced Intelligence**: 3 or more Greater Basilisks grant 9 **total combat mana**; 10 grant 18; 20 grant 23; 30 grant 28.\n  * **Expert Intelligence**: 3 or more Greater Basilisks grant 14 **total combat mana**; 10 grant 28; 20 grant 35; 30 grant 42.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -10,6 +10,13 @@
   "creatures": [
     "config/creatures/greaterBasilisk.json"
   ],
+  "polish": {
+    "name": "Bazyliszki większe",
+    "description": "Moduł wsparcia dla **Bazyliszków większych**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Bazyliszków większych** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. Bazyliszki większe zyskują dodatkową mistyczną rolę wsparcia, rozwijając swoją magiczną naturę związaną ze skamienieniem poza standardowymi zdolnościami bojowymi. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez tę jednostkę na danym progu.\n\n## Wsparcie many bojowej\n\n* **Bazyliszek większy** — wymaga Inteligencji i co najmniej 3 Bazyliszków większych.\n  * **Podstawowa Inteligencja**: 3 lub więcej Bazyliszków większych daje 6 punktów **łącznej many bojowej**; 10 daje 12; 20 daje 15; 30 daje 18.\n  * **Zaawansowana Inteligencja**: 3 lub więcej Bazyliszków większych daje 9 punktów **łącznej many bojowej**; 10 daje 18; 20 daje 23; 30 daje 28.\n  * **Ekspercka Inteligencja**: 3 lub więcej Bazyliszków większych daje 14 punktów **łącznej many bojowej**; 10 daje 28; 20 daje 35; 30 daje 42.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

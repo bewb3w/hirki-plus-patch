@@ -2,7 +2,7 @@
   "name": "Priests",
   "description": "A support module for Monks and Zealots designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Monk and Zealot stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Zealots provide stronger scaling and earlier support, making the upgrade more meaningful beyond its normal combat improvements. Listed values are total combat mana bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Monk** — requires Intelligence and at least 4 Monks.\n  * **Basic Intelligence**: 4 or more Monks grant 4 **total combat mana**; 10 grant 9; 20 grant 14; 30 grant 20.\n  * **Advanced Intelligence**: 4 or more Monks grant 7 **total combat mana**; 10 grant 16; 20 grant 26; 30 grant 36.\n  * **Expert Intelligence**: 4 or more Monks grant 11 **total combat mana**; 10 grant 26; 20 grant 46; 30 grant 71.\n\n* **Zealot** — requires Intelligence and at least 2 Zealots.\n  * **Basic Intelligence**: 2 or more Zealots grant 4 **total combat mana**; 10 grant 10; 20 grant 19; 30 grant 32.\n  * **Advanced Intelligence**: 2 or more Zealots grant 8 **total combat mana**; 10 grant 22; 20 grant 42; 30 grant 69.\n  * **Expert Intelligence**: 2 or more Zealots grant 13 **total combat mana**; 10 grant 37; 20 grant 72; 30 grant 117.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,6 +14,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Kler",
+    "description": "Moduł wsparcia dla **Mnichów** i **Kapłanów**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Mnichów** i **Kapłanów** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. **Kapłani** zaczynają wspierać wcześniej i skalują się mocniej, dzięki czemu ulepszenie jest bardziej znaczące także poza zwykłymi usprawnieniami bojowymi. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez daną linię jednostek na danym progu.\n\n## Wsparcie many bojowej\n\n* **Mnich** — wymaga Inteligencji i co najmniej 4 Mnichów.\n  * **Podstawowa Inteligencja**: 4 lub więcej Mnichów daje 4 punkty **łącznej many bojowej**; 10 daje 9; 20 daje 14; 30 daje 20.\n  * **Zaawansowana Inteligencja**: 4 lub więcej Mnichów daje 7 punktów **łącznej many bojowej**; 10 daje 16; 20 daje 26; 30 daje 36.\n  * **Ekspercka Inteligencja**: 4 lub więcej Mnichów daje 11 punktów **łącznej many bojowej**; 10 daje 26; 20 daje 46; 30 daje 71.\n\n* **Kapłan** — wymaga Inteligencji i co najmniej 2 Kapłanów.\n  * **Podstawowa Inteligencja**: 2 lub więcej Kapłanów daje 4 punkty **łącznej many bojowej**; 10 daje 10; 20 daje 19; 30 daje 32.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Kapłanów daje 8 punktów **łącznej many bojowej**; 10 daje 22; 20 daje 42; 30 daje 69.\n  * **Ekspercka Inteligencja**: 2 lub więcej Kapłanów daje 13 punktów **łącznej many bojowej**; 10 daje 37; 20 daje 72; 30 daje 117.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

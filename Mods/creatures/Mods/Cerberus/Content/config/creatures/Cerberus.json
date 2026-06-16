@@ -46,7 +46,7 @@
         "subtype": "spell.cerberusThreefoldBite",
         "val": 1,
         "icon": "threefold_bite_icon.png",
-        "description": "{Threefold Bite}\nTriple-damage single strike.\nTarget can retaliate.\nCerberus cannot retaliate.",
+        "description": "{Threefold Bite}\n1 target, triple damage.\nTarget can retaliate.\nCerberus cannot retaliate.",
         "limiters": [
           "noneOf",
           {

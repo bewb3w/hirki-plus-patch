@@ -1,52 +1,52 @@
 {
-	"core:scouting": {
-		"base": {
-			"effects": {
-				"main": {
-					"type": "SIGHT_RADIUS",
-					"valueType": "BASE_NUMBER"
-				},
-				"thieves_guild": {
-					"type": "THIEVES_GUILD_ACCESS",
-					"propagator": "TEAM"
-				},
-				"additional_thieves_guild": {
-					"type": "THIEVES_GUILD_ACCESS"
-				}
-			}
-		},
-		"basic": {
-			"description": "{Basic Scouting}\n\nBasic Scouting increases the hero's scouting radius by 1 tile and grants your player and allied players access to information from 1 level of Thieves' Guild.",
-			"effects": {
-				"main": {
-					"val": 1
-				},
-				"thieves_guild": {
-					"val": 1
-				}
-			}
-		},
-		"advanced": {
-			"description": "{Advanced Scouting}\n\nAdvanced Scouting increases the hero's scouting radius by 2 tiles and grants your player and allied players access to information from 2 levels of Thieves' Guild.",
-			"effects": {
-				"main": {
-					"val": 3
-				},
-				"thieves_guild": {
-					"val": 2
-				}
-			}
-		},
-		"expert": {
-			"description": "{Expert Scouting}\n\nExpert Scouting increases the hero's scouting radius by 3 tiles and grants your player and allied players access to information from 3 levels of Thieves' Guild.",
-			"effects": {
-				"main": {
-					"val": 5
-				},
-				"thieves_guild": {
-					"val": 3
-				}
-			}
-		}
-	}
+  "core:scouting": {
+    "base": {
+      "effects": {
+        "main": {
+          "type": "SIGHT_RADIUS",
+          "valueType": "BASE_NUMBER"
+        },
+        "thieves_guild": {
+          "type": "THIEVES_GUILD_ACCESS",
+          "propagator": "TEAM"
+        },
+        "additional_thieves_guild": {
+          "type": "THIEVES_GUILD_ACCESS"
+        }
+      }
+    },
+    "basic": {
+      "description": "{Basic Scouting}\n\nBasic Scouting increases the hero's scouting radius by 1 tile.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 1 additional Tavern.",
+      "effects": {
+        "main": {
+          "val": 1
+        },
+        "thieves_guild": {
+          "val": 1
+        }
+      }
+    },
+    "advanced": {
+      "description": "{Advanced Scouting}\n\nAdvanced Scouting increases the hero's scouting radius by 2 tiles.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 2 additional Taverns.",
+      "effects": {
+        "main": {
+          "val": 3
+        },
+        "thieves_guild": {
+          "val": 2
+        }
+      }
+    },
+    "expert": {
+      "description": "{Expert Scouting}\n\nExpert Scouting increases the hero's scouting radius by 3 tiles.\n\nIt reveals additional information about the foes in the tavern for the hero's owner and allies, as if the team had 3 additional Taverns.",
+      "effects": {
+        "main": {
+          "val": 5
+        },
+        "thieves_guild": {
+          "val": 3
+        }
+      }
+    }
+  }
 }

@@ -2,7 +2,7 @@
   "name": "Liches",
   "description": "A support mod for Liches and Power Liches designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Lich and Power Lich stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Power Liches start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Lich** — requires Intelligence and at least 3 Liches.\n  * **Basic Intelligence**: 3 or more Liches grant 3 **total combat mana**; 10 grant 8; 20 grant 13; 30 grant 18.\n  * **Advanced Intelligence**: 3 or more Liches grant 5 **total combat mana**; 10 grant 12; 20 grant 20; 30 grant 28.\n  * **Expert Intelligence**: 3 or more Liches grant 8 **total combat mana**; 10 grant 19; 20 grant 31; 30 grant 42.\n\n* **Power Lich** — requires Intelligence and at least 2 Power Liches.\n  * **Basic Intelligence**: 2 or more Power Liches grant 2 **total combat mana**; 10 grant 8; 20 grant 16; 30 grant 27.\n  * **Advanced Intelligence**: 2+ Power Liches grant 5 **total combat mana**; 10 grant 15; 20 grant 27; 30 grant 42.\n  * **Expert Intelligence**: 2+ Power Liches grant 10 **total combat mana**; 10 grant 25; 20 grant 42; 30 grant 62.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -11,6 +11,13 @@
     "config/creatures/lich.json",
     "config/creatures/powerLich.json"
   ],
+  "polish": {
+    "name": "Lisze i Arcylisze",
+    "description": "Moduł wsparcia dla **Liszy** i **Arcyliszy**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Liszy** i **Arcyliszy** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. **Arcylisze** zaczynają wspierać wcześniej i skalują się mocniej, dzięki czemu ulepszenie jest bardziej znaczące także poza zwykłymi usprawnieniami bojowymi. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez daną linię jednostek na danym progu.\n\n## Wsparcie many bojowej\n\n* **Lisz** — wymaga Inteligencji i co najmniej 3 Liszy.\n  * **Podstawowa Inteligencja**: 3 lub więcej Liszy daje 3 punkty **łącznej many bojowej**; 10 daje 8; 20 daje 13; 30 daje 18.\n  * **Zaawansowana Inteligencja**: 3 lub więcej Liszy daje 5 punktów **łącznej many bojowej**; 10 daje 12; 20 daje 20; 30 daje 28.\n  * **Ekspercka Inteligencja**: 3 lub więcej Liszy daje 8 punktów **łącznej many bojowej**; 10 daje 19; 20 daje 31; 30 daje 42.\n\n* **Arcylisz** — wymaga Inteligencji i co najmniej 2 Arcyliszy.\n  * **Podstawowa Inteligencja**: 2 lub więcej Arcyliszy daje 2 punkty **łącznej many bojowej**; 10 daje 8; 20 daje 16; 30 daje 27.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Arcyliszy daje 5 punktów **łącznej many bojowej**; 10 daje 15; 20 daje 27; 30 daje 42.\n  * **Ekspercka Inteligencja**: 2 lub więcej Arcyliszy daje 10 punktów **łącznej many bojowej**; 10 daje 25; 20 daje 42; 30 daje 62.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

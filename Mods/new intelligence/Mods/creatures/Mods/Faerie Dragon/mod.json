@@ -2,7 +2,7 @@
   "name": "Faerie Dragon",
   "description": "A support module for Faerie Dragons designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Faerie Dragon stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Faerie Dragons reinforce their neutral spellcaster identity with uncapped magical support, starting from a stack of 1 creature and gaining more support every 2 Faerie Dragons. **Total combat mana** values below are shown at selected stack sizes.\n\n## Combat Mana Support\n\n* **Faerie Dragon** — requires Intelligence and at least 1 Faerie Dragon. Support starts from 1 creature and scales every 2 Faerie Dragons without a hard cap.\n  * **Basic Intelligence**: 1+ Faerie Dragons grant 5 **total combat mana**; 3 grant 10; 5 grant 15; 10 grant 25; 20 grant 50; 40 grant 100.\n  * **Advanced Intelligence**: 1 or more Faerie Dragons grant 10 **total combat mana**; 3 grant 15; 5 grant 20; 10 grant 30; 20 grant 55; 40 grant 105.\n  * **Expert Intelligence**: 1+ Faerie Dragons grant 15 **total combat mana**; 3 grant 25; 5 grant 35; 10 grant 55; 20 grant 105; 40 grant 205.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -10,6 +10,13 @@
   "creatures": [
     "config/creatures/faerieDragon.json"
   ],
+  "polish": {
+    "name": "Czarodziejskie smoki",
+    "description": "Moduł wsparcia dla **Czarodziejskich smoków**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Czarodziejskich smoków** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej liczebności tych jednostek w armii bohatera. Czarodziejskie smoki wzmacniają swoją neutralną tożsamość potężnych magicznych istot, zyskując otwarte skalowanie wsparcia już od pojedynczego smoka. Wsparcie zaczyna się od 1 jednostki i rośnie co 2 Czarodziejskie smoki bez twardego limitu. Podane wartości oznaczają **łączną premię many bojowej** na wybranych progach liczebności.\n\n## Wsparcie many bojowej\n\n* **Czarodziejski smok** — wymaga Inteligencji i co najmniej 1 Czarodziejskiego smoka. Wsparcie zaczyna się od 1 jednostki i skaluje się co 2 Czarodziejskie smoki bez twardego limitu.\n  * **Podstawowa Inteligencja**: 1 lub więcej Czarodziejskich smoków daje 5 punktów **łącznej many bojowej**; 3 daje 10; 5 daje 15; 10 daje 25; 20 daje 50; 40 daje 100.\n  * **Zaawansowana Inteligencja**: 1 lub więcej Czarodziejskich smoków daje 10 punktów **łącznej many bojowej**; 3 daje 15; 5 daje 20; 10 daje 30; 20 daje 55; 40 daje 105.\n  * **Ekspercka Inteligencja**: 1 lub więcej Czarodziejskich smoków daje 15 punktów **łącznej many bojowej**; 3 daje 25; 5 daje 35; 10 daje 55; 20 daje 105; 40 daje 205.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

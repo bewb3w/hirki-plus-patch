@@ -1,0 +1,33 @@
+{
+	"name": "Cover of Darkness - Embrace of Darkness",
+	"description": "Preserves the normal **Cover of Darkness** shroud effect and adds an additional creature upgrade reward.\n\nWhen a hero visits a **Cover of Darkness**, the object still hides the surrounding lands as usual. In addition, if the hero has **Black Knights**, the darkness can embrace those units and transform them into **Dread Knights**.\n\n## Embrace of Darkness\n\n* **Black Knights** are transformed into **Dread Knights**.\n* Heroes without Black Knights receive only the normal Cover of Darkness effect.\n\nThis keeps the object's original map-control role while giving Necropolis Black Knights a thematic opportunity to fully surrender to darkness on the adventure map. The object remains repeatable, matching the original unlimited visit behavior of Cover of Darkness.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Całun ciemności — Objęcia Ciemności",
+		"description": "Zachowuje normalny efekt spowijania mapy **Całunu ciemności** i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater odwiedza **Całun ciemności**, obiekt nadal ukrywa okoliczne ziemie jak zwykle. Dodatkowo, jeśli bohater ma **Czarnych Rycerzy**, ciemność może objąć te jednostki i przemienić je w **Upiornych Rycerzy**.\n\n## Objęcia Ciemności\n\n* **Czarni Rycerze** są przemieniani w **Upiornych Rycerzy**.\n* Bohaterowie bez Czarnych Rycerzy otrzymują tylko normalny efekt Całunu ciemności.\n\nDzięki temu obiekt zachowuje swoją pierwotną rolę kontroli mapy, a Czarni Rycerze Nekropolii otrzymują tematyczną okazję, by całkowicie oddać się ciemności na mapie przygody. Obiekt pozostaje powtarzalny, zgodnie z pierwotnym nielimitowanym trybem wizyt Całunu ciemności.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/CoverOfDarknessEmbraceOfDarkness.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

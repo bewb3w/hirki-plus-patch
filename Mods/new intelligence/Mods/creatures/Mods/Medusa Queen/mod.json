@@ -2,7 +2,7 @@
   "name": "Medusa Queen",
   "description": "A support module for Medusa Queens designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Medusa Queen stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Medusa Queens gain an additional mystical support role, extending their magical identity beyond their normal combat abilities. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Medusa Queen** — requires Intelligence and at least 2 Medusa Queens.\n  * **Basic Intelligence**: 2 or more Medusa Queens grant 4 **total combat mana**; 10 grant 8; 20 grant 13; 40 grant 18.\n  * **Advanced Intelligence**: 2+ Medusa Queens grant 7 **total combat mana**; 10 grant 14; 20 grant 22; 40 grant 30.\n  * **Expert Intelligence**: 2+ Medusa Queens grant 11 **total combat mana**; 10 grant 22; 20 grant 34; 40 grant 46.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -10,6 +10,13 @@
   "creatures": [
     "config/creatures/medusaQueen.json"
   ],
+  "polish": {
+    "name": "Meduzy królewskie",
+    "description": "Moduł wsparcia dla **Meduz królewskich**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Meduz królewskich** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej liczebności tych jednostek w armii bohatera. Meduzy królewskie zyskują dodatkową mistyczną rolę wsparcia, rozwijając swoją magiczną tożsamość poza standardową walką, strzelaniem i zdolnością zamiany w kamień. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez tę jednostkę na danym progu.\n\n## Wsparcie many bojowej\n\n* **Meduza królewska** — wymaga Inteligencji i co najmniej 2 Meduz królewskich.\n  * **Podstawowa Inteligencja**: 2 lub więcej Meduz królewskich daje 4 punkty **łącznej many bojowej**; 10 daje 8; 20 daje 13; 40 daje 18.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Meduz królewskich daje 7 punktów **łącznej many bojowej**; 10 daje 14; 20 daje 22; 40 daje 30.\n  * **Ekspercka Inteligencja**: 2 lub więcej Meduz królewskich daje 11 punktów **łącznej many bojowej**; 10 daje 22; 20 daje 34; 40 daje 46.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

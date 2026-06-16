@@ -1,0 +1,131 @@
+{
+	"core:magicSpring": {
+		"types": {
+			"magicSpring": {
+				"rewards": [
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							],
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "archMage"
+								},
+								{
+									"amount": 1,
+									"type": "core:ogre"
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"changeCreatures": {
+							"archMage": "enchanter",
+							"core:ogre": "core:ogreMage"
+						},
+						"message": "@hpp.objects.magicSpringArcaneTransmutation.archMageOgre"
+					},
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							],
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "archMage"
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"changeCreatures": {
+							"archMage": "enchanter"
+						},
+						"message": "@hpp.objects.magicSpringArcaneTransmutation.archMage"
+					},
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							],
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "mage"
+								},
+								{
+									"amount": 1,
+									"type": "core:ogre"
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"changeCreatures": {
+							"mage": "archMage",
+							"core:ogre": "core:ogreMage"
+						},
+						"message": "@hpp.objects.magicSpringArcaneTransmutation.mageOgre"
+					},
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							],
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "mage"
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"changeCreatures": {
+							"mage": "archMage"
+						},
+						"message": "@hpp.objects.magicSpringArcaneTransmutation.mage"
+					},
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							],
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "core:ogre"
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"changeCreatures": {
+							"core:ogre": "core:ogreMage"
+						},
+						"message": "@hpp.objects.magicSpringArcaneTransmutation.ogre"
+					},
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							]
+						},
+						"manaPercentage": 200,
+						"message": 74
+					}
+				]
+			}
+		}
+	}
+}

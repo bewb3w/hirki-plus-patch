@@ -2,7 +2,7 @@
   "name": "Enchanter",
   "description": "A support module for Enchanters designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Enchanter stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Enchanters reinforce their neutral spellcaster identity by providing strong magical support outside any specific town lineup. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Enchanter** — requires Intelligence and at least 2 Enchanters.\n  * **Basic Intelligence**: 2 or more Enchanters grant 4 **total combat mana**; 4 grant 8; 8 grant 13; 16 grant 18; 28 grant 22; 40 grant 26.\n  * **Advanced Intelligence**: 2 or more Enchanters grant 8 **total combat mana**; 4 grant 15; 8 grant 24; 16 grant 33; 28 grant 46; 40 grant 57.\n  * **Expert Intelligence**: 2 or more Enchanters grant 12 **total combat mana**; 4 grant 27; 8 grant 47; 16 grant 70; 28 grant 97; 40 grant 115.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -10,6 +10,13 @@
   "creatures": [
     "config/creatures/enchanter.json"
   ],
+  "polish": {
+    "name": "Czarodzieje",
+    "description": "Moduł wsparcia dla **Czarodziejów**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Czarodziejów** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej liczebności tych jednostek w armii bohatera. Czarodzieje wzmacniają swoją neutralną tożsamość magicznych wojowników, zapewniając silne wsparcie magiczne poza strukturą konkretnego miasta. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez tę jednostkę na danym progu.\n\n## Wsparcie many bojowej\n\n* **Czarodziej** — wymaga Inteligencji i co najmniej 2 Czarodziejów.\n  * **Podstawowa Inteligencja**: 2 lub więcej Czarodziejów daje 4 punkty **łącznej many bojowej**; 4 daje 8; 8 daje 13; 16 daje 18; 28 daje 22; 40 daje 26.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Czarodziejów daje 8 punktów **łącznej many bojowej**; 4 daje 15; 8 daje 24; 16 daje 33; 28 daje 46; 40 daje 57.\n  * **Ekspercka Inteligencja**: 2 lub więcej Czarodziejów daje 12 punktów **łącznej many bojowej**; 4 daje 27; 8 daje 47; 16 daje 70; 28 daje 97; 40 daje 115.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

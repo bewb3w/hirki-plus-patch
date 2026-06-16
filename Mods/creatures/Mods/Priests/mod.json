@@ -2,7 +2,7 @@
   "name": "Priests",
   "description": "Monk and Zealot gain restorative and support spellcasting.\n\n## Shared Features\n\n* **Cure targeting** — both units can cast **Cure** on other allied units, but not on their own stack.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n\n## Monk\n\n* **Spell level** — casts **Basic Cure**.\n* **Casts** — 1 cast at 4 or more units in the stack and 2 casts at 16 or more units in the stack.\n\n## Zealot\n\n* **Spell levels** — casts **Advanced Cure** and **Expert Bless**.\n* **Animation** — uses an unused original Heroes III animation from its original assets for the new spellcasting action.\n* **Shared casts** — 1 cast at 3 or more units in the stack, 2 casts at 12 or more units in the stack, and 3 casts at 24 or more units in the stack.\n* **Bless** — **Expert Bless** is a mass spell and affects all allied units.\n* **Bless duration** — the mass **Bless** effect starts at 3 turns, then increases to 4 turns at 8 or more Zealots in the stack, 5 turns at 16 or more Zealots in the stack, 6 turns at 24 or more Zealots in the stack, 7 turns at 36 or more Zealots in the stack, and 8 turns at 48 or more Zealots in the stack.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -15,5 +15,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Kler",
+    "description": "Rozwija **Mnichów** i **Kapłanów** z Zamku, wzmacniając ich rolę jako jednostek leczenia i wsparcia.\n\nObie jednostki zyskują możliwość rzucania **Uleczenia** na inne sojusznicze oddziały. Nie mogą rzucać tego czaru na własny oddział. Liczba użyć skaluje się z wielkością oddziału.\n\n## Wspólne cechy\n\n* **Czar:** Uleczenie\n* **Cel:** inne sojusznicze oddziały\n* **Ograniczenie:** brak możliwości rzucenia czaru na własny oddział\n* **Skalowanie:** liczba użyć zależy od liczby jednostek w oddziale\n\n## Mnich\n\n* **Poziom czaru:** rzuca Podstawowe Uleczenie\n* **Użycia:** 1 użycie przy 4 lub więcej jednostkach w oddziale i 2 użycia przy 16 lub więcej jednostkach\n\n## Kapłan\n\n* **Poziomy czarów:** rzuca Zaawansowane Uleczenie i Eksperckie Błogosławieństwo\n* **Wspólne użycia:** 1 użycie przy 3 lub więcej jednostkach w oddziale, 2 użycia przy 12 lub więcej jednostkach i 3 użycia przy 24 lub więcej jednostkach\n* **Błogosławieństwo:** Eksperckie Błogosławieństwo jest czarem masowym i działa na wszystkie sojusznicze oddziały\n* **Czas trwania Błogosławieństwa:** masowe Błogosławieństwo trwa początkowo 3 tury, potem 4 tury przy 8 lub więcej Kapłanach, 5 tur przy 16 lub więcej Kapłanach, 6 tur przy 24 lub więcej Kapłanach, 7 tur przy 36 lub więcej Kapłanach i 8 tur przy 48 lub więcej Kapłanach\n\n## Animacja\n\n* **Rzucanie czaru:** Kapłan używa niewykorzystanej animacji jednostki przygotowanej w oryginalnych zasobach gry."
   }
 }

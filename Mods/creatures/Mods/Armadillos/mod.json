@@ -2,7 +2,7 @@
   "name": "Armadillos",
   "description": "Armadillo and Bellwether Armadillo gain Stone Skin spellcasting.\n\n## Shared Features\n\n* **Spell** — both units cast **Stone Skin**.\n* **Targeting** — both units can cast **Stone Skin** on other allied units, but not on their own stack.\n* **Duration** — each **Stone Skin** effect applied by these units lasts 3 turns.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n\n## Armadillo\n\n* **Spell level** — casts **Basic Stone Skin**.\n* **Casts** — 1 cast at 8 or more units in the stack, 2 casts at 16 or more units in the stack, then +1 additional cast for every 50 units in the stack.\n\n## Bellwether Armadillo\n\n* **Spell level** — casts **Advanced Stone Skin**.\n* **Casts** — 1 cast at 6 or more units in the stack, 2 casts at 12 or more units in the stack, then +1 additional cast for every 50 units in the stack.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -16,5 +16,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Pancerniki",
+    "description": "Rozwija **Pancerniki** i **Pancerniki Alfa** jako defensywne jednostki wsparcia z Factory.\n\nObie jednostki zyskują możliwość rzucania **Kamiennej skóry** na inne sojusznicze oddziały. Nie mogą rzucać tego czaru na własny oddział. Efekt **Kamiennej skóry** rzuconej przez te jednostki trwa 3 tury, a liczba użyć skaluje się z wielkością oddziału.\n\n## Wspólne cechy\n\n* **Czar:** Kamienna skóra\n* **Cel:** inne sojusznicze oddziały\n* **Ograniczenie:** brak możliwości rzucenia czaru na własny oddział\n* **Czas trwania:** 3 tury\n* **Skalowanie:** liczba użyć zależy od liczby jednostek w oddziale\n\n## Pancernik\n\n* **Poziom czaru:** rzuca Podstawową Kamienną skórę\n* **Użycia:** 1 użycie przy 8 lub więcej jednostkach w oddziale, 2 użycia przy 16 lub więcej jednostkach, potem +1 dodatkowe użycie za każde 50 jednostek w oddziale\n\n## Pancernik Alfa\n\n* **Poziom czaru:** rzuca Zaawansowaną Kamienną skórę\n* **Użycia:** 1 użycie przy 6 lub więcej jednostkach w oddziale, 2 użycia przy 12 lub więcej jednostkach, potem +1 dodatkowe użycie za każde 50 jednostek w oddziale"
   }
 }

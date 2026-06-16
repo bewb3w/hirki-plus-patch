@@ -2,7 +2,7 @@
   "name": "Ogre Mage",
   "description": "A support module for Ogre Mages designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Ogre Mage stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Ogre Mages act as magical Stronghold support, giving the upgraded Ogre line an additional army-support role beyond its normal spellcasting identity. Listed values are **total combat mana** bonuses granted at each threshold.\n\n## Combat Mana Support\n\n* **Ogre Mage** — requires Intelligence and at least 2 Ogre Mages.\n  * **Basic Intelligence**: 2 or more Ogre Mages grant 5 **total combat mana**; 10 grant 10; 20 grant 15; 40 grant 20.\n  * **Advanced Intelligence**: 2 or more Ogre Mages grant 8 **total combat mana**; 10 grant 16; 20 grant 24; 40 grant 32.\n  * **Expert Intelligence**: 2 or more Ogre Mages grant 12 **total combat mana**; 10 grant 24; 20 grant 37; 40 grant 50.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -13,6 +13,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Ogry szamani",
+    "description": "Moduł wsparcia dla **Ogrów szamanów**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Ogrów szamanów** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. Ogry szamani pełnią rolę magicznego wsparcia Twierdzy, dając ulepszonej linii Ogrów dodatkową funkcję wspierania armii poza ich zwykłą tożsamością jednostek rzucających czary. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez tę jednostkę na danym progu.\n\n## Wsparcie many bojowej\n\n* **Ogr szaman** — wymaga Inteligencji i co najmniej 2 Ogrów szamanów.\n  * **Podstawowa Inteligencja**: 2 lub więcej Ogrów szamanów daje 5 punktów **łącznej many bojowej**; 10 daje 10; 20 daje 15; 40 daje 20.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Ogrów szamanów daje 8 punktów **łącznej many bojowej**; 10 daje 16; 20 daje 24; 40 daje 32.\n  * **Ekspercka Inteligencja**: 2 lub więcej Ogrów szamanów daje 12 punktów **łącznej many bojowej**; 10 daje 24; 20 daje 37; 40 daje 50.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

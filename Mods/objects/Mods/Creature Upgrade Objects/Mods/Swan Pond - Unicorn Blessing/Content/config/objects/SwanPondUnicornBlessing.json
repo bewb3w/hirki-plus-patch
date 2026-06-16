@@ -1,0 +1,47 @@
+{
+	"core:swanPond": {
+		"types": {
+			"swanPond": {
+				"selectMode": "selectFirst",
+				"visitMode": "bonus",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "unicorn"
+								}
+							]
+						},
+						"bonuses": [
+							{
+								"description": 67,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 2
+							}
+						],
+						"movePercentage": 0,
+						"changeCreatures": {
+							"unicorn": "warUnicorn"
+						},
+						"message": "@hpp.objects.swanPondUnicornBlessing.unicorn"
+					},
+					{
+						"bonuses": [
+							{
+								"description": 67,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 2
+							}
+						],
+						"message": 29,
+						"movePercentage": 0
+					}
+				]
+			}
+		}
+	}
+}

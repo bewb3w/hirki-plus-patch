@@ -1,8 +1,8 @@
 {
   "name": "Shooter Ammo",
-  "description": "Creates a fixed baseline for shooter ammo in the New Ranged package. Tier 1–3 base shooters usually have 4 shots, tier 4–6 base shooters usually have 5 shots, most upgrades gain +1 shot, Titan has 7 shots, and Ballista is reduced to 16 shots. Archery can increase total ammo pool during combat.",
+  "description": "Creates a fixed shooter ammo baseline for the New Ranged package.\n\nThis module standardizes the maximum ammo of ranged units so ammo becomes a real resource, and bonuses from Archery and the Ammo Cart matter more.\n\n## Ammo Baseline\n\n* **Tier 1–3 base shooters** — usually have 4 shots.\n* **Tier 4–6 base shooters** — usually have 5 shots.\n* **Most upgraded shooters** — gain +1 shot compared to their base version.\n* **Sea Dog** — has 6 shots.\n* **Titan** — has 7 shots.\n* **Ballista** — has reduced ammo, down to 16 shots.\n\n## System Interactions\n\n* **Archery** can increase the maximum ammo pool of ranged units during combat.\n* The New Ranged **Ammo Cart** acts as an additional ammo source instead of granting unlimited shots.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -18,5 +18,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Amunicja strzelców",
+    "description": "Tworzy stałą bazę amunicji dla jednostek strzelających w pakiecie New Ranged.\n\nTen moduł ujednolica maksymalną liczbę strzałów u strzelców, żeby amunicja była realnym zasobem, a premie z Łucznictwa i Wozu z amunicją miały większe znaczenie.\n\n## Baza amunicji\n\n* **Podstawowi strzelcy poziomów 1–3** — zwykle mają 4 strzały.\n* **Podstawowi strzelcy poziomów 4–6** — zwykle mają 5 strzałów.\n* **Większość ulepszonych strzelców** — zyskuje +1 strzał względem wersji podstawowej.\n* **Wilk morski** — ma 6 strzałów.\n* **Tytan** — ma 7 strzałów.\n* **Balista** — ma zmniejszoną amunicję do 16 strzałów.\n\n## Interakcje systemowe\n\n* **Łucznictwo** może zwiększać maksymalną pulę amunicji jednostek strzelających podczas walki.\n* **Wóz z amunicją** z pakietu New Ranged działa jako dodatkowe źródło amunicji, zamiast dawać nieskończoną liczbę strzałów."
   }
 }

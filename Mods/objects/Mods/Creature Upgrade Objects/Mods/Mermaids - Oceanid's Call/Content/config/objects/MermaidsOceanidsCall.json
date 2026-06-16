@@ -1,0 +1,45 @@
+{
+	"core:mermaids": {
+		"types": {
+			"mermaids": {
+				"selectMode": "selectFirst",
+				"visitMode": "bonus",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "hota.cove:nymph"
+								}
+							]
+						},
+						"bonuses": [
+							{
+								"description": 72,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 1
+							}
+						],
+						"changeCreatures": {
+							"hota.cove:nymph": "hota.cove:oceanid"
+						},
+						"message": "@hpp.objects.mermaidsOceanidsCall.nymph"
+					},
+					{
+						"bonuses": [
+							{
+								"description": 72,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 1
+							}
+						],
+						"message": 83
+					}
+				]
+			}
+		}
+	}
+}

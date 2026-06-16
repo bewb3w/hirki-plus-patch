@@ -28,7 +28,7 @@
     "canCastWithoutSkip": true,
     "levels": {
       "base": {
-        "description": "{Threefold Bite}\nCerberus prepares a focused strike.\nIts next melee attack hits only one target, can be retaliated, and deals triple damage.\nWhile active, Cerberus cannot retaliate.\n3 uses per combat.",
+        "description": "{Threefold Bite}\n\nCerberus focuses its strength into a threefold bite.\nOn its next melee attack, Cerberus hits only one target and deals triple damage.\nThe target can retaliate.\nWhile active, Cerberus cannot retaliate.\nActivation does not spend its action.\nAt least 3 uses per combat.",
         "cost": 0,
         "power": 1,
         "range": "0",

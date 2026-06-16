@@ -2,7 +2,7 @@
   "name": "Precision",
   "description": "Reworks Precision for the New Ranged package.\n\n## Spell Changes\n\n* **No Mastery / Basic Precision** — increases target allied shooter's Attack by +3 for ranged attacks only.\n* **Advanced Precision** — increases target allied shooter's Attack by +6 for ranged attacks only. **Additionally**, extends its full-damage shooting range by 1 hex, up to 11 hexes, and grants +1 Speed for spell duration.\n* **Expert Precision** — increases all allied shooters' Attack by +6 for ranged attacks only. **Additionally**, extends their full-damage shooting range by 2 hexes, up to 12 hexes, and grants +1 Speed for spell duration.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Spells",
   "depends": [
     "hota"
@@ -13,6 +13,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Precyzja",
+    "description": "Przebudowuje czar **Precyzja** dla pakietu New Ranged.\n\n## Zmiany czaru\n\n* **Brak biegłości / Podstawowa Precyzja** — zwiększa atak wybranego sojuszniczego strzelca o +3 tylko przy atakach dystansowych.\n* **Zaawansowana Precyzja** — zwiększa atak wybranego sojuszniczego strzelca o +6 tylko przy atakach dystansowych. **Dodatkowo** zwiększa jego zasięg strzału bez kary za odległość o 1 heks, maksymalnie do 11 heksów, oraz daje +1 do szybkości na czas działania czaru.\n* **Mistrzowska Precyzja** — zwiększa atak wszystkich sojuszniczych strzelców o +6 tylko przy atakach dystansowych. **Dodatkowo** zwiększa ich zasięg strzału bez kary za odległość o 2 heksy, maksymalnie do 12 heksów, oraz daje +1 do szybkości na czas działania czaru.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

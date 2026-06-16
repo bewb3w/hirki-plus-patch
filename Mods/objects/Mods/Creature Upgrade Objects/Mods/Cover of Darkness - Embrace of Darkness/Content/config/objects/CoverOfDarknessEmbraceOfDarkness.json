@@ -1,0 +1,45 @@
+{
+	"core:coverOfDarkness": {
+		"types": {
+			"coverOfDarkness": {
+				"selectMode": "selectFirst",
+				"visitMode": "unlimited",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "blackKnight"
+								}
+							]
+						},
+						"revealTiles": {
+							"hide": true,
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"changeCreatures": {
+							"blackKnight": "dreadKnight"
+						},
+						"message": "@hpp.objects.coverOfDarknessEmbraceOfDarkness.blackKnight"
+					},
+					{
+						"revealTiles": {
+							"hide": true,
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": 31
+					}
+				]
+			}
+		}
+	}
+}

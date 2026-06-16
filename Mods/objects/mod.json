@@ -1,0 +1,22 @@
+{
+	"name": "Objects",
+	"description": "Object-focused modules for Hirki Plus Patch.\n\nThis parent module groups optional adventure map object changes. These modules may expand existing objects, add new reward logic, adjust creature-bank outcomes, or introduce additional map interactions while preserving the original identity and role of each object whenever possible.\n\nDetailed reward values, visit rules, object scope and compatibility notes are described in the individual child modules.\n\n## Current Object Modules\n\n* **Creature Upgrade Objects** — a collection of adventure map object modules that add free creature upgrade or transmutation rewards, similar in spirit to how **Stables** can upgrade **Cavaliers** into **Champions** without a resource cost.\n* **Spit - Hydra Reward** — turns **Spit** into a Fortress-flavored creature bank reward, replacing gold with **Hydras** while keeping the original guards, visuals, layout, terrain placement and object behavior.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"polish": {
+		"name": "Obiekty",
+		"description": "Moduły obiektów mapy dla Hirki Plus Patch.\n\nTen moduł nadrzędny grupuje opcjonalne zmiany dotyczące obiektów mapy przygody. Moduły te mogą rozwijać istniejące obiekty, dodawać nową logikę nagród, zmieniać rezultaty banków stworzeń albo wprowadzać dodatkowe interakcje na mapie, zachowując pierwotną tożsamość i rolę danego obiektu, gdy tylko jest to możliwe.\n\nSzczegółowe wartości nagród, zasady wizyt, zakres działania obiektów i uwagi kompatybilności są opisane w modułach podrzędnych.\n\n## Aktualne moduły obiektów\n\n* **Obiekty ulepszające jednostki** — kolekcja modułów obiektów mapy przygody, które dodają darmowe ulepszenia lub transmutacje jednostek, podobnie jak **Stajnie** mogą ulepszać **Kawalerzystów** w **Czempionów** bez kosztu surowców.\n* **Barłóg — Nagroda Hydr** — zmienia **Barłóg** w nagrodę banku stworzeń w klimacie Fortecy, zastępując złoto **Hydrami**, ale zachowując oryginalnych strażników, wygląd, układ, rozmieszczenie terenowe i zachowanie obiektu."
+	},
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

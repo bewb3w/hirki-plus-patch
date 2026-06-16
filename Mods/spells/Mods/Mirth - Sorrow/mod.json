@@ -1,19 +1,26 @@
 {
-  "name": "Mirth and Sorrow Independent Morale",
-  "description": "A paired rework of Mirth and Sorrow designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both morale-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Mirth** — increases Morale and **guarantees a minimum positive Morale** result for affected units while the spell lasts.\n  * **No mastery**: +1 Morale, minimum +1 Morale, 7 mana.\n  * **Basic**: +1 Morale, minimum +1 Morale, 5 mana.\n  * **Advanced**: +2 Morale, minimum +2 Morale, 4 mana.\n  * **Expert**: affects all allied units, +2 Morale, minimum +2 Morale, 3 mana.\n\n* **Sorrow** — decreases Morale and **guarantees a maximum negative Morale** result for affected units while the spell lasts.\n  * **No mastery**: -1 Morale, maximum -1 Morale, 12 mana.\n  * **Basic**: -1 Morale, maximum -1 Morale, 9 mana.\n  * **Advanced**: -2 Morale, maximum -2 Morale, 7 mana.\n  * **Expert**: affects all enemy units, -2 Morale, maximum -2 Morale, 5 mana.",
-  "author": "bew_",
-  "version": "1.0.0",
-  "modType": "Spells",
-  "depends": [
-    "hota"
-  ],
-  "spells": [
-    "config/spells/Mirth.json",
-    "config/spells/Sorrow.json"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  }
+	"name": "Mirth and Sorrow Independent Morale",
+	"description": "A paired rework of Mirth and Sorrow designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both morale-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Mirth** — increases Morale and **guarantees a minimum positive Morale** result for affected units while the spell lasts.\n  * **No mastery**: +1 Morale, minimum +1 Morale, 7 mana.\n  * **Basic**: +1 Morale, minimum +1 Morale, 5 mana.\n  * **Advanced**: +2 Morale, minimum +2 Morale, 4 mana.\n  * **Expert**: affects all allied units, +2 Morale, minimum +2 Morale, 3 mana.\n\n* **Sorrow** — decreases Morale and **guarantees a maximum negative Morale** result for affected units while the spell lasts.\n  * **No mastery**: -1 Morale, maximum -1 Morale, 12 mana.\n  * **Basic**: -1 Morale, maximum -1 Morale, 9 mana.\n  * **Advanced**: -2 Morale, maximum -2 Morale, 7 mana.\n  * **Expert**: affects all enemy units, -2 Morale, maximum -2 Morale, 5 mana.",
+	"polish": {
+		"name": "Radość i Przygnębienie — niezależne morale",
+		"description": "Połączona przebudowa czarów Radość i Przygnębienie, przygotowana do gry z Horn of the Abyss na VCMI.\n\nTen moduł sprawia, że oba czary kontroli morale są bardziej niezawodne i mają większe znaczenie w walce, zachowując przy tym ich pierwotną relację jako wzajemne kontry.\n\nOba czary mają także obniżone koszty many, aby były praktyczniejszym wyborem w normalnej rozgrywce.\n\n## Zmiany czarów\n\n* **Radość** — podnosi morale i **gwarantuje minimalny dodatni wynik morale** objętym nią oddziałom na czas działania czaru.\n  * **Brak biegłości**: podnosi morale o 1, minimum +1 morale, 7 many.\n  * **Podstawowa**: podnosi morale o 1, minimum +1 morale, 5 many.\n  * **Zaawansowana**: podnosi morale o 2, minimum +2 morale, 4 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały, podnosi morale o 2, minimum +2 morale, 3 many.\n\n* **Przygnębienie** — obniża morale i **gwarantuje maksymalny ujemny wynik morale** objętym nim oddziałom na czas działania czaru.\n  * **Brak biegłości**: obniża morale o 1, maksimum -1 morale, 12 many.\n  * **Podstawowe**: obniża morale o 1, maksimum -1 morale, 9 many.\n  * **Zaawansowane**: obniża morale o 2, maksimum -2 morale, 7 many.\n  * **Mistrzowskie**: działa na wszystkie wrogie oddziały, obniża morale o 2, maksimum -2 morale, 5 many.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Spells",
+	"depends": [
+		"hota"
+	],
+	"spells": [
+		"config/spells/Mirth.json",
+		"config/spells/Sorrow.json"
+	],
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	}
 }

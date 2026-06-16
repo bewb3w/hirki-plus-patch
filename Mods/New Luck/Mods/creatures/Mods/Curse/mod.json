@@ -2,7 +2,7 @@
   "name": "Curse Luck Scaling",
   "description": "Adds Luck-based scaling to the Curse attack of Mummies.\n\nThis module currently affects **Mummies**. They keep their existing Curse attack, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Mummy** — keeps its existing **Curse** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Curse chance is reduced by 12%.\n  * **-2 Luck**: Curse chance is reduced by 8%.\n  * **-1 Luck**: Curse chance is reduced by 4%.\n  * **+1 Luck**: Curse chance is increased by an additional 10%.\n  * **+2 Luck**: Curse chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Curse chance is increased by an additional 30%.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,5 +14,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Klątwa — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do ataku **Klątwą** u **Mumii**.\n\nTen moduł dotyczy obecnie **Mumii**. Zachowuje ona swoją istniejącą zdolność rzucania **Klątwy** przy ataku, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Mumia** — zachowuje swoją istniejącą zdolność rzucania **Klątwy** przy ataku, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Klątwę jest zmniejszona o 12%.\n  * **-2 szczęścia**: szansa na Klątwę jest zmniejszona o 8%.\n  * **-1 szczęścia**: szansa na Klątwę jest zmniejszona o 4%.\n  * **+1 szczęścia**: szansa na Klątwę jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa na Klątwę jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa na Klątwę jest zwiększona o dodatkowe 30%."
   }
 }

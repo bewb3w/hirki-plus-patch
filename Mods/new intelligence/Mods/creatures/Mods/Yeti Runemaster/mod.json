@@ -2,7 +2,7 @@
   "name": "Yeti Runemaster",
   "description": "A support module for Yeti Runemasters designed for use with Horn of the Abyss on VCMI.\n\nThis module lets Yeti Runemaster stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Yeti Runemasters expand their runic mystical identity by gaining an additional magical support role beyond their normal combat abilities. **Total combat mana** values are listed at each threshold.\n\n## Combat Mana Support\n\n* **Yeti Runemaster** — requires Intelligence and at least 2 Yeti Runemasters.\n  * **Basic Intelligence**: 2+ Yeti Runemasters grant 5 **total combat mana**; 10 grant 10; 20 grant 15; 40 grant 20.\n  * **Advanced Intelligence**: 2 or more Yeti Runemasters grant 8 **total combat mana**; 10 grant 16; 20 grant 24; 40 grant 32.\n  * **Expert Intelligence**: 2 or more Yeti Runemasters grant 12 **total combat mana**; 10 grant 24; 20 grant 37; 40 grant 50.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -11,6 +11,13 @@
   "creatures": [
     "config/creatures/yetiRunemaster.json"
   ],
+  "polish": {
+    "name": "Runowładne yeti",
+    "description": "Moduł wsparcia dla **Runowładnych yeti**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Runowładnych yeti** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej liczebności tych jednostek w armii bohatera. Runowładne yeti rozwijają swoją runiczną, mistyczną tożsamość, zyskując dodatkową rolę magicznego wsparcia poza standardowymi zdolnościami bojowymi. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez tę jednostkę na danym progu.\n\n## Wsparcie many bojowej\n\n* **Runowładny yeti** — wymaga Inteligencji i co najmniej 2 Runowładnych yeti.\n  * **Podstawowa Inteligencja**: 2 lub więcej Runowładnych yeti daje 5 punktów **łącznej many bojowej**; 10 daje 10; 20 daje 15; 40 daje 20.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Runowładnych yeti daje 8 punktów **łącznej many bojowej**; 10 daje 16; 20 daje 24; 40 daje 32.\n  * **Ekspercka Inteligencja**: 2 lub więcej Runowładnych yeti daje 12 punktów **łącznej many bojowej**; 10 daje 24; 20 daje 37; 40 daje 50.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release."

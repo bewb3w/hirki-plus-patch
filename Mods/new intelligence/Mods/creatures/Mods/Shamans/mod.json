@@ -2,7 +2,7 @@
   "name": "Shamans",
   "description": "A support mod for Shamans and Great Shamans designed for use with Horn of the Abyss on VCMI.\n\nThis mod lets Shaman and Great Shaman stacks support **heroes with Intelligence** by granting additional combat mana based on the total stack size in the hero's army. Great Shamans start contributing earlier and provide stronger scaling, making the upgrade more meaningful beyond its normal combat improvements. Listed values are **total combat mana** bonuses granted by each creature line at each threshold.\n\n## Combat Mana Support\n\n* **Shaman** — requires Intelligence and at least 3 Shamans.\n  * **Basic Intelligence**: 3 or more Shamans grant 4 **total combat mana**; 10 grant 10; 20 grant 16; 30 grant 22.\n  * **Advanced Intelligence**: 3 or more Shamans grant 7 **total combat mana**; 10 grant 15; 20 grant 24; 30 grant 34.\n  * **Expert Intelligence**: 3 or more Shamans grant 10 **total combat mana**; 10 grant 23; 20 grant 36; 30 grant 50.\n\n* **Great Shaman** — requires Intelligence and at least 2 Great Shamans.\n  * **Basic Intelligence**: 2 or more Great Shamans grant 3 **total combat mana**; 10 grant 9; 20 grant 18; 30 grant 30.\n  * **Advanced Intelligence**: 2+ Great Shamans grant 6 **total combat mana**; 10 grant 16; 20 grant 29; 30 grant 45.\n  * **Expert Intelligence**: 2+ Great Shamans grant 11 **total combat mana**; 10 grant 26; 20 grant 44; 30 grant 65.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -16,5 +16,12 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ],
+    "name": "Szamani",
+    "description": "Moduł wsparcia dla **Szamanów** i **Wielkich szamanów**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł pozwala oddziałom **Szamanów** i **Wielkich szamanów** wspierać **bohaterów z Inteligencją**, zapewniając dodatkową manę bojową zależną od łącznej wielkości oddziałów w armii bohatera. **Wielcy szamani** zaczynają wspierać wcześniej i skalują się mocniej, dzięki czemu ulepszenie jest bardziej znaczące także poza zwykłymi usprawnieniami bojowymi. Podane wartości oznaczają **łączną premię many bojowej** zapewnianą przez daną linię jednostek na danym progu.\n\n## Wsparcie many bojowej\n\n* **Szaman** — wymaga Inteligencji i co najmniej 3 Szamanów.\n  * **Podstawowa Inteligencja**: 3 lub więcej Szamanów daje 4 punkty **łącznej many bojowej**; 10 daje 10; 20 daje 16; 30 daje 22.\n  * **Zaawansowana Inteligencja**: 3 lub więcej Szamanów daje 7 punktów **łącznej many bojowej**; 10 daje 15; 20 daje 24; 30 daje 34.\n  * **Ekspercka Inteligencja**: 3 lub więcej Szamanów daje 10 punktów **łącznej many bojowej**; 10 daje 23; 20 daje 36; 30 daje 50.\n\n* **Wielki szaman** — wymaga Inteligencji i co najmniej 2 Wielkich szamanów.\n  * **Podstawowa Inteligencja**: 2 lub więcej Wielkich szamanów daje 3 punkty **łącznej many bojowej**; 10 daje 9; 20 daje 18; 30 daje 30.\n  * **Zaawansowana Inteligencja**: 2 lub więcej Wielkich szamanów daje 6 punktów **łącznej many bojowej**; 10 daje 16; 20 daje 29; 30 daje 45.\n  * **Ekspercka Inteligencja**: 2 lub więcej Wielkich szamanów daje 11 punktów **łącznej many bojowej**; 10 daje 26; 20 daje 44; 30 daje 65."
   }
 }

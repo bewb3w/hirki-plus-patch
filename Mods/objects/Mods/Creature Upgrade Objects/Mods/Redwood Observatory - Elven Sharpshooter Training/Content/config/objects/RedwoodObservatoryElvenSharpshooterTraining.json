@@ -1,0 +1,78 @@
+{
+	"core:redwoodObservatory": {
+		"types": {
+			"redwoodObservatory": {
+				"selectMode": "selectFirst",
+				"visitMode": "once",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "core:grandElf"
+								}
+							]
+						},
+						"revealTiles": {
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"changeCreatures": {
+							"core:grandElf": "core:sharpshooter"
+						},
+						"message": "@hpp.objects.redwoodObservatoryElvenSharpshooterTraining.grandElf"
+					},
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "core:woodElf"
+								}
+							]
+						},
+						"revealTiles": {
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"changeCreatures": {
+							"core:woodElf": "core:grandElf"
+						},
+						"message": "@hpp.objects.redwoodObservatoryElvenSharpshooterTraining.woodElf"
+					}
+				],
+				"onEmpty": [
+					{
+						"revealTiles": {
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": 98
+					}
+				],
+				"onVisited": [
+					{
+						"revealTiles": {
+							"radius": 20,
+							"rock": 1,
+							"subterra": 1,
+							"surface": 1,
+							"water": 1
+						},
+						"message": 98
+					}
+				]
+			}
+		}
+	}
+}

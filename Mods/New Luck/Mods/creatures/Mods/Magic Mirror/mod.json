@@ -2,7 +2,7 @@
   "name": "Magic Mirror Luck Scaling",
   "description": "Adds Luck-based scaling to the native Magic Mirror ability of Faerie Dragons.\n\nThis module currently affects **Faerie Dragons** and their creature ability, not the Magic Mirror spell. **Faerie Dragons** keep their existing **Magic Mirror** ability, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Faerie Dragon** — keeps its existing **Magic Mirror** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Magic Mirror chance is reduced by 10%.\n  * **-2 Luck**: Magic Mirror chance is reduced by 7%.\n  * **-1 Luck**: Magic Mirror chance is reduced by 3%.\n  * **+1 Luck**: Magic Mirror chance is increased by an additional 10%.\n  * **+2 Luck**: Magic Mirror chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Magic Mirror chance is increased by an additional 30%.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,5 +14,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Magiczne zwierciadło — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do naturalnej zdolności **Magiczne zwierciadło** u **Czarodziejskich smoków**.\n\nTen moduł dotyczy zdolności jednostki, a nie czaru **Magiczne zwierciadło**. **Czarodziejskie smoki** zachowują swoją istniejącą zdolność **Magiczne zwierciadło**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Czarodziejski smok** — zachowuje swoją istniejącą zdolność **Magiczne zwierciadło**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa działania Magicznego zwierciadła jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa działania Magicznego zwierciadła jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa działania Magicznego zwierciadła jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa działania Magicznego zwierciadła jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa działania Magicznego zwierciadła jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa działania Magicznego zwierciadła jest zwiększona o dodatkowe 30%."
   }
 }

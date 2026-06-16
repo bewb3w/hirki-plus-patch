@@ -2,7 +2,7 @@
   "name": "Ranged Heroes",
   "description": "Hero-side ranged and war machine adjustments for the New Ranged package.\n\n* **Torosar** — keeps **Torosar** starting with **Basic Tactics**. His original **Basic Mysticism** is replaced by **Basic Artillery**, better supporting his **Ballista** specialty and the New Ranged package.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Heroes",
   "depends": [
     "hota"
@@ -11,5 +11,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Bohaterowie walki dystansowej",
+    "description": "Moduły bohaterów powiązane z pakietem New Ranged w Hirki Plus Patch (H.P.P.).\n\nModuły z tej kategorii dostosowują wybranych bohaterów do walki dystansowej, machin wojennych i zmian wprowadzanych przez New Ranged.\n\n## Zmienieni bohaterowie\n\n* **Torosar** — nadal zaczyna z **Podstawową Taktyką**. Jego oryginalny **Podstawowy Mistycyzm** zostaje zastąpiony przez **Podstawową Artylerię**, dzięki czemu lepiej wspiera swoją specjalizację w **Baliście** i pakiet New Ranged."
   }
 }

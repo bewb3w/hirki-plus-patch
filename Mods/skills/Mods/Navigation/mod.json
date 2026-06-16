@@ -2,8 +2,15 @@
   "name": "Navigation",
   "description": "Improves **Navigation** into a more flexible water travel skill.\n\nNavigation keeps its original water movement bonus and now also allows heroes to board and disembark ships without ending the turn. Remaining movement is converted between land and water movement during the transition, so the exact amount preserved depends on the hero's current movement and movement modifiers.\n\n## Skill Effects\n\n* **Basic Navigation:** +50% movement over water and free ship boarding/disembarking\n* **Advanced Navigation:** +100% movement over water and free ship boarding/disembarking\n* **Expert Navigation:** +150% movement over water and free ship boarding/disembarking\n\n## Specialist Interaction\n\nNavigation specialties increase only the specialist hero's water movement with hero level, and do not increase the free boarding/disembarking effect directly.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
+  "polish": {
+    "name": "Nawigacja",
+    "description": "Usprawnia **Nawigację** jako bardziej elastyczną umiejętność podróży morskich.\n\nNawigacja zachowuje oryginalną premię do ruchu na wodzie, a dodatkowo pozwala bohaterom wchodzić na okręt i schodzić z niego bez kończenia tury. Podczas przejścia pozostały ruch jest przeliczany między ruchem lądowym i wodnym, więc dokładna ilość zachowanego ruchu zależy od aktualnych punktów ruchu bohatera i jego modyfikatorów.\n\n## Efekty umiejętności\n\n* **Podstawowa Nawigacja:** +50% ruchu na wodzie oraz wchodzenie na okręt i schodzenie z niego bez kończenia tury\n* **Zaawansowana Nawigacja:** +100% ruchu na wodzie oraz wchodzenie na okręt i schodzenie z niego bez kończenia tury\n* **Ekspercka Nawigacja:** +150% ruchu na wodzie oraz wchodzenie na okręt i schodzenie z niego bez kończenia tury\n\n## Interakcja ze specjalistami\n\nSpecjalności Nawigacji zwiększają wraz z poziomem bohatera tylko ruch na wodzie specjalisty. Nie zwiększają bezpośrednio efektu wchodzenia na okręt i schodzenia z niego bez kończenia tury.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "depends": [
     "hota"
   ],

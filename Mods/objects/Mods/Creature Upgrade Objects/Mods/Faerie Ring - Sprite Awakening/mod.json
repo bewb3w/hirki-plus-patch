@@ -1,0 +1,33 @@
+{
+	"name": "Faerie Ring - Sprite Awakening",
+	"description": "Preserves the normal **Faerie Ring** luck reward and adds an additional creature upgrade reward.\n\nWhen a hero visits a **Faerie Ring**, the object still grants its normal **+1 Luck** bonus for the next battle. In addition, if the hero has **Pixies**, the faerie magic can awaken them into **Sprites**.\n\n## Sprite Awakening\n\n* **Pixies** are transformed into **Sprites**.\n* Heroes without Pixies receive only the normal Faerie Ring luck reward.\n\n## Visit and Luck Rules\n\nThe transformation only happens when the **Faerie Ring** can actually bless the hero with its luck effect. If the hero already has the active Faerie Ring bonus, the object remains unavailable until that bonus expires.\n\nThis keeps the free transformation tied to real use of the Faerie Ring's blessing and prevents repeated upgrades without first using the received luck.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Zaklęty krąg — Przebudzenie Rusałek",
+		"description": "Zachowuje normalną nagrodę **Zaklętego kręgu** do szczęścia i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater odwiedza **Zaklęty krąg**, obiekt nadal przyznaje normalny bonus **+1 do szczęścia** w następnej bitwie. Dodatkowo, jeśli bohater ma **Nimfy**, magia wróżek może przebudzić je w **Rusałki**.\n\n## Przebudzenie Rusałek\n\n* **Nimfy** są przemieniane w **Rusałki**.\n* Bohaterowie bez Nimf otrzymują tylko normalną nagrodę Zaklętego kręgu do szczęścia.\n\n## Zasady wizyty i szczęścia\n\nPrzemiana następuje tylko wtedy, gdy **Zaklęty krąg** może faktycznie obdarzyć bohatera swoim błogosławieństwem szczęścia. Jeśli bohater ma już aktywny bonus Zaklętego kręgu, obiekt pozostaje niedostępny do czasu wygaśnięcia tego bonusu.\n\nDzięki temu darmowa przemiana jest powiązana z realnym użyciem błogosławieństwa Zaklętego kręgu i zapobiega powtarzaniu darmowych ulepszeń bez wcześniejszego wykorzystania otrzymanego szczęścia.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/FaerieRingSpriteAwakening.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

@@ -1,8 +1,8 @@
 {
   "name": "Artillery",
-  "description": "Reworks Artillery for the New Ranged package while preserving the original Ballista control, double-shot and double-damage progression. Additionally, Ballista and Ammo Cart cannot lose more than 50% / 40% / 30% of their Health from a single attack at Basic / Advanced / Expert Artillery. Cannon and its Ammo Cart path cannot lose more than 40% / 30% / 20% of their Health from a single attack.",
+  "description": "Reworks the **Artillery** skill for the New Ranged package.\n\n## Skill Changes\n\n* **Basic Artillery** — gives the hero control of the **Ballista**. Ballista shots have a 50% chance to deal double damage. **Ballista** and its **Ammo Cart** cannot lose more than 50% of their Health from a single attack. **Cannon** and its linked **Ammo Cart** cannot lose more than 40%.\n* **Advanced Artillery** — gives the hero control of the **Ballista**. The **Ballista** shoots twice per round, and its shots have a 75% chance to deal double damage. **Ballista** and its **Ammo Cart** cannot lose more than 40% of their Health from a single attack. **Cannon** and its linked **Ammo Cart** cannot lose more than 30%.\n* **Expert Artillery** — gives the hero control of the **Ballista**. The **Ballista** shoots twice per round, and its shots always deal double damage. **Ballista** and its **Ammo Cart** cannot lose more than 30% of their Health from a single attack. **Cannon** and its linked **Ammo Cart** cannot lose more than 20%.\n\n## Archery Synergy\n\nWith **Archery**, **Ballista** and **Cannon** can receive matching **Archery** bonuses based on both skill levels.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
   "depends": [
     "hota",
@@ -14,6 +14,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Artyleria",
+    "description": "Przebudowuje umiejętność **Artyleria** dla pakietu New Ranged.\n\n## Zmiany umiejętności\n\n* **Podstawowa Artyleria** — pozwala bohaterowi kontrolować **Balistę**. Strzały **Balisty** mają 50% szansy na zadanie podwójnych obrażeń. **Balista** i jej **Wóz z amunicją** nie mogą stracić więcej niż 50% punktów życia od pojedynczego ataku. **Działo** i powiązany z nim **Wóz z amunicją** nie mogą stracić więcej niż 40%.\n* **Zaawansowana Artyleria** — pozwala bohaterowi kontrolować **Balistę**. **Balista** strzela dwa razy na rundę, a jej strzały mają 75% szansy na zadanie podwójnych obrażeń. **Balista** i jej **Wóz z amunicją** nie mogą stracić więcej niż 40% punktów życia od pojedynczego ataku. **Działo** i powiązany z nim **Wóz z amunicją** nie mogą stracić więcej niż 30%.\n* **Ekspercka Artyleria** — pozwala bohaterowi kontrolować **Balistę**. **Balista** strzela dwa razy na rundę, a jej strzały zawsze zadają podwójne obrażenia. **Balista** i jej **Wóz z amunicją** nie mogą stracić więcej niż 30% punktów życia od pojedynczego ataku. **Działo** i powiązany z nim **Wóz z amunicją** nie mogą stracić więcej niż 20%.\n\n## Synergia z Łucznictwem\n\nZ umiejętnością **Łucznictwo**, **Balista** i **Działo** mogą otrzymać odpowiadające premie **Łucznictwa** zależne od poziomu obu umiejętności.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

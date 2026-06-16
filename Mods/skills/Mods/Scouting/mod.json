@@ -1,12 +1,19 @@
 {
   "name": "Scouting",
-  "description": "Improves **Scouting** into a stronger exploration and information support skill.\n\nScouting keeps its hero-only scouting radius bonus and now also improves Thieves' Guild access for the hero's player and any allies. In solo games, the owner receives the full information benefit; in allied games, the same benefits are shared across the team.\n\nBenefits from multiple Scouting heroes on the same team can stack, making the skill more useful while preserving its exploration identity.\n\n## Skill Effects\n\n* **Basic Scouting:** +1 scouting radius for the hero and +1 Thieves' Guild access for the hero's player and allies\n* **Advanced Scouting:** +2 scouting radius for the hero and +2 Thieves' Guild access for the hero's player and allies\n* **Expert Scouting:** +3 scouting radius for the hero and +3 Thieves' Guild access for the hero's player and allies\n\n## Specialist Interaction\n\nScouting specialties increase only the specialist hero's own scouting radius with hero level, and do not increase Thieves' Guild access.",
+  "description": "Improves **Scouting** into a stronger exploration and information support skill.\n\nScouting keeps its hero-only scouting radius bonus and now also improves Thieves' Guild access for the hero's owner and any allies. In solo games, the owner receives the full information benefit; in allied games, the same benefits are shared across the team.\n\nBenefits from multiple Scouting heroes on the same team can stack, making the skill more useful while preserving its exploration identity.\n\n## Skill Effects\n\n* **Basic Scouting:** +1 scouting radius for the hero and +1 Thieves' Guild access for the hero's owner and allies\n* **Advanced Scouting:** +2 scouting radius for the hero and +2 Thieves' Guild access for the hero's owner and allies\n* **Expert Scouting:** +3 scouting radius for the hero and +3 Thieves' Guild access for the hero's owner and allies\n\n## Specialist Interaction\n\nScouting specialties increase only the specialist hero's own scouting radius with hero level, and do not increase Thieves' Guild access.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
   "depends": [
     "hota"
   ],
+  "polish": {
+    "name": "Odkrywanie",
+    "description": "Usprawnia **Odkrywanie** jako umiejętność zwiadu i wsparcia informacyjnego.\n\nOdkrywanie zachowuje premię do pola widzenia dla samego bohatera, a dodatkowo zwiększa zakres informacji o przeciwnikach dla właściciela bohatera i jego sojuszników. W grze solo pełną korzyść otrzymuje właściciel bohatera; w grach sojuszniczych te same korzyści są współdzielone przez całą drużynę.\n\nPremie informacyjne od wielu bohaterów z Odkrywaniem w tej samej drużynie mogą się kumulować, dzięki czemu umiejętność staje się bardziej użyteczna, zachowując swoją rolę eksploracyjną.\n\n## Efekty umiejętności\n\n* **Podstawowe Odkrywanie:** +1 do pola widzenia bohatera oraz większy zakres informacji o przeciwnikach, jak za 1 dodatkową karczmę, dla właściciela bohatera i jego sojuszników\n* **Zaawansowane Odkrywanie:** +2 do pola widzenia bohatera oraz większy zakres informacji o przeciwnikach, jak za 2 dodatkowe karczmy, dla właściciela bohatera i jego sojuszników\n* **Eksperckie Odkrywanie:** +3 do pola widzenia bohatera oraz większy zakres informacji o przeciwnikach, jak za 3 dodatkowe karczmy, dla właściciela bohatera i jego sojuszników\n\n## Interakcja ze specjalistami\n\nSpecjalności Odkrywania zwiększają wraz z poziomem bohatera tylko pole widzenia samego specjalisty. Nie zwiększają zakresu informacji o przeciwnikach.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "changelog": {
     "1.0.0": [
       "Initial release"

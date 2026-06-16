@@ -2,7 +2,7 @@
   "name": "First Aid",
   "description": "Enhances First Aid by increasing the durability of the First Aid Tent with each skill level, allowing the hero to benefit from its army health bonus for longer.\n\nFirst Aid Tent increases the maximum health of all creatures in the hero's army. This core effect is preserved, while the Tent also gains a stronger damage cap as the skill improves. At Expert level, the Ammo Cart also receives damage cap protection.\n\n## Skill Effects\n\n* **Basic First Aid:** First Aid Tent increases creature maximum health by 5%; First Aid Tent cannot lose more than 40% of its maximum health from a single attack\n* **Advanced First Aid:** First Aid Tent increases creature maximum health by 10%; First Aid Tent cannot lose more than 30% of its maximum health from a single attack\n* **Expert First Aid:** First Aid Tent increases creature maximum health by 15%; First Aid Tent and Ammo Cart cannot lose more than 20% of their maximum health from a single attack\n\n## Specialist Interaction\n\nFirst Aid specialties increase only the First Aid Tent's creature maximum health bonus with hero level, and do not increase the damage cap.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
   "depends": [
     "hota"
@@ -14,5 +14,12 @@
   },
   "skills": [
     "config/skills/First Aid.json"
-  ]
+  ],
+  "polish": {
+    "name": "Pierwsza pomoc",
+    "description": "Wzmacnia **Pierwszą pomoc**, zwiększając wytrzymałość Namiotu medyka wraz z poziomem umiejętności, dzięki czemu bohater może dłużej korzystać z jego premii do zdrowia armii.\n\nNamiot medyka zwiększa maks. liczbę punktów życia wszystkich sojuszniczych jednostek w armii bohatera. Ten główny efekt zostaje zachowany, a sam Namiot medyka otrzymuje coraz silniejszą ochronę przed dużymi pojedynczymi atakami. Na poziomie eksperckim ochronę przed pojedynczymi atakami otrzymuje także Wóz z amunicją.\n\n## Efekty umiejętności\n\n* **Podstawowa Pierwsza pomoc:** Namiot medyka zwiększa maks. liczbę punktów życia jednostek o 5%; Namiot medyka nie może stracić więcej niż 40% swojej maks. liczby punktów życia od pojedynczego ataku\n* **Zaawansowana Pierwsza pomoc:** Namiot medyka zwiększa maks. liczbę punktów życia jednostek o 10%; Namiot medyka nie może stracić więcej niż 30% swojej maks. liczby punktów życia od pojedynczego ataku\n* **Ekspercka Pierwsza pomoc:** Namiot medyka zwiększa maks. liczbę punktów życia jednostek o 15%; Namiot medyka i Wóz z amunicją nie mogą stracić więcej niż 20% swojej maks. liczby punktów życia od pojedynczego ataku\n\n## Interakcja ze specjalistami\n\nSpecjalności Pierwszej pomocy zwiększają wraz z poziomem bohatera tylko premię Namiotu medyka do maks. liczby punktów życia jednostek. Nie zwiększają ochrony przed utratą punktów życia od pojedynczego ataku.",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  }
 }

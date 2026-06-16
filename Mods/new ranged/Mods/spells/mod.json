@@ -2,7 +2,7 @@
   "name": "Ranged Spells",
   "description": "Spell modules for the New Ranged package. Currently includes Precision, which keeps early mastery close to the original spell while Advanced and Expert Precision gain additional ranged-combat utility.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Spells",
   "depends": [
     "hota"
@@ -11,5 +11,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Czary walki dystansowej",
+    "description": "Moduły czarów powiązane z pakietem New Ranged w Hirki Plus Patch (H.P.P.).\n\nModuły z tej kategorii wzmacniają czary wspierające walkę dystansową i poprawiają ich użyteczność dla strzelców.\n\n## Zmienione czary\n\n* **Precyzja** — zachowuje wczesne poziomy blisko oryginalnego czaru: brak biegłości i **Podstawowa Precyzja** zwiększają atak wybranego sojuszniczego strzelca o +3 tylko przy atakach dystansowych. **Zaawansowana Precyzja** i **Mistrzowska Precyzja** zwiększają ten bonus do +6 oraz dodają rozszerzony zasięg strzału bez kary za odległość i +1 do szybkości na czas działania czaru."
   }
 }

@@ -1,0 +1,35 @@
+{
+	"name": "Trailblazer - Wasteland Training",
+	"description": "Allows **Trailblazer** to train selected wasteland warriors while preserving its normal weekly movement bonus on wasteland terrain.\n\nWhen a hero can receive the Trailblazer bonus, eligible units may also be upgraded. **Shamans** become **Great Shamans**, and **Ogres** become **Ogre Magi**. If both unit lines are present in the army, both upgrades are applied during the same visit. Heroes without eligible units receive only the normal Trailblazer effect.\n\nThe module keeps the native bonus-based visit behavior of Trailblazer: a hero who already has the active weekly Trailblazer effect cannot use the object again until that effect expires.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota",
+		"hota.wastelandterrain",
+		"hota.bulwark"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Namiot trapera — Szkolenie pustkowi",
+		"description": "Po odwiedzeniu **Namiotu trapera** wybrani wojownicy pustkowi mogą zostać dodatkowo przeszkoleni, a normalny tygodniowy bonus ruchu po terenie pustkowi pozostaje bez zmian.\n\nGdy bohater może otrzymać bonus Namiotu trapera, odpowiednie jednostki mogą zostać dodatkowo ulepszone. **Szamani** stają się **Wielkimi Szamanami**, a **Ogry** stają się **Ogrami Szamanami**. Jeśli w armii są obie linie jednostek, oba ulepszenia następują podczas tej samej wizyty. Bohaterowie bez odpowiednich jednostek otrzymują tylko normalny efekt Namiotu trapera.\n\nMod zachowuje natywne zachowanie wizyty oparte na aktywnym bonusie: bohater, który ma już tygodniowy efekt Namiotu trapera, nie może ponownie użyć obiektu, dopóki ten efekt nie wygaśnie.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/TrailblazerWastelandTraining.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

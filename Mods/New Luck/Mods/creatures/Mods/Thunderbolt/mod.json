@@ -2,7 +2,7 @@
   "name": "Thunderbolt Luck Scaling",
   "description": "Adds Luck-based scaling to the Thunderbolt attack of Rocs and Thunderbirds.\n\nThis module gives **Rocs** a new chance to trigger **Thunderbolt** when they have positive Luck, while **Thunderbirds** keep their existing Thunderbolt attack and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Roc** — gains a chance to trigger **Thunderbolt** only with positive Luck.\n  * **+1 Luck**: 7% Thunderbolt chance.\n  * **+2 Luck**: 14% Thunderbolt chance.\n  * **+3 or higher Luck**: 20% Thunderbolt chance.\n\n* **Thunderbird** — keeps its existing **Thunderbolt** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Thunderbolt chance is reduced by 10%.\n  * **-2 Luck**: Thunderbolt chance is reduced by 7%.\n  * **-1 Luck**: Thunderbolt chance is reduced by 3%.\n  * **+1 Luck**: Thunderbolt chance is increased by an additional 10%.\n  * **+2 Luck**: Thunderbolt chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Thunderbolt chance is increased by an additional 30%.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,5 +14,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Piorun — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do zdolności **Piorun** u **Roków** i **Ptaków gromu**.\n\nTen moduł daje **Rokom** nową szansę na wywołanie **Pioruna**, ale tylko przy dodatnim szczęściu. **Ptaki gromu** zachowują swoją istniejącą zdolność **Piorun**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Rok** — zyskuje szansę na wywołanie **Pioruna** tylko przy dodatnim szczęściu.\n  * **+1 szczęścia**: 7% szansy na Piorun.\n  * **+2 szczęścia**: 14% szansy na Piorun.\n  * **+3 lub więcej szczęścia**: 20% szansy na Piorun.\n\n* **Ptak gromu** — zachowuje swoją istniejącą zdolność **Piorun**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Piorun jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa na Piorun jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa na Piorun jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa na Piorun jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa na Piorun jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa na Piorun jest zwiększona o dodatkowe 30%."
   }
 }

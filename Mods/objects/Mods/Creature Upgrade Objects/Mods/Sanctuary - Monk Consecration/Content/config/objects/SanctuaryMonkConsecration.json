@@ -1,0 +1,30 @@
+{
+	"core:sanctuary": {
+		"handler": "configurable",
+		"types": {
+			"object": {
+				"selectMode": "selectFirst",
+				"visitMode": "bonus",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "monk"
+								}
+							]
+						},
+						"changeCreatures": {
+							"monk": "zealot"
+						},
+						"message": "@hpp.objects.sanctuaryMonkConsecration.monk"
+					},
+					{
+						"message": "@hpp.objects.sanctuaryMonkConsecration.protection"
+					}
+				]
+			}
+		}
+	}
+}

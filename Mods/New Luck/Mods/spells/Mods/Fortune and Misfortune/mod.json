@@ -1,19 +1,26 @@
 {
-  "name": "Fortune and Misfortune Independent Luck",
-  "description": "A paired rework of Fortune and Misfortune designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both luck-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Fortune** — increases Luck and **guarantees a minimum positive Luck** result for affected units while the spell lasts.\n  * **No mastery**: +1 Luck, minimum +1 Luck, 5 mana.\n  * **Basic**: +1 Luck, minimum +1 Luck, 4 mana.\n  * **Advanced**: +2 Luck, minimum +2 Luck, 3 mana.\n  * **Expert**: affects all allied units, +2 Luck, minimum +2 Luck, 2 mana.\n\n* **Misfortune** — decreases Luck and **guarantees a maximum negative Luck** result for affected units while the spell lasts.\n  * **No mastery**: -1 Luck, maximum -1 Luck, 7 mana.\n  * **Basic**: -1 Luck, maximum -1 Luck, 5 mana.\n  * **Advanced**: -2 Luck, maximum -2 Luck, 4 mana.\n  * **Expert**: affects all enemy units, -2 Luck, maximum -2 Luck, 3 mana.",
-  "author": "bew_",
-  "version": "1.0.0",
-  "modType": "Spells",
-  "depends": [
-    "hota"
-  ],
-  "spells": [
-    "config/spells/Fortune.json",
-    "config/spells/Misfortune.json"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  }
+	"name": "Fortune and Misfortune Independent Luck",
+	"description": "A paired rework of Fortune and Misfortune designed for use with Horn of the Abyss on VCMI.\n\nThis module makes both luck-control spells more reliable and meaningful to cast while preserving their original tactical relationship as direct counters to each other.\n\nBoth spells also use reduced mana costs to make them more practical choices in real gameplay.\n\n## Spell Changes\n\n* **Fortune** — increases Luck and **guarantees a minimum positive Luck** result for affected units while the spell lasts.\n  * **No mastery**: +1 Luck, minimum +1 Luck, 5 mana.\n  * **Basic**: +1 Luck, minimum +1 Luck, 4 mana.\n  * **Advanced**: +2 Luck, minimum +2 Luck, 3 mana.\n  * **Expert**: affects all allied units, +2 Luck, minimum +2 Luck, 2 mana.\n\n* **Misfortune** — decreases Luck and **guarantees a maximum negative Luck** result for affected units while the spell lasts.\n  * **No mastery**: -1 Luck, maximum -1 Luck, 7 mana.\n  * **Basic**: -1 Luck, maximum -1 Luck, 5 mana.\n  * **Advanced**: -2 Luck, maximum -2 Luck, 4 mana.\n  * **Expert**: affects all enemy units, -2 Luck, maximum -2 Luck, 3 mana.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Spells",
+	"depends": [
+		"hota"
+	],
+	"spells": [
+		"config/spells/Fortune.json",
+		"config/spells/Misfortune.json"
+	],
+	"changelog": {
+		"1.0.0": [
+			"Initial release."
+		]
+	},
+	"polish": {
+		"name": "Fortuna i Pech — niezależne szczęście",
+		"description": "Połączona przebudowa czarów Fortuna i Pech, przygotowana do gry z Horn of the Abyss na VCMI.\n\nTen moduł sprawia, że oba czary kontroli szczęścia są bardziej niezawodne i mają większe znaczenie w walce, zachowując przy tym ich pierwotną relację jako wzajemne kontry.\n\nOba czary mają także obniżone koszty many, aby były praktyczniejszym wyborem w normalnej rozgrywce.\n\n## Zmiany czarów\n\n* **Fortuna** — podnosi szczęście i **gwarantuje minimalny dodatni wynik szczęścia** objętym nią oddziałom na czas działania czaru.\n  * **Brak biegłości**: podnosi szczęście o 1, minimum +1 szczęścia, 5 many.\n  * **Podstawowa**: podnosi szczęście o 1, minimum +1 szczęścia, 4 many.\n  * **Zaawansowana**: podnosi szczęście o 2, minimum +2 szczęścia, 3 many.\n  * **Mistrzowska**: działa na wszystkie sojusznicze oddziały, podnosi szczęście o 2, minimum +2 szczęścia, 2 many.\n\n* **Pech** — obniża szczęście i **gwarantuje maksymalny ujemny wynik szczęścia** objętym nim oddziałom na czas działania czaru.\n  * **Brak biegłości**: obniża szczęście o 1, maksimum -1 szczęścia, 7 many.\n  * **Podstawowy**: obniża szczęście o 1, maksimum -1 szczęścia, 5 many.\n  * **Zaawansowany**: obniża szczęście o 2, maksimum -2 szczęścia, 4 many.\n  * **Mistrzowski**: działa na wszystkie wrogie oddziały, obniża szczęście o 2, maksimum -2 szczęścia, 3 many.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	}
 }

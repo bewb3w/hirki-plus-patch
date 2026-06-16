@@ -2,7 +2,7 @@
   "name": "Death Stare Luck Scaling",
   "description": "Adds Luck-based scaling to the Death Stare ability of Mighty Gorgons.\n\n**Mighty Gorgons** keep their existing **Death Stare** ability, while its chance is modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Mighty Gorgon** — keeps its existing **Death Stare** ability and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Death Stare chance is reduced by 3%.\n  * **-2 Luck**: Death Stare chance is reduced by 2%.\n  * **-1 Luck**: Death Stare chance is reduced by 1%.\n  * **+1 Luck**: Death Stare chance is increased by an additional 1%.\n  * **+2 Luck**: Death Stare chance is increased by an additional 3%.\n  * **+3 or higher Luck**: Death Stare chance is increased by an additional 5%.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,5 +14,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Spojrzenie śmierci — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do zdolności **Spojrzenie śmierci** u **Wielkich gorgon**.\n\n**Wielkie gorgony** zachowują swoją istniejącą zdolność **Spojrzenie śmierci**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Wielka gorgona** — zachowuje swoją istniejącą zdolność **Spojrzenie śmierci**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Spojrzenie śmierci jest zmniejszona o 3%.\n  * **-2 szczęścia**: szansa na Spojrzenie śmierci jest zmniejszona o 2%.\n  * **-1 szczęścia**: szansa na Spojrzenie śmierci jest zmniejszona o 1%.\n  * **+1 szczęścia**: szansa na Spojrzenie śmierci jest zwiększona o dodatkowy 1%.\n  * **+2 szczęścia**: szansa na Spojrzenie śmierci jest zwiększona o dodatkowe 3%.\n  * **+3 lub więcej szczęścia**: szansa na Spojrzenie śmierci jest zwiększona o dodatkowe 5%."
   }
 }

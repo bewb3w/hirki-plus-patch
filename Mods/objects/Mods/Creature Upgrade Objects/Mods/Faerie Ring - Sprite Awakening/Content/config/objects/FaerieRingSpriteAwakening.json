@@ -1,0 +1,45 @@
+{
+	"core:faerieRing": {
+		"types": {
+			"faerieRing": {
+				"selectMode": "selectFirst",
+				"visitMode": "bonus",
+				"rewards": [
+					{
+						"limiter": {
+							"creatures": [
+								{
+									"amount": 1,
+									"type": "core:pixie"
+								}
+							]
+						},
+						"bonuses": [
+							{
+								"description": 71,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 1
+							}
+						],
+						"changeCreatures": {
+							"core:pixie": "core:sprite"
+						},
+						"message": "@hpp.objects.faerieRingSpriteAwakening.pixie"
+					},
+					{
+						"bonuses": [
+							{
+								"description": 71,
+								"duration": "ONE_BATTLE",
+								"type": "LUCK",
+								"val": 1
+							}
+						],
+						"message": 49
+					}
+				]
+			}
+		}
+	}
+}

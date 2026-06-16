@@ -1,8 +1,8 @@
 {
   "name": "Ranged Creatures",
-  "description": "Creature-side ranged economy modules for the New Ranged package. Includes Shooter Ammo, which creates a fixed shooter ammo baseline and supports Archery's total ammo pool bonuses.",
+  "description": "Creature modules for the New Ranged package.\n\nModules in this category rework shooter ammunition so ammo becomes a real resource and better interacts with Archery, the Ammo Cart, and the overall ranged combat economy.\n\n## Changed Elements\n\n* **Shooter Ammo** — sets a new baseline ammo pool for ranged units. Base shooters usually have less ammo, upgraded versions usually receive an additional shot, and selected special units, such as **Sea Dog** and **Titan**, have their own values. **Ballista** also has reduced ammo to better fit the New Ranged system.\n\n## System Interactions\n\n* **Archery** can increase the maximum ammo pool of ranged units during combat.\n* The New Ranged **Ammo Cart** acts as an additional ammo source instead of granting unlimited shots.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -11,5 +11,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Jednostki strzelające",
+    "description": "Moduły jednostek dla pakietu New Ranged.\n\nModuły z tej kategorii przebudowują zasady amunicji jednostek strzelających, aby liczba strzałów była realnym zasobem i lepiej współgrała z Łucznictwem, Wozem z amunicją oraz ogólną ekonomią walki dystansowej.\n\n## Zmienione elementy\n\n* **Amunicja strzelców** — ustala nową bazową liczbę strzałów dla jednostek strzelających. Podstawowi strzelcy zwykle mają mniej amunicji, ulepszone wersje zazwyczaj otrzymują dodatkowy strzał, a wybrane jednostki specjalne, takie jak **Wilk morski** i **Tytan**, mają własne wartości. **Balista** również ma zmniejszoną amunicję, aby lepiej pasowała do systemu New Ranged.\n\n## Interakcje systemowe\n\n* **Łucznictwo** może zwiększać maksymalną pulę amunicji jednostek strzelających podczas walki.\n* **Wóz z amunicją** z pakietu New Ranged działa jako dodatkowe źródło amunicji, zamiast zapewniać nieskończoną liczbę strzałów."
   }
 }

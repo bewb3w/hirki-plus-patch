@@ -2,7 +2,7 @@
   "name": "New Intelligence",
   "description": "A larger Intelligence rework designed for use with Horn of the Abyss on VCMI.\n\nThis module keeps HotA-style maximum mana values for Intelligence and adds a combat mana bonus during battle:\n\n* **Basic Intelligence** — increases maximum mana by 20% and grants 5 additional combat mana.\n* **Advanced Intelligence** — increases maximum mana by 35% and grants 10 additional combat mana.\n* **Expert Intelligence** — increases maximum mana by 50% and grants 15 additional combat mana.\n\nSelected magical, mystical, or knowledge-themed allied creatures can further support **heroes with Intelligence** by granting additional **total combat mana** based on army composition and stack size. Different supported creature lines can be combined to increase the total combat mana bonus, **but splitting the same supported creature into multiple stacks does not duplicate its support bonus**. Where both a base creature and its upgrade are supported by the same module, using them together is allowed and can contribute to that line's support bonus.\n\n## Creature Support Overview\n\nCreature support is handled through separate optional modules. Exact thresholds and values are listed in each individual creature module description.\n\nSupported creature lines include:\n\n* **Mages** — both **Mage** and **Arch Mage** can provide support.\n* **Priests** — both **Monk** and **Zealot** can provide support.\n* **Sea Witches** — both **Sea Witch** and **Sorceress** can provide support.\n* **Liches** — both **Lich** and **Power Lich** can provide support.\n* **Shamans** — both **Shaman** and **Great Shaman** can provide support.\n* **Unicorns** — both **Unicorn** and **War Unicorn** can provide support.\n* **Psychic and Magic Elementals** — both **Psychic Elemental** and **Magic Elemental** can provide support.\n* **Couatls** — both **Couatl** and **Crimson Couatl** can provide support.\n* **Enchanter** — **Enchanter** can provide support.\n* **Faerie Dragon** — **Faerie Dragon** can provide support.\n* **Ogre Mage** — only the upgraded **Ogre Mage** can provide support.\n* **Pit Lord** — only the upgraded **Pit Lord** can provide support.\n* **Yeti Runemaster** — only the upgraded **Yeti Runemaster** can provide support.\n* **Medusa Queen** — only the upgraded **Medusa Queen** can provide support.\n* **Greater Basilisk** — only the upgraded **Greater Basilisk** can provide support.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Expansion",
   "depends": [
     "hota"
@@ -13,6 +13,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Nowa Inteligencja",
+    "description": "Większy rework **Inteligencji**, przygotowany do gry z Horn of the Abyss na VCMI.\n\nTen moduł zachowuje wartości maksymalnej many w stylu HotA i dodaje premię many bojowej dostępną tylko podczas walki:\n\n* **Podstawowa Inteligencja** — zwiększa maksymalną manę o 20% i daje 5 punktów many bojowej.\n* **Zaawansowana Inteligencja** — zwiększa maksymalną manę o 35% i daje 10 punktów many bojowej.\n* **Ekspercka Inteligencja** — zwiększa maksymalną manę o 50% i daje 15 punktów many bojowej.\n\nWybrane magiczne, mistyczne lub związane z wiedzą sojusznicze jednostki mogą dodatkowo wspierać **bohaterów z Inteligencją**, zwiększając ich **łączną manę bojową** zależnie od składu armii i liczebności oddziałów.\n\nRóżne wspierające linie jednostek mogą łączyć swoje premie, ale rozdzielenie tej samej wspierającej jednostki na kilka oddziałów nie duplikuje jej wsparcia. Jeśli ten sam moduł obsługuje zarówno jednostkę podstawową, jak i jej ulepszenie, używanie obu wariantów razem jest dozwolone i może zwiększać wsparcie tej linii.\n\n## Wsparcie jednostek\n\nWsparcie jednostek jest obsługiwane przez osobne, opcjonalne moduły. Dokładne progi i wartości są opisane w opisach konkretnych modułów.\n\nObsługiwane linie obejmują:\n\n* **Magów** i **Arcymagów**\n* **Mnichów** i **Kapłanów**\n* **Zaklinaczki** i **Czarodziejki**\n* **Lisze** i **Arcylisze**\n* **Szamanów** i **Wielkich szamanów**\n* **Jednorożce** i **Jednorożce bitewne**\n* **Żywiołaki umysłu** i **Żywiołaki magii**\n* **Koatle** i **Karmazynowe Koatle**\n* **Bazyliszki większe**\n* **Meduzy królewskie**\n* **Ogry szamanów**\n* **Czarcie lordy**\n* **Runowładne yeti**\n* **Czarodziejów**\n* **Czarodziejskie smoki**",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

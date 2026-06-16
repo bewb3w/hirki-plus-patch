@@ -2,8 +2,15 @@
   "name": "Sorcery",
   "description": "Reworks **Sorcery** into a combat spellpower amplifier.\n\nSorcery now increases the hero's **Spell Power during combat**, strengthening all spells cast in battle and fully scaling for heroes specialized in Sorcery.\n\n## Skill Effects\n\n* **Basic Sorcery:** +10% Spell Power during combat\n* **Advanced Sorcery:** +20% Spell Power during combat\n* **Expert Sorcery:** +30% Spell Power during combat",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Skills",
+  "polish": {
+    "name": "Talent magiczny",
+    "description": "Rozwija **Talent magiczny** jako umiejętność wzmacniającą Moc bohatera podczas walki.\n\nTalent magiczny zwiększa teraz **Moc bohatera podczas walki**, wzmacniając wszystkie czary rzucane w bitwie i w pełni współdziałając ze specjalnościami bohaterów opartymi na Talencie magicznym.\n\n## Efekty umiejętności\n\n* **Podstawowy Talent magiczny:** +10% Mocy podczas walki\n* **Zaawansowany Talent magiczny:** +20% Mocy podczas walki\n* **Ekspercki Talent magiczny:** +30% Mocy podczas walki",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
+    ]
+  },
   "skills": [
     "config/skills/Sorcery.json"
   ],

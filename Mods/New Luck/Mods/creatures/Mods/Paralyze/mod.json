@@ -2,7 +2,7 @@
   "name": "Paralyze Luck Scaling",
   "description": "Adds Luck-based scaling to the Paralyze attack of Manticores and Scorpicores.\n\nThis module gives **Manticores** a new chance to trigger **Paralyze** when they have positive Luck, while **Scorpicores** keep their existing Paralyze attack and have its chance modified by both positive and negative Luck.\n\n## Creature Changes\n\n* **Manticore** — gains a chance to trigger **Paralyze** only with positive Luck.\n  * **+1 Luck**: 7% Paralyze chance.\n  * **+2 Luck**: 14% Paralyze chance.\n  * **+3 or higher Luck**: 20% Paralyze chance.\n\n* **Scorpicore** — keeps its existing **Paralyze** attack and has its chance adjusted by Luck.\n  * **-3 or lower Luck**: Paralyze chance is reduced by 10%.\n  * **-2 Luck**: Paralyze chance is reduced by 7%.\n  * **-1 Luck**: Paralyze chance is reduced by 3%.\n  * **+1 Luck**: Paralyze chance is increased by an additional 10%.\n  * **+2 Luck**: Paralyze chance is increased by an additional 20%.\n  * **+3 or higher Luck**: Paralyze chance is increased by an additional 30%.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -14,5 +14,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Paraliż — skalowanie szczęściem",
+    "description": "Dodaje skalowanie szczęściem do zdolności **Paraliż** u **Mantykor** i **Chimer**.\n\nTen moduł daje **Mantykorom** nową szansę na wywołanie **Paraliżu**, ale tylko przy dodatnim szczęściu. **Chimery** zachowują swoją istniejącą zdolność **Paraliżu**, a jej szansa zostaje modyfikowana zarówno przez dodatnie, jak i ujemne szczęście.\n\n## Zmiany jednostek\n\n* **Mantykora** — zyskuje szansę na wywołanie **Paraliżu** tylko przy dodatnim szczęściu.\n  * **+1 szczęścia**: 7% szansy na Paraliż.\n  * **+2 szczęścia**: 14% szansy na Paraliż.\n  * **+3 lub więcej szczęścia**: 20% szansy na Paraliż.\n\n* **Chimera** — zachowuje swoją istniejącą zdolność **Paraliżu**, a jej szansa jest dostosowywana przez szczęście.\n  * **-3 lub mniej szczęścia**: szansa na Paraliż jest zmniejszona o 10%.\n  * **-2 szczęścia**: szansa na Paraliż jest zmniejszona o 7%.\n  * **-1 szczęścia**: szansa na Paraliż jest zmniejszona o 3%.\n  * **+1 szczęścia**: szansa na Paraliż jest zwiększona o dodatkowe 10%.\n  * **+2 szczęścia**: szansa na Paraliż jest zwiększona o dodatkowe 20%.\n  * **+3 lub więcej szczęścia**: szansa na Paraliż jest zwiększona o dodatkowe 30%."
   }
 }

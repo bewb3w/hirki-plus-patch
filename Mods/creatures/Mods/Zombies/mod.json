@@ -2,7 +2,7 @@
   "name": "Zombies",
   "description": "Walking Dead and Zombie Lord gain their own unique Death Ripple-like spell named Grave Ripple.\n\n## Shared Features\n\n* **Spell** — both units cast **Grave Ripple**, a battlefield-wide damage spell.\n* **Targeting** — **Grave Ripple** damages all living units on the battlefield, including allied living units. It does not affect undead, non-living units, mechanical units, siege weapons, or gargoyles.\n* **Presentation** — both versions use a dark purple battle effect and matching spell icons.\n* **Scaling** — both the number of casts and spell damage scale with the number of units in the stack.\n\n## Walking Dead\n\n* **Spell version** — casts a weaker version of **Grave Ripple**.\n* **Casts** — 1 cast at 20 or more units in the stack, 2 casts at 200 or more units in the stack, then +1 additional cast for every 200 units in the stack.\n\n## Zombie Lord\n\n* **Spell version** — casts a stronger version of **Grave Ripple** with better stack-size scaling.\n* **Casts** — 1 cast at 10 or more units in the stack, 2 casts at 100 or more units in the stack, then +1 additional cast for every 100 units in the stack.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota"
@@ -18,6 +18,13 @@
   "changelog": {
     "1.0.0": [
       "Initial release."
+    ]
+  },
+  "polish": {
+    "name": "Cmentarna fala",
+    "description": "Rozwija **Ożywieńców** i **Zombie** jako jednostki Nekropolii zdolne do uwalniania cmentarnej energii.\n\nObie jednostki zyskują możliwość rzucania **Cmentarnej fali**, która zadaje obrażenia wszystkim żywym jednostkom na polu bitwy, także sojuszniczym. Efekt nie działa na nieumarłych, jednostki nieożywione, jednostki mechaniczne, machiny oblężnicze ani gargulce. Ożywieńcy używają słabszej wersji czaru, a Zombie używają jego silniejszej wersji.\n\n## Wspólne cechy\n\n* **Czar:** Cmentarna fala\n* **Cel:** wszystkie żywe jednostki na polu bitwy, także sojusznicze\n* **Ograniczenie:** nie działa na nieumarłych, jednostki nieożywione, jednostki mechaniczne, machiny oblężnicze ani gargulce\n* **Prezentacja:** obie wersje używają ciemnofioletowego efektu bitewnego i pasujących ikon czaru\n* **Skalowanie:** liczba użyć i obrażenia czaru zależą od liczby jednostek w oddziale\n\n## Ożywieńcy\n\n* **Wersja czaru:** rzucają słabszą wersję Cmentarnej fali\n* **Użycia:** 1 użycie przy 20 lub więcej jednostkach w oddziale, 2 użycia przy 200 lub więcej jednostkach, potem +1 dodatkowe użycie za każde 200 jednostek w oddziale\n\n## Zombie\n\n* **Wersja czaru:** rzucają silniejszą wersję Cmentarnej fali z lepszym skalowaniem względem wielkości oddziału\n* **Użycia:** 1 użycie przy 10 lub więcej jednostkach w oddziale, 2 użycia przy 100 lub więcej jednostkach, potem +1 dodatkowe użycie za każde 100 jednostek w oddziale",
+    "translations": [
+      "config/translation/hpp/polish/game.json"
     ]
   }
 }

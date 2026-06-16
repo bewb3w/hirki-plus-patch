@@ -16,7 +16,7 @@
 			}
 		},
 		"basic": {
-			"description": "{Basic Estates}\n\nWith Basic Estates, a hero contributes 250 gold per day to your team economy and improves Marketplace exchange rates by 1 for your player and allied players.",
+			"description": "{Basic Estates}\n\nWith Basic Estates, a hero contributes 250 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 1 additional Marketplace.",
 			"effects": {
 				"main": {
 					"val": 250
@@ -27,7 +27,7 @@
 			}
 		},
 		"advanced": {
-			"description": "{Advanced Estates}\n\nWith Advanced Estates, a hero contributes 500 gold per day to your team economy and improves Marketplace exchange rates by 2 for your player and allied players.",
+			"description": "{Advanced Estates}\n\nWith Advanced Estates, a hero contributes 500 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 2 additional Marketplaces.",
 			"effects": {
 				"main": {
 					"val": 500
@@ -38,7 +38,7 @@
 			}
 		},
 		"expert": {
-			"description": "{Expert Estates}\n\nWith Expert Estates, a hero contributes 1000 gold per day to your team economy and improves Marketplace exchange rates by 3 for your player and allied players.",
+			"description": "{Expert Estates}\n\nWith Expert Estates, a hero contributes 1000 gold per day to the team's economy and improves Marketplace exchange rates as if the hero's team had 3 additional Marketplaces.",
 			"effects": {
 				"main": {
 					"val": 1000

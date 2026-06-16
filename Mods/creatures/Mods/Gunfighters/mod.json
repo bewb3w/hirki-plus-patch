@@ -1,8 +1,8 @@
 {
   "name": "Gunfighters",
-  "description": "Gunslinger and Bounty Hunter gain Precision spellcasting.\n\n## Shared Features\n\n* **Spell** — both units cast **Precision**.\n* **Targeting** — both units can cast **Precision** on other allied shooter units, but not on their own stack.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n* **Compatibility** — this module does not require New Ranged. If the New Ranged Precision module is active, these units use the active version of Precision.\n\n## Gunslinger\n\n* **Spell level** — casts **Basic Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 6 or more units in the stack, and 3 casts at 12 or more units in the stack.\n\n## Bounty Hunter\n\n* **Spell level** — casts **Advanced Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 5 or more units in the stack, and 3 casts at 10 or more units in the stack.",
+  "description": "Gunslinger and Bounty Hunter gain Precision spellcasting.\n\nThe number of casts scales with stack size, while each Precision effect applied by these units lasts 3 turns.\n\n## Shared Features\n\n* **Spell** — both units cast **Precision**.\n* **Targeting** — both units can cast **Precision** on other allied shooter units, but not on their own stack.\n* **Duration** — each **Precision** effect applied by these units lasts 3 turns.\n* **Scaling** — the number of casts scales with the number of units in the stack.\n* **Compatibility** — this module does not require New Ranged. If the New Ranged Precision module is active, these units use the active version of Precision.\n\n## Gunslinger\n\n* **Spell level** — casts **Basic Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 6 or more units in the stack, and 3 casts at 12 or more units in the stack.\n\n## Bounty Hunter\n\n* **Spell level** — casts **Advanced Precision**.\n* **Casts** — 1 cast at 2 or more units in the stack, 2 casts at 5 or more units in the stack, and 3 casts at 10 or more units in the stack.",
   "author": "bew_",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "modType": "Creatures",
   "depends": [
     "hota",
@@ -16,5 +16,9 @@
     "1.0.0": [
       "Initial release."
     ]
+  },
+  "polish": {
+    "name": "Rewolwerowcy",
+    "description": "Rozwija **Najemników** i **Łowców Nagród** jako jednostki wsparcia z Factory oparte na rewolwerowej specjalizacji.\n\nObie jednostki zyskują możliwość rzucania **Precyzji** na inne sojusznicze oddziały strzelające. Nie mogą rzucać tego czaru na własny oddział. Efekt **Precyzji** rzuconej przez te jednostki trwa 3 tury, a liczba użyć skaluje się z wielkością oddziału.\n\n## Wspólne cechy\n\n* **Czar:** Precyzja\n* **Cel:** inne sojusznicze oddziały strzelające\n* **Ograniczenie:** brak możliwości rzucenia czaru na własny oddział\n* **Czas trwania:** 3 tury\n* **Skalowanie:** liczba użyć zależy od liczby jednostek w oddziale\n* **Kompatybilność:** ten moduł nie wymaga New Ranged. Jeśli moduł New Ranged Precision jest aktywny, jednostki korzystają z aktywnej wersji Precyzji.\n\n## Najemnik\n\n* **Poziom czaru:** rzuca Podstawową Precyzję\n* **Użycia:** 1 użycie przy 2 lub więcej jednostkach w oddziale, 2 użycia przy 6 lub więcej jednostkach i 3 użycia przy 12 lub więcej jednostkach\n\n## Łowca Nagród\n\n* **Poziom czaru:** rzuca Zaawansowaną Precyzję\n* **Użycia:** 1 użycie przy 2 lub więcej jednostkach w oddziale, 2 użycia przy 5 lub więcej jednostkach i 3 użycia przy 10 lub więcej jednostkach"
   }
 }

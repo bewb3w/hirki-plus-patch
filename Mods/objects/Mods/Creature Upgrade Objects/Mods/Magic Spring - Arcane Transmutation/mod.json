@@ -1,0 +1,36 @@
+{
+	"name": "Magic Spring - Arcane Transmutation",
+	"description": "Preserves the normal **Magic Spring** mana-doubling effect and adds thematic creature transmutation rewards.\n\nWhen a hero successfully uses a **Magic Spring**, the spring still doubles the hero's mana as usual. In addition, it can transform allied spellcasters and magically gifted creatures in the hero's army.\n\n## Arcane Transmutation\n\n* **Arch Mages** are transformed into **Enchanters**.\n* If the hero has no Arch Mages, **Mages** are transformed into **Arch Mages** instead.\n* **Ogres** can be transformed into **Ogre Magi** in parallel with the highest available Mage-line transformation.\n\nIf the hero has **Mages**, **Arch Mages**, and **Ogres**, only **Arch Mages** and **Ogres** are transformed during that visit; **Mages** remain unchanged.\n\n## Enchanter Tower Alignment\n\n**Enchanters** are globally aligned with **Tower**, giving them **snow** as native terrain while this module is active.\n\n## Visit and Mana Rules\n\nTransformations only happen when the Magic Spring can actually double the hero's mana. If the hero still has doubled mana from a previous Magic Spring visit, creature transformations will not trigger, even after the weekly visit reset.\n\nThis keeps the free transformations tied to real use of the spring's magic and prevents repeated upgrades without spending the doubled mana first.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Magiczne źródło — Tajemna transmutacja",
+		"description": "Zachowuje normalny efekt podwajania many **Magicznego źródła** i dodaje tematyczne nagrody transmutacji jednostek.\n\nGdy bohater z powodzeniem korzysta z **Magicznego źródła**, źródło nadal podwaja jego manę jak zwykle. Dodatkowo może przemienić sojuszniczych czarodziejów i magicznie uzdolnione istoty w armii bohatera.\n\n## Tajemna transmutacja\n\n* **Arcymagowie** są przemieniani w **Czarodziejów**.\n* Jeśli bohater nie ma Arcymagów, **Magowie** są zamiast tego przemieniani w **Arcymagów**.\n* **Ogry** mogą zostać przemienione w **Ogry Szamany** równolegle z najwyższą dostępną transmutacją linii Magów.\n\nJeśli bohater ma jednocześnie **Magów**, **Arcymagów** i **Ogry**, podczas tej wizyty przemieniani są tylko **Arcymagowie** i **Ogry**; **Magowie** pozostają bez zmian.\n\n## Przynależność Czarodzieja do Tower\n\n**Czarodzieje** zostają globalnie przypisani do **Tower**, dzięki czemu mają **śnieg** jako teren natywny, gdy ten moduł jest aktywny.\n\n## Zasady wizyty i many\n\nTransmutacje następują tylko wtedy, gdy **Magiczne źródło** może faktycznie podwoić manę bohatera. Jeśli bohater nadal ma podwojoną manę z poprzedniej wizyty w **Magicznym źródle**, transmutacje jednostek nie zostaną wykonane, nawet po tygodniowym resecie wizyty.\n\nDzięki temu darmowe transmutacje są powiązane z realnym użyciem magii źródła i zapobiegają powtarzaniu darmowych ulepszeń bez wcześniejszego zużycia podwojonej many.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/MagicSpringArcaneTransmutation.json"
+	],
+	"creatures": [
+		"config/creatures/EnchanterTowerAlignment.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

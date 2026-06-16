@@ -1,0 +1,33 @@
+{
+	"name": "Swan Pond - Unicorn Blessing",
+	"description": "Preserves the normal **Swan Pond** luck reward and adds an additional creature upgrade reward.\n\nWhen a hero visits a **Swan Pond**, the object still grants its normal **+2 Luck** bonus for the next battle and consumes the hero's remaining movement as usual. In addition, if the hero has **Unicorns**, the pond can bless those units and transform them into **War Unicorns**.\n\n## Unicorn Blessing\n\n* **Unicorns** are transformed into **War Unicorns**.\n* Heroes without Unicorns receive only the normal Swan Pond reward.\n\nThis keeps the object's original luck-based role while giving Rampart Unicorns a thematic upgrade opportunity on the adventure map.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Łabędzi staw — Błogosławieństwo Jednorożców",
+		"description": "Zachowuje normalną nagrodę **Łabędziego stawu** do szczęścia i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater odwiedza **Łabędzi staw**, obiekt nadal przyznaje normalny bonus **+2 do szczęścia** w następnej bitwie i jak zwykle zużywa pozostały ruch bohatera. Dodatkowo, jeśli bohater ma **Jednorożce**, staw może pobłogosławić te jednostki i przemienić je w **Jednorożce bitewne**.\n\n## Błogosławieństwo Jednorożców\n\n* **Jednorożce** są przemieniane w **Jednorożce bitewne**.\n* Bohaterowie bez Jednorożców otrzymują tylko normalną nagrodę Łabędziego stawu.\n\nDzięki temu obiekt zachowuje swoją pierwotną rolę związaną ze szczęściem, a Jednorożce Bastionu otrzymują tematyczną okazję do ulepszenia na mapie przygody.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/SwanPondUnicornBlessing.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}

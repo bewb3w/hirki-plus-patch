@@ -1,0 +1,33 @@
+{
+	"name": "Sanctuary - Monk Consecration",
+	"description": "Preserves the normal **Sanctuary** protective role and adds an additional creature upgrade reward.\n\nWhen a hero enters **Sanctuary**, the object still protects that hero as usual. In addition, if the hero has **Monks**, the sanctuary can consecrate those units into **Zealots**.\n\n## Monk Consecration\n\n* **Monks** are transformed into **Zealots**.\n* Heroes without Monks receive only the normal Sanctuary protection message.\n\nThis keeps the object's original defensive role while giving Castle monks a thematic upgrade opportunity on the adventure map.",
+	"author": "bew_",
+	"version": "1.1.0",
+	"modType": "Objects",
+	"depends": [
+		"hota"
+	],
+	"compatibility": {
+		"min": "1.7.4"
+	},
+	"english": {
+		"translations": [
+			"config/translation/hpp/english/game.json"
+		]
+	},
+	"polish": {
+		"name": "Sanktuarium — Konsekracja Mnichów",
+		"description": "Zachowuje normalną rolę ochronną **Sanktuarium** i dodaje dodatkową nagrodę ulepszenia jednostek.\n\nGdy bohater wchodzi do **Sanktuarium**, obiekt nadal chroni go jak zwykle. Dodatkowo, jeśli bohater ma **Mnichów**, sanktuarium może przemienić te jednostki w **Kapłanów**.\n\n## Konsekracja Mnichów\n\n* **Mnisi** są przemieniani w **Kapłanów**.\n* Bohaterowie bez Mnichów otrzymują tylko normalny komunikat ochronny Sanktuarium.\n\nDzięki temu obiekt zachowuje swoją pierwotną rolę defensywną, a mnisi Zamku otrzymują tematyczną okazję do ulepszenia na mapie przygody.",
+		"translations": [
+			"config/translation/hpp/polish/game.json"
+		]
+	},
+	"objects": [
+		"config/objects/SanctuaryMonkConsecration.json"
+	],
+	"changelog": {
+		"1.1.0": [
+			"Initial release."
+		]
+	}
+}
