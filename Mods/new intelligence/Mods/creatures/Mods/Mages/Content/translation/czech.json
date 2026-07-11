@@ -1,0 +1,4 @@
+{
+  "creatures.core.mage.bonus.intelligenceMageBasicArmyTotalT4": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 4 Mágy.\nPřidá hrdinovi magickou energii.\nSíla účinku roste podle počtu Mágů.",
+  "creatures.core.archMage.bonus.intelligenceArchMageBasicArmyTotalT2": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 2 Arcimágy.\nPřidá více magické energie.\nSíla účinku roste podle počtu Arcimágů."
+}

@@ -1,32 +1,32 @@
 {
-	"core:navigation": {
-		"basic": {
-			"description": "{Basic Navigation}\n\nBasic Navigation increases the hero's movement over water by 50%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
-			"effects": {
-				"boarding": {
-					"type": "FREE_SHIP_BOARDING",
-					"val": 200,
-					"valueType": "ADDITIVE_VALUE"
+	"core:navigation" : {
+		"basic" : {
+			"description" : "{Basic Navigation}\n\nBasic Navigation increases the hero's movement over water by 50%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
+			"effects" : {
+				"boarding" : {
+					"type" : "FREE_SHIP_BOARDING",
+					"val" : 200,
+					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
 		},
-		"advanced": {
-			"description": "{Advanced Navigation}\n\nAdvanced Navigation increases the hero's movement over water by 100%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
-			"effects": {
-				"boarding": {
-					"type": "FREE_SHIP_BOARDING",
-					"val": 500,
-					"valueType": "ADDITIVE_VALUE"
+		"advanced" : {
+			"description" : "{Advanced Navigation}\n\nAdvanced Navigation increases the hero's movement over water by 100%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
+			"effects" : {
+				"boarding" : {
+					"type" : "FREE_SHIP_BOARDING",
+					"val" : 500,
+					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
 		},
-		"expert": {
-			"description": "{Expert Navigation}\n\nExpert Navigation increases the hero's movement over water by 150%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
-			"effects": {
-				"boarding": {
-					"type": "FREE_SHIP_BOARDING",
-					"val": 700,
-					"valueType": "ADDITIVE_VALUE"
+		"expert" : {
+			"description" : "{Expert Navigation}\n\nExpert Navigation increases the hero's movement over water by 150%.\n\nIt allows boarding and disembarking ships without ending the turn. When boarding or landing, the hero's remaining movement is converted between land and water movement.",
+			"effects" : {
+				"boarding" : {
+					"type" : "FREE_SHIP_BOARDING",
+					"val" : 700,
+					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
 		}

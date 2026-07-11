@@ -1,40 +1,40 @@
 {
-	"core:pillarOfFire": {
-		"types": {
-			"pillarOfFire": {
-				"selectMode": "selectFirst",
-				"visitMode": "unlimited",
-				"rewards": [
+	"core:pillarOfFire" : {
+		"types" : {
+			"pillarOfFire" : {
+				"selectMode" : "selectFirst",
+				"visitMode" : "unlimited",
+				"rewards" : [
 					{
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "core:efreet"
+									"amount" : 1,
+									"type" : "core:efreet"
 								}
 							]
 						},
-						"revealTiles": {
-							"radius": 20,
-							"rock": 1,
-							"subterra": 1,
-							"surface": 1,
-							"water": 1
+						"revealTiles" : {
+							"radius" : 20,
+							"rock" : 1,
+							"subterra" : 1,
+							"surface" : 1,
+							"water" : 1
 						},
-						"changeCreatures": {
-							"core:efreet": "core:efreetSultan"
+						"changeCreatures" : {
+							"core:efreet" : "core:efreetSultan"
 						},
-						"message": "@hpp.objects.pillarOfFireEfreetAscension.efreet"
+						"message" : "@hpp.objects.pillarOfFireEfreetAscension.efreet"
 					},
 					{
-						"revealTiles": {
-							"radius": 20,
-							"rock": 1,
-							"subterra": 1,
-							"surface": 1,
-							"water": 1
+						"revealTiles" : {
+							"radius" : 20,
+							"rock" : 1,
+							"subterra" : 1,
+							"surface" : 1,
+							"water" : 1
 						},
-						"message": 99
+						"message" : 99
 					}
 				]
 			}

@@ -1,207 +1,207 @@
 {
-	"hota.wastelandterrain:trailblazer": {
-		"types": {
-			"trailblazer": {
-				"selectMode": "selectFirst",
-				"visitMode": "bonus",
-				"rewards": [
+	"hota.wastelandterrain:trailblazer" : {
+		"types" : {
+			"trailblazer" : {
+				"selectMode" : "selectFirst",
+				"visitMode" : "bonus",
+				"rewards" : [
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "ROUGH_TERRAIN_DISCOUNT",
-								"val": 50
+								"type" : "ROUGH_TERRAIN_DISCOUNT",
+								"val" : 50
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": -25,
-								"valueType": "BASE_NUMBER"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : -25,
+								"valueType" : "BASE_NUMBER"
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": 75,
-								"valueType": "INDEPENDENT_MAX"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : 75,
+								"valueType" : "INDEPENDENT_MAX"
 							}
 						],
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "hota.bulwark:shaman"
+									"amount" : 1,
+									"type" : "hota.bulwark:shaman"
 								},
 								{
-									"amount": 1,
-									"type": "core:ogre"
+									"amount" : 1,
+									"type" : "core:ogre"
 								}
 							]
 						},
-						"changeCreatures": {
-							"hota.bulwark:shaman": "hota.bulwark:greatShaman",
-							"core:ogre": "core:ogreMage"
+						"changeCreatures" : {
+							"hota.bulwark:shaman" : "hota.bulwark:greatShaman",
+							"core:ogre" : "core:ogreMage"
 						},
-						"message": "@hpp.objects.trailblazerWastelandTraining.both"
+						"message" : "@hpp.objects.trailblazerWastelandTraining.both"
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "ROUGH_TERRAIN_DISCOUNT",
-								"val": 50
+								"type" : "ROUGH_TERRAIN_DISCOUNT",
+								"val" : 50
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": -25,
-								"valueType": "BASE_NUMBER"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : -25,
+								"valueType" : "BASE_NUMBER"
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": 75,
-								"valueType": "INDEPENDENT_MAX"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : 75,
+								"valueType" : "INDEPENDENT_MAX"
 							}
 						],
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "hota.bulwark:shaman"
+									"amount" : 1,
+									"type" : "hota.bulwark:shaman"
 								}
 							]
 						},
-						"changeCreatures": {
-							"hota.bulwark:shaman": "hota.bulwark:greatShaman"
+						"changeCreatures" : {
+							"hota.bulwark:shaman" : "hota.bulwark:greatShaman"
 						},
-						"message": "@hpp.objects.trailblazerWastelandTraining.shaman"
+						"message" : "@hpp.objects.trailblazerWastelandTraining.shaman"
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "ROUGH_TERRAIN_DISCOUNT",
-								"val": 50
+								"type" : "ROUGH_TERRAIN_DISCOUNT",
+								"val" : 50
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": -25,
-								"valueType": "BASE_NUMBER"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : -25,
+								"valueType" : "BASE_NUMBER"
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": 75,
-								"valueType": "INDEPENDENT_MAX"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : 75,
+								"valueType" : "INDEPENDENT_MAX"
 							}
 						],
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "core:ogre"
+									"amount" : 1,
+									"type" : "core:ogre"
 								}
 							]
 						},
-						"changeCreatures": {
-							"core:ogre": "core:ogreMage"
+						"changeCreatures" : {
+							"core:ogre" : "core:ogreMage"
 						},
-						"message": "@hpp.objects.trailblazerWastelandTraining.ogre"
+						"message" : "@hpp.objects.trailblazerWastelandTraining.ogre"
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "ROUGH_TERRAIN_DISCOUNT",
-								"val": 50
+								"type" : "ROUGH_TERRAIN_DISCOUNT",
+								"val" : 50
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": -25,
-								"valueType": "BASE_NUMBER"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : -25,
+								"valueType" : "BASE_NUMBER"
 							},
 							{
-								"duration": "ONE_WEEK",
-								"limiters": [
+								"duration" : "ONE_WEEK",
+								"limiters" : [
 									{
-										"terrain": "wasteland",
-										"type": "TERRAIN_LIMITER"
+										"terrain" : "wasteland",
+										"type" : "TERRAIN_LIMITER"
 									}
 								],
-								"type": "BASE_TILE_MOVEMENT_COST",
-								"val": 75,
-								"valueType": "INDEPENDENT_MAX"
+								"type" : "BASE_TILE_MOVEMENT_COST",
+								"val" : 75,
+								"valueType" : "INDEPENDENT_MAX"
 							}
 						],
-						"message": "{Trailblazer}\n\n\"I know these wastelands like the back of my hand. Even if I haven't been somewhere, I'll figure out how to find the way. I suppose I could tag along with you for a week if you need a hand,\" says the man in this tent."
+						"message" : "{Trailblazer}\n\n\"I know these wastelands like the back of my hand. Even if I haven't been somewhere, I'll figure out how to find the way. I suppose I could tag along with you for a week if you need a hand,\" says the man in this tent."
 					}
 				]
 			}

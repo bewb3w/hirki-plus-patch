@@ -1,14 +1,14 @@
 {
-  "core:torosar": {
-    "skills": [
-      {
-        "skill": "artillery",
-        "level": "basic"
-      },
-      {
-        "skill": "tactics",
-        "level": "basic"
-      }
-    ]
-  }
+	"core:torosar" : {
+		"skills" : [
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		]
+	}
 }

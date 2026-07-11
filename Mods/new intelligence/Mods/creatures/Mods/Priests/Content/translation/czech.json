@@ -1,0 +1,4 @@
+{
+  "creatures.core.monk.bonus.intelligenceMonkBasicArmyTotalT4": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 4 Mnichy.\nPřidá hrdinovi magickou energii.\nSíla účinku roste podle počtu Mnichů.",
+  "creatures.core.zealot.bonus.intelligenceZealotBasicArmyTotalT2": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 2 Fanatiky.\nPřidá více magické energie.\nSíla účinku roste podle počtu Fanatiků."
+}

@@ -1,0 +1,4 @@
+{
+  "creatures.core.psychicElemental.bonus.intelligencePsychicElementalBasicArmyTotalT3": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 3 Psychické elementály.\nPřidá hrdinovi magickou energii.\nSíla účinku roste podle počtu Psychických elementálů.",
+  "creatures.core.magicElemental.bonus.intelligenceMagicElementalBasicArmyTotalT2": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 2 Magické elementály.\nPřidá více magické energie.\nSíla účinku roste podle počtu Magických elementálů."
+}

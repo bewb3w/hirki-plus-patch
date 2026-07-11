@@ -1,0 +1,92 @@
+{
+	"core:slayer": {
+		"name": "Pogromca",
+		"school": {
+			"fire": true
+		},
+		"type": "combat",
+		"targetType": "CREATURE",
+		"animation": {
+			"affect": [
+				"C13SPW0"
+			]
+		},
+		"sounds": {
+			"cast": "SLAYER"
+		},
+		"flags": {
+			"positive": true
+		},
+		"levels": {
+			"none": {
+				"cost": 16,
+				"power": 8,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": {
+					"slayer": {
+						"type": "SLAYER",
+						"val": 0,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "{Pogromca}\n\nZwiększa siłę ataku wybranego oddziału podczas walki ze smokami, behemotami i hydrami."
+			},
+			"basic": {
+				"cost": 14,
+				"power": 0,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": {
+					"slayer": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "{Pogromca - poziom podstawowy}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym."
+			},
+			"advanced": {
+				"cost": 12,
+				"power": 0,
+				"range": "0",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": null,
+				"cumulativeEffects": {
+					"hatesKing": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "{Pogromca - poziom zaawansowany}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+			},
+			"expert": {
+				"cost": 10,
+				"power": 0,
+				"range": "X",
+				"targetModifier": {
+					"smart": true
+				},
+				"effects": null,
+				"cumulativeEffects": {
+					"hatesKing": {
+						"type": "HATES_TRAIT",
+						"subtype": "KING",
+						"val": 40,
+						"duration": "N_TURNS"
+					}
+				},
+				"description": "{Pogromca - poziom mistrzowski}\n\nWszystkie sprzymierzone oddziały zadają o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+			}
+		}
+	}
+}
