@@ -1,42 +1,42 @@
 {
-	"core:faerieRing": {
-		"types": {
-			"faerieRing": {
-				"selectMode": "selectFirst",
-				"visitMode": "bonus",
-				"rewards": [
+	"core:faerieRing" : {
+		"types" : {
+			"faerieRing" : {
+				"selectMode" : "selectFirst",
+				"visitMode" : "bonus",
+				"rewards" : [
 					{
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "core:pixie"
+									"amount" : 1,
+									"type" : "core:pixie"
 								}
 							]
 						},
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 71,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 71,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"changeCreatures": {
-							"core:pixie": "core:sprite"
+						"changeCreatures" : {
+							"core:pixie" : "core:sprite"
 						},
-						"message": "@hpp.objects.faerieRingSpriteAwakening.pixie"
+						"message" : "@hpp.objects.faerieRingSpriteAwakening.pixie"
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 71,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 71,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"message": 49
+						"message" : 49
 					}
 				]
 			}

@@ -1,0 +1,4 @@
+{
+  "creatures.core.lich.bonus.intelligenceLichBasicArmyTotalT3": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 3 Lichy.\nPřidá hrdinovi magickou energii.\nSíla účinku roste podle počtu Lichů.",
+  "creatures.core.powerLich.bonus.intelligencePowerLichBasicArmyTotalT2": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 2 Mocné lichy.\nPřidá více magické energie.\nSíla účinku roste podle počtu Mocných lichů."
+}

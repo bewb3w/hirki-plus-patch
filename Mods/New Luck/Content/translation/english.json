@@ -1,0 +1,7 @@
+{
+	"artifact.core.pendantOfCourage.description" : "{Pendant of Courage}\n\nWhen worn, this item bestows +2 Luck and Morale to your hero's troops.",
+	"artifact.core.pendantOfCourage.name" : "Pendant of Courage",
+	"skill.core.luck.description.advanced" : "{Advanced Luck}\n\nIncreases the Luck of all hero's creatures by 2, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities.",
+	"skill.core.luck.description.basic" : "{Basic Luck}\n\nIncreases the Luck of all hero's creatures by 1, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities.",
+	"skill.core.luck.description.expert" : "{Expert Luck}\n\nIncreases the Luck of all hero's creatures by 3, improving their chance to deal double damage with lucky strikes.\n\nPositive Luck can grant or improve selected chance-based creature abilities. Negative Luck can reduce some existing abilities."
+}

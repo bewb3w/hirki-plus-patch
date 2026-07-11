@@ -2,7 +2,7 @@
 
 **Hirki Plus Patch (H.P.P.)** is a modular gameplay and balance patch for Heroes of Might and Magic III on VCMI, designed for use with **Horn of the Abyss**.
 
-The patch focuses on making underused creatures, skills, spells, heroes, war machines, and map interactions more practical and interesting while preserving the classic feel of Heroes III. Its changes are intentionally modular, so players can enable the parts they want and keep the rest of their setup close to the original game.
+The patch focuses on making underused creatures, skills, spells, heroes, war machines, town buildings, and map interactions more practical and interesting while preserving the classic feel of Heroes III. Its changes are intentionally modular, so players can enable the parts they want and keep the rest of their setup close to the original game.
 
 ## A Modular Patch for Heroes III
 
@@ -27,6 +27,8 @@ Several secondary skills have been reworked or improved to make them more useful
 
 Positive Luck can **grant or improve** selected chance-based creature abilities, while negative Luck can reduce selected existing abilities. The system also includes reworked **Fortune** and **Misfortune** spells with reduced mana costs and a direct counter relationship.
 
+Luck-based spell modules can also interact with selected defensive spells. **Magic Mirror** can work together with **New Luck** modules, allowing protected stacks to receive controlled bonuses or penalties to spell reflection chance when the relevant modules are enabled.
+
 **Pendant of Courage** is adjusted to better fit this system: it becomes a relic-class artifact with increased value and grants +2 Luck and +2 Morale.
 
 ## Intelligence and Combat Mana
@@ -43,7 +45,7 @@ Selected magical, mystical, or knowledge-themed allied creatures can further sup
 
 **New Ranged** reshapes ranged combat through skill changes, spell support, shooter ammo economy, war machine adjustments, and selected artifact value polish.
 
-* **Archery** improves ranged damage and full-damage shooting range while supporting the reduced ammo economy through total ammo pool bonuses.
+* **Archery** improves ranged damage and full-damage shooting range while supporting the reduced ammo economy with **+1 / +3 / +5 total ammo** at Basic, Advanced, and Expert levels.
 * **Artillery** preserves Ballista control, double-shot, and double-damage progression while adding protection against losing ranged war machines too quickly.
 * **Archery and Artillery** can work together, allowing Ballista and Cannon to receive controlled Archery bonuses when both skill modules are enabled and the hero has both skills.
 * **Shooter Ammo** creates a fixed baseline for shooter ammo across ranged creatures.
@@ -55,7 +57,9 @@ Selected magical, mystical, or knowledge-themed allied creatures can further sup
 
 The spell package focuses on narrow or underused spells that can gain clearer tactical identity without losing their original role.
 
-**Mirth** and **Sorrow** are reworked into stronger morale-control spells with reduced mana costs. Mirth protects affected units from ordinary Morale penalties, while Sorrow prevents ordinary Morale bonuses from raising affected units above its negative cap. The two spells remain direct counters to each other.
+* **Mirth** and **Sorrow** are reworked into stronger morale-control spells with reduced mana costs. Mirth protects affected units from ordinary Morale penalties, while Sorrow prevents ordinary Morale bonuses from raising affected units above its negative cap. The two spells remain direct counters to each other.
+* **Slayer** becomes a more practical anti-elite combat spell. Without Fire Magic, it keeps its original behavior. **Basic Fire Magic** expands it to all level 7 and higher creatures, **Advanced Fire Magic** allows repeated casts to stack on the same allied stack, and **Expert Fire Magic** turns it into a mass spell. The module also includes a HotA-like correction for **Coronius**, updating his Slayer specialty and description.
+* **Magic Mirror** becomes a more flexible defensive spell. Higher levels of **Air Magic** add a chance to resist hostile spells, while **Expert Air Magic** turns it into a mass spell.
 
 ## Heroes
 
@@ -83,6 +87,20 @@ The object package expands selected adventure map objects while preserving their
 * **Creature Upgrade Objects** add free thematic creature upgrades or transmutations to selected objects such as **Magic Spring**, **Sanctuary**, **Swan Pond**, **Redwood Observatory**, **Faerie Ring**, **Mermaids**, **Pillar of Fire**, **Cover of Darkness**, and **Trailblazer**. These rewards are tied to the object's normal visit logic and are designed as contextual progression bonuses rather than standalone recruitment.
 * **Spit - Hydra Reward** turns the **Spit creature bank** into a Fortress-flavored reward site that grants **Hydras** instead of gold while keeping its Basilisk guards, visuals, layout, terrain placement, and creature-bank role.
 
+## Towns
+
+The town package expands selected town buildings with additional thematic interactions while preserving the identity and role of each town whenever possible.
+
+* **Elemental Ritual** adds rituals to **Mage Guild Level 3** in selected towns. Heroes can sacrifice complete **Fire**, **Water**, or **Air** creature sets in exchange for matching elemental Tomes and Orbs, while full sets also provide temporary magic-school support. **Earth Magic** and **Necropolis** are intentionally excluded for balance and theme reasons.
+* **Resource Specialist Silos** give rare-resource specialists a weekly reward from the visited **Resource Silo**, based on the resources produced by that town building.
+* **Gold Specialist Halls** give gold-focused heroes a weekly reward from the visited **City Hall**, with **Lord Haart** included as the only Estates-themed exception.
+
+## Artifacts
+
+The artifact package improves selected artifacts and artifact-related interactions while preserving their original theme and strategic role.
+
+* **Diplomatic Artifacts** reworks **Diplomat's Cloak**, its components, **Shackles of War**, and related **Diplomacy** interactions. The completed cloak becomes a fused diplomatic relic, improves surrender economy, helps with neutral-creature diplomacy, acts on the adventure map like the **Disguise** spell at Expert level, and can neutralize **Shackles of War** in battles where fleeing or surrendering is normally available.
+
 ## Compatibility and Localization
 
 _Hirki Plus Patch (H.P.P.)_ requires **VCMI 1.7.4 or newer** and depends on **Horn of the Abyss**. The mod was developed and tested for the VCMI 1.7.x line.
@@ -95,7 +113,7 @@ The Polish localization is written to stay close to the style and terminology of
 
 **Hirki Plus Patch (H.P.P.)** to modularna poprawka rozgrywki i balansu dla Heroes of Might and Magic III na VCMI, przygotowana do gry z **Horn of the Abyss**.
 
-Patch skupia się na tym, aby rzadziej używane jednostki, umiejętności, czary, bohaterowie, machiny wojenne i interakcje na mapie były praktyczniejsze oraz ciekawsze, przy zachowaniu klasycznego ducha Heroes III. Zmiany są celowo modularne, dzięki czemu gracze mogą włączać wybrane części pakietu i zostawić resztę rozgrywki blisko oryginału.
+Patch skupia się na tym, aby rzadziej używane jednostki, umiejętności, czary, bohaterowie, machiny wojenne, budynki miast i interakcje na mapie były praktyczniejsze oraz ciekawsze, przy zachowaniu klasycznego ducha Heroes III. Zmiany są celowo modularne, dzięki czemu gracze mogą włączać wybrane części pakietu i zostawić resztę rozgrywki blisko oryginału.
 
 ## Modularna poprawka dla Heroes III
 
@@ -116,9 +134,11 @@ Kilka umiejętności drugorzędnych zostało przebudowanych lub usprawnionych, a
 
 ## System szczęścia
 
-**Nowe Szczęście** zachowuje oryginalne wartości Podstawowego, Zaawansowanego i Eksperckiego Szczęścia, ale rozwija szczęście w szerszy system rozgrywki.
+**Nowe Szczęście** zachowuje oryginalne wartości Podstawowego, Zaawansowanego i Mistrzowskiego Szczęścia, ale rozwija szczęście w szerszy system rozgrywki.
 
 Dodatnie szczęście może **przyznać lub wzmocnić** wybrane zdolności jednostek oparte na szansie, a ujemne szczęście może osłabić niektóre istniejące zdolności. System obejmuje także przebudowane czary **Fortuna** i **Pech** z obniżonymi kosztami many oraz bezpośrednią relacją kontry.
+
+Moduły czarów oparte na szczęściu mogą także współpracować z wybranymi czarami defensywnymi. **Magiczne zwierciadło** może współpracować z modułami **Czarów szczęścia**, pozwalając chronionym oddziałom otrzymywać kontrolowane premie lub kary do szansy odbicia zaklęcia, gdy odpowiednie moduły są włączone.
 
 **Znak Odwagi** zostaje dostosowany do tego systemu: staje się artefaktem klasy relikt, ma zwiększoną wartość i zapewnia +2 Szczęścia oraz +2 Morale.
 
@@ -128,7 +148,7 @@ Dodatnie szczęście może **przyznać lub wzmocnić** wybrane zdolności jednos
 
 * **Podstawowa Inteligencja:** +20% maksymalnej many i +5 many bojowej.
 * **Zaawansowana Inteligencja:** +35% maksymalnej many i +10 many bojowej.
-* **Ekspercka Inteligencja:** +50% maksymalnej many i +15 many bojowej.
+* **Mistrzowska Inteligencja:** +50% maksymalnej many i +15 many bojowej.
 
 Wybrane magiczne, mistyczne lub związane z wiedzą sojusznicze jednostki mogą dodatkowo wspierać bohaterów z Inteligencją, zwiększając ich **łączną manę bojową**. Wsparcie zależy od składu armii i liczebności oddziałów, a jednocześnie unika prostego nadużycia przez rozdzielanie tej samej jednostki na wiele stacków.
 
@@ -136,19 +156,21 @@ Wybrane magiczne, mistyczne lub związane z wiedzą sojusznicze jednostki mogą 
 
 **Nowa walka dystansowa** przebudowuje walkę strzelców przez zmiany umiejętności, wsparcie czarów, ekonomię amunicji, korekty machin wojennych i wybrane usprawnienia wartości artefaktów.
 
-* **Łucznictwo** zwiększa obrażenia dystansowe i pełny zasięg strzału, jednocześnie wspierając ograniczoną ekonomię amunicji przez premie do łącznej puli amunicji.
+* **Łucznictwo** zwiększa obrażenia dystansowe i pełny zasięg strzału, jednocześnie wspierając ograniczoną ekonomię amunicji premiami **+1 / +3 / +5 do łącznej puli amunicji** na poziomie podstawowym, zaawansowanym i mistrzowskim.
 * **Artyleria** zachowuje kontrolę Balisty, progresję podwójnego strzału i podwójnych obrażeń, a jednocześnie dodaje ochronę przed zbyt szybką utratą dystansowych machin wojennych.
 * **Łucznictwo i Artyleria** mogą współpracować, pozwalając Balistom i Działom otrzymywać kontrolowane premie Łucznictwa, gdy odpowiednie moduły są włączone, a bohater ma obie umiejętności.
 * **Amunicja strzelców** tworzy stałą bazę amunicji dla jednostek strzelających.
 * **Wóz z amunicją** zastępuje nielimitowaną amunicję stałym zaopatrzeniem **+5 do łącznej puli amunicji** dla sojuszniczych jednostek strzelających podczas walki.
-* **Precyzja** zyskuje dodatkową użyteczność w walce dystansowej na poziomie Zaawansowanym i Eksperckim.
+* **Precyzja** zyskuje dodatkową użyteczność w walce dystansowej na poziomie Zaawansowanym i Mistrzowskim.
 * **Torosar** zostaje dostosowany tak, aby lepiej wspierał swoją specjalność Balisty.
 
 ## Czary
 
 Pakiet czarów skupia się na wąskich lub rzadziej używanych czarach, które mogą zyskać wyraźniejszą tożsamość taktyczną bez utraty swojej pierwotnej roli.
 
-**Radość** i **Przygnębienie** zostają przebudowane w silniejsze czary kontroli morale z obniżonymi kosztami many. Radość chroni objęte nią jednostki przed zwykłymi karami do morale, a Przygnębienie nie pozwala zwykłym premiom do morale podnieść objętych nim jednostek powyżej ujemnego limitu. Oba czary pozostają bezpośrednimi kontrami dla siebie.
+* **Radość** i **Przygnębienie** zostają przebudowane w silniejsze czary kontroli morale z obniżonymi kosztami many. Radość chroni objęte nią jednostki przed zwykłymi karami do morale, a Przygnębienie nie pozwala zwykłym premiom do morale podnieść objętych nim jednostek powyżej ujemnego limitu. Oba czary pozostają bezpośrednimi kontrami dla siebie.
+* **Pogromca** staje się praktyczniejszym czarem bojowym przeciw najpotężniejszym jednostkom. Bez Magii Ognia zachowuje oryginalne działanie. **Podstawowa Magia Ognia** rozszerza go na wszystkie jednostki 7. poziomu i wyższe, **Zaawansowana Magia Ognia** pozwala kumulować efekt przy kolejnych rzuceniach na ten sam sojuszniczy oddział, a **Mistrzowska Magia Ognia** zmienia go w czar masowy. Moduł zawiera także poprawkę specjalizacji **Coroniusa**, odtwarzającą jej wzmocnioną wersję z HotA oraz aktualizującą jej opis.
+* **Magiczne zwierciadło** staje się elastyczniejszym czarem defensywnym. Na wyższych poziomach **Magii Powietrza** dodaje szansę na odparcie wrogich zaklęć, a **Mistrzowska Magia Powietrza** zmienia go w czar masowy.
 
 ## Bohaterowie
 
@@ -175,6 +197,20 @@ Pakiet obiektów rozwija wybrane obiekty mapy przygody, zachowując ich pierwotn
 
 * **Obiekty ulepszające jednostki** dodają darmowe, tematyczne ulepszenia lub transmutacje jednostek do wybranych obiektów, takich jak **Magiczne źródło**, **Sanktuarium**, **Łabędzi staw**, **Obserwatorium**, **Zaklęty krąg**, **Syreny**, **Wieża ognia**, **Całun ciemności** i **Namiot trapera**. Nagrody te są powiązane z normalną logiką odwiedzin danego obiektu i działają jako kontekstowe premie rozwoju, a nie jako osobna rekrutacja.
 * **Barłóg — Nagroda Hydr** zmienia bank stworzeń **Barłóg** w miejsce nagrody o klimacie **Fortecy**, które daje **Hydry** zamiast złota, zachowując bazyliszkowych strażników, wygląd, układ, teren występowania i rolę banku stworzeń.
+
+## Miasta
+
+Pakiet miast rozwija wybrane budynki miast o dodatkowe, tematyczne interakcje, zachowując tożsamość i rolę każdego miasta, gdy tylko jest to możliwe.
+
+* **Rytuał żywiołów** dodaje rytuały do **Gildii Magów poziomu 3** w wybranych miastach. Bohaterowie mogą poświęcać kompletne sety jednostek **Ognia**, **Wody** albo **Powietrza** w zamian za odpowiadające im księgi i kule żywiołów, a pełne sety zapewniają też tymczasowe wsparcie odpowiedniej szkoły magii. **Magia Ziemi** i **Nekropolia** zostały celowo pominięte ze względów balansu i dopasowania tematycznego.
+* **Specjaliści rzadkich surowców i Magazyny zasobów** dają specjalistom rzadkich surowców tygodniową nagrodę z odwiedzanego **Magazynu zasobów**, zależną od surowców produkowanych przez ten budynek.
+* **Specjaliści złota i Ratusze** dają bohaterom związanym ze złotem tygodniową nagrodę z odwiedzanego **Ratusza**, z **Lordem Haartem** jako jedynym wyjątkiem powiązanym z Finansami.
+
+## Artefakty
+
+Pakiet artefaktów usprawnia wybrane artefakty oraz powiązane z nimi interakcje, zachowując ich pierwotny motyw i strategiczną rolę.
+
+* **Artefakty dyplomatyczne** przebudowują **Płaszcz Dyplomaty**, jego komponenty, **Kajdany Wojny** oraz powiązane interakcje z **Dyplomacją**. Ukończony płaszcz staje się scaloną relikwią dyplomatyczną, usprawnia mechanikę poddania się, pomaga w dyplomacji z neutralnymi stworzeniami, działa na mapie przygody jak czar **Ukrycie** na poziomie mistrzowskim i może neutralizować **Kajdany Wojny** w bitwach, w których ucieczka lub poddanie się są normalnie dostępne.
 
 ## Kompatybilność i lokalizacja
 

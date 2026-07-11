@@ -1,5 +1,5 @@
 {
-	"core:enchanter": {
-		"faction": "tower"
+	"core:enchanter" : {
+		"faction" : "tower"
 	}
 }

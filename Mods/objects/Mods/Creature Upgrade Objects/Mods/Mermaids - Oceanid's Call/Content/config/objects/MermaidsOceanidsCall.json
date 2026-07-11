@@ -1,42 +1,42 @@
 {
-	"core:mermaids": {
-		"types": {
-			"mermaids": {
-				"selectMode": "selectFirst",
-				"visitMode": "bonus",
-				"rewards": [
+	"core:mermaids" : {
+		"types" : {
+			"mermaids" : {
+				"selectMode" : "selectFirst",
+				"visitMode" : "bonus",
+				"rewards" : [
 					{
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "hota.cove:nymph"
+									"amount" : 1,
+									"type" : "hota.cove:nymph"
 								}
 							]
 						},
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 72,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 72,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"changeCreatures": {
-							"hota.cove:nymph": "hota.cove:oceanid"
+						"changeCreatures" : {
+							"hota.cove:nymph" : "hota.cove:oceanid"
 						},
-						"message": "@hpp.objects.mermaidsOceanidsCall.nymph"
+						"message" : "@hpp.objects.mermaidsOceanidsCall.nymph"
 					},
 					{
-						"bonuses": [
+						"bonuses" : [
 							{
-								"description": 72,
-								"duration": "ONE_BATTLE",
-								"type": "LUCK",
-								"val": 1
+								"description" : 72,
+								"duration" : "ONE_BATTLE",
+								"type" : "LUCK",
+								"val" : 1
 							}
 						],
-						"message": 83
+						"message" : 83
 					}
 				]
 			}

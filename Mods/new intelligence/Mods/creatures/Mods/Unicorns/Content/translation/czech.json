@@ -1,0 +1,4 @@
+{
+  "creatures.core.unicorn.bonus.intelligenceUnicornBasicArmyTotalT3": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 3 Jednorožce.\nPřidá hrdinovi magickou energii.\nSíla účinku roste podle počtu Jednorožců.",
+  "creatures.core.warUnicorn.bonus.intelligenceWarUnicornBasicArmyTotalT2": "{Magická podpora}\nVyžaduje Inteligenci a alespoň 2 Bojové jednorožce.\nPřidá více magické energie.\nSíla účinku roste podle počtu Bojových jednorožců."
+}

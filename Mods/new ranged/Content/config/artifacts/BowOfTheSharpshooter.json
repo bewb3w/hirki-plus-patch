@@ -1,5 +1,5 @@
 {
-  "core:bowOfTheSharpshooter": {
-    "value": 25000
-  }
+	"core:bowOfTheSharpshooter" : {
+		"value" : 25000
+	}
 }

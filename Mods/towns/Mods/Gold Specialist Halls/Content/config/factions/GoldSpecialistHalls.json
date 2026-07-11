@@ -1,0 +1,518 @@
+{
+	"core:castle": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:rampart": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:tower": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:inferno": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:necropolis": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:dungeon": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:stronghold": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:fortress": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:conflux": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"hota.cove:cove": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"hota.factory:factory": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"hota.bulwark:bulwark": {
+		"town": {
+			"buildings": {
+				"cityHall": {
+					"configuration": {
+						"visitMode": "once",
+						"selectMode": "selectFirst",
+						"resetParameters": {
+							"period": 7,
+							"visitors": true
+						},
+						"onEmptyMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"onVisitedMessage": "@hpp.towns.goldSpecialistHalls.silentEmpty",
+						"rewards": [
+							{
+								"limiter": {
+									"heroes": [
+										"octavia",
+										"nagash",
+										"jenova",
+										"grindan",
+										"gelare",
+										"damacon",
+										"clavius",
+										"caitlin",
+										"aine",
+										"06leena",
+										"14bertram",
+										"16vehr",
+										"lordHaart"
+									]
+								},
+								"message": "@hpp.towns.goldSpecialistHalls.cityHall",
+								"resources": {
+									"gold": 4000
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

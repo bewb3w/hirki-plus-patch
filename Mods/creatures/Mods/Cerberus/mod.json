@@ -1,28 +1,31 @@
 {
-  "name": "Cerberus",
-  "description": "Cerberus gains **Threefold Bite**, an active focused melee strike.\n\n## Threefold Bite\n\n* **Activation** — Cerberus activates **Threefold Bite** without spending its action.\n* **Attack** — on its next melee attack, Cerberus hits only one target and deals triple damage.\n* **Damage modifiers** — damage still follows normal melee damage modifiers, such as Offense.\n* **Target retaliation** — the struck target can retaliate.\n* **Cerberus retaliation** — while **Threefold Bite** is active, Cerberus cannot retaliate.\n* **Three-headed attack** — while **Threefold Bite** is active, Cerberus does not use its normal three-headed attack.\n* **Uses** — the ability has 3 uses per combat and gains +1 additional use for every 40 units in the stack.",
-  "author": "bew_",
-  "version": "1.1.0",
-  "modType": "Creatures",
-  "depends": [
-    "hota"
-  ],
-  "creatures": [
-    "config/creatures/Cerberus.json"
-  ],
-  "spells": [
-    "config/spells/Cerberus Threefold Bite.json"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  },
-  "polish": {
-    "name": "Cerber",
-    "description": "Rozwija **Cerbera** z Inferno, dodając mu aktywną zdolność skupionego ataku wręcz.\n\n## Potrójny Kąs\n\n* **Aktywacja** — Cerber aktywuje **Potrójny Kąs** bez zużywania akcji.\n* **Atak** — przy następnym ataku wręcz Cerber trafia tylko jeden cel i zadaje potrójne obrażenia.\n* **Modyfikatory obrażeń** — obrażenia nadal podlegają normalnym modyfikatorom walki wręcz, takim jak Offense.\n* **Kontratak celu** — trafiony cel może kontratakować.\n* **Kontratak Cerbera** — dopóki **Potrójny Kąs** jest aktywny, Cerber nie może kontratakować.\n* **Atak w trzech kierunkach** — dopóki **Potrójny Kąs** jest aktywny, Cerber nie używa swojego normalnego ataku w trzech kierunkach.\n* **Użycia** — zdolność ma 3 użycia na bitwę i zyskuje +1 dodatkowe użycie za każde 40 jednostek w oddziale.",
-    "translations": [
-      "config/translation/hpp/polish/game.json"
-    ]
-  }
+	"name" : "Cerberus",
+	"description" : "Cerberus gains **Threefold Bite**, an active focused melee strike.\n\n## Threefold Bite\n\n* **Activation** — Cerberus activates **Threefold Bite** without spending its action.\n* **Attack** — on its next melee attack, Cerberus hits only one target and deals triple damage.\n* **Damage modifiers** — damage still follows normal melee damage modifiers, such as Offense.\n* **Target retaliation** — the struck target can retaliate.\n* **Cerberus retaliation** — while **Threefold Bite** is active, Cerberus cannot retaliate.\n* **Three-headed attack** — while **Threefold Bite** is active, Cerberus does not use its normal three-headed attack.\n* **Uses** — the ability has 3 uses per combat and gains +1 additional use for every 40 units in the stack.",
+	"author" : "bew_",
+	"version" : "1.1.1",
+	"modType" : "Creatures",
+	"depends" : [
+		"hota"
+	],
+	"creatures" : [
+		"config/creatures/Cerberus.json"
+	],
+	"spells" : [
+		"config/spells/Cerberus Threefold Bite.json"
+	],
+	"changelog" : {
+		"1.1.1" : [
+			"Fixed Polish localization keys for current HPP runtime IDs."
+		],
+		"1.0.0" : [
+			"Initial release."
+		]
+	},
+	"polish" : {
+		"name" : "Cerber",
+		"description" : "Rozwija **Cerbera** z Inferno, dodając mu aktywną zdolność skupionego ataku wręcz.\n\n## Potrójny Kąs\n\n* **Aktywacja** — Cerber aktywuje **Potrójny Kąs** bez zużywania akcji.\n* **Atak** — przy następnym ataku wręcz Cerber trafia tylko jeden cel i zadaje potrójne obrażenia.\n* **Modyfikatory obrażeń** — obrażenia nadal podlegają normalnym modyfikatorom walki wręcz, takim jak Offense.\n* **Kontratak celu** — trafiony cel może kontratakować.\n* **Kontratak Cerbera** — dopóki **Potrójny Kąs** jest aktywny, Cerber nie może kontratakować.\n* **Atak w trzech kierunkach** — dopóki **Potrójny Kąs** jest aktywny, Cerber nie używa swojego normalnego ataku w trzech kierunkach.\n* **Użycia** — zdolność ma 3 użycia na bitwę i zyskuje +1 dodatkowe użycie za każde 40 jednostek w oddziale.",
+		"translations" : [
+			"translation/polish.json"
+		]
+	}
 }

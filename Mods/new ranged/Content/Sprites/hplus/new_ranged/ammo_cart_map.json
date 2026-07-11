@@ -1,11 +1,11 @@
 {
-  "basepath": "hplus/new_ranged/",
-  "sequences": [
-    {
-      "group": 0,
-      "frames": [
-        "ammo_cart_map.png"
-      ]
-    }
-  ]
+	"basepath" : "hplus/new_ranged/",
+	"sequences" : [
+		{
+			"group" : 0,
+			"frames" : [
+				"ammo_cart_map.png"
+			]
+		}
+	]
 }

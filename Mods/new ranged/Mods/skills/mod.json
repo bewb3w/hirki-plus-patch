@@ -1,19 +1,22 @@
 {
-  "name": "Ranged Skills",
-  "description": "Secondary skill modules for the New Ranged package.\n\nModules in this category rework **Archery** and **Artillery** to better support ranged units, ranged war machines, and synergy between them.\n\n## Changed Skills\n\n* **Archery** — increases ranged unit damage, improves their maximum ammo, and at higher levels extends their full-damage shooting range. At Expert level, ranged attacks apply **Basic Forgetfulness** to the target.\n\n* **Artillery** — preserves the classic Ballista control, double-shot, and double-damage progression, while also protecting **Ballista**, **Cannon**, and their linked **Ammo Carts** from losing too much Health from a single attack.\n\n## Skill Synergy\n\nWith **Artillery**, **Ballista** and **Cannon** can receive matching **Archery** bonuses based on both skill levels.",
-  "author": "bew_",
-  "version": "1.1.0",
-  "modType": "Skills",
-  "depends": [
-    "hota"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  },
-  "polish": {
-    "name": "Umiejętności walki dystansowej",
-    "description": "Moduły umiejętności drugorzędnych dla pakietu New Ranged.\n\nModuły z tej kategorii przebudowują **Łucznictwo** i **Artylerię**, aby lepiej wspierały jednostki strzelające, machiny wojenne dystansowe oraz synergię między nimi.\n\n## Zmienione umiejętności\n\n* **Łucznictwo** — zwiększa obrażenia jednostek strzelających, rozwija ich maksymalną liczbę strzałów i na wyższych poziomach zwiększa zasięg strzału bez kary za odległość. Na poziomie eksperckim ataki dystansowe nakładają na cel **Podstawowe Zapomnienie**.\n\n* **Artyleria** — zachowuje klasyczny rozwój kontroli **Balisty**, podwójnego strzału i podwójnych obrażeń, a dodatkowo chroni **Balistę**, **Działo** oraz powiązane z nimi **Wozy z amunicją** przed zbyt dużą utratą punktów życia od pojedynczego ataku.\n\n## Synergia umiejętności\n\nZ umiejętnością **Artyleria**, **Balista** i **Działo** mogą otrzymać odpowiadające premie **Łucznictwa** zależne od poziomu obu umiejętności."
-  }
+	"name" : "Ranged Skills",
+	"description" : "Secondary skill modules for the New Ranged package.\n\nModules in this category rework **Archery** and **Artillery** to better support ranged units, ranged war machines, and synergy between them.\n\n## Changed Skills\n\n* **Archery** — increases ranged unit damage, improves their maximum ammo with stronger Advanced and Expert bonuses, and at higher levels extends their full-damage shooting range. At Expert level, ranged attacks apply **Basic Forgetfulness** to the target.\n\n* **Artillery** — preserves the classic Ballista control, double-shot, and double-damage progression, while also protecting **Ballista**, **Cannon**, and their linked **Ammo Carts** from losing too much Health from a single attack.\n\n## Skill Synergy\n\nWith **Artillery**, **Ballista** and **Cannon** can receive matching **Archery** bonuses based on both skill levels.",
+	"author" : "bew_",
+	"version" : "1.2.0",
+	"modType" : "Skills",
+	"depends" : [
+		"hota"
+	],
+	"changelog" : {
+		"1.2.0" : [
+			"Updated Archery ammo bonus values."
+		],
+		"1.0.0" : [
+			"Initial release."
+		]
+	},
+	"polish" : {
+		"name" : "Umiejętności walki dystansowej",
+		"description" : "Moduły umiejętności drugorzędnych dla pakietu New Ranged.\n\nModuły z tej kategorii przebudowują **Łucznictwo** i **Artylerię**, aby lepiej wspierały jednostki strzelające, machiny wojenne dystansowe oraz synergię między nimi.\n\n## Zmienione umiejętności\n\n* **Łucznictwo** — zwiększa obrażenia jednostek strzelających, rozwija ich maksymalną liczbę strzałów z mocniejszymi premiami na poziomie zaawansowanym i mistrzowskim oraz na wyższych poziomach zwiększa zasięg strzału bez kary za odległość. Na poziomie mistrzowskim ataki dystansowe nakładają na cel **Podstawowe Zapomnienie**.\n\n* **Artyleria** — zachowuje klasyczny rozwój kontroli **Balisty**, podwójnego strzału i podwójnych obrażeń, a dodatkowo chroni **Balistę**, **Działo** oraz powiązane z nimi **Wozy z amunicją** przed zbyt dużą utratą punktów życia od pojedynczego ataku.\n\n## Synergia umiejętności\n\nZ umiejętnością **Artyleria**, **Balista** i **Działo** mogą otrzymać odpowiadające premie **Łucznictwa** zależne od poziomu obu umiejętności."
+	}
 }

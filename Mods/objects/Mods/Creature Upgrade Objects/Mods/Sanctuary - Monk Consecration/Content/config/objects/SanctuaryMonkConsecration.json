@@ -1,27 +1,27 @@
 {
-	"core:sanctuary": {
-		"handler": "configurable",
-		"types": {
-			"object": {
-				"selectMode": "selectFirst",
-				"visitMode": "bonus",
-				"rewards": [
+	"core:sanctuary" : {
+		"handler" : "configurable",
+		"types" : {
+			"object" : {
+				"selectMode" : "selectFirst",
+				"visitMode" : "bonus",
+				"rewards" : [
 					{
-						"limiter": {
-							"creatures": [
+						"limiter" : {
+							"creatures" : [
 								{
-									"amount": 1,
-									"type": "monk"
+									"amount" : 1,
+									"type" : "monk"
 								}
 							]
 						},
-						"changeCreatures": {
-							"monk": "zealot"
+						"changeCreatures" : {
+							"monk" : "zealot"
 						},
-						"message": "@hpp.objects.sanctuaryMonkConsecration.monk"
+						"message" : "@hpp.objects.sanctuaryMonkConsecration.monk"
 					},
 					{
-						"message": "@hpp.objects.sanctuaryMonkConsecration.protection"
+						"message" : "@hpp.objects.sanctuaryMonkConsecration.protection"
 					}
 				]
 			}

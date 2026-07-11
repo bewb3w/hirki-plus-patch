@@ -1,22 +1,22 @@
 {
-  "name": "Torosar - Artillery Start",
-  "description": "Keeps Torosar starting with Basic Tactics. His original Basic Mysticism is replaced by Basic Artillery, better supporting his Ballista specialty and the New Ranged package.",
-  "author": "bew_",
-  "version": "1.1.0",
-  "modType": "Heroes",
-  "depends": [
-    "hota"
-  ],
-  "heroes": [
-    "config/heroes/Torosar.json"
-  ],
-  "changelog": {
-    "1.0.0": [
-      "Initial release."
-    ]
-  },
-  "polish": {
-    "name": "Torosar — start z Artylerią",
-    "description": "Zmienia umiejętności startowe **Torosara**, aby lepiej wspierały jego specjalizację w **Baliście** i pakiet New Ranged.\n\n**Torosar** nadal zaczyna z **Podstawową Taktyką**. Jego oryginalny **Podstawowy Mistycyzm** zostaje zastąpiony przez **Podstawową Artylerię**, dzięki czemu lepiej pasuje do swojej specjalizacji w **Baliście**."
-  }
+	"name" : "Torosar - Artillery Start",
+	"description" : "Keeps Torosar starting with Basic Tactics. His original Basic Mysticism is replaced by Basic Artillery, better supporting his Ballista specialty and the New Ranged package.",
+	"author" : "bew_",
+	"version" : "1.1.0",
+	"modType" : "Heroes",
+	"depends" : [
+		"hota"
+	],
+	"heroes" : [
+		"config/heroes/Torosar.json"
+	],
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release."
+		]
+	},
+	"polish" : {
+		"name" : "Torosar — start z Artylerią",
+		"description" : "Zmienia umiejętności startowe **Torosara**, aby lepiej wspierały jego specjalizację w **Baliście** i pakiet New Ranged.\n\n**Torosar** nadal zaczyna z **Podstawową Taktyką**. Jego oryginalny **Podstawowy Mistycyzm** zostaje zastąpiony przez **Podstawową Artylerię**, dzięki czemu lepiej pasuje do swojej specjalizacji w **Baliście**."
+	}
 }
