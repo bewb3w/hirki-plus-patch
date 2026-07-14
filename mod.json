@@ -5,7 +5,7 @@
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
 	"contact": "https://github.com/vcmi-mods/hirki-plus-patch/issues",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"modType": "Expansion",
 	"compatibility": {
 		"min": "1.7.4"
@@ -21,6 +21,9 @@
 		]
 	},
 	"changelog": {
+		"1.2.1": [
+			"Fixed Polish Slayer spell and Coronius specialty text appearing in the English version of the game."
+		],
 		"1.2.0": [
 			"Added Towns category with Elemental Ritual, Resource Specialist Silos and Gold Specialist Halls modules.",
 			"Added Slayer spell rework.",

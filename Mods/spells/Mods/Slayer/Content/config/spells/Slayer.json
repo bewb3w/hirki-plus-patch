@@ -1,6 +1,6 @@
 {
 	"core:slayer": {
-		"name": "Pogromca",
+		"name": "Slayer",
 		"school": {
 			"fire": true
 		},
@@ -32,7 +32,7 @@
 						"duration": "N_TURNS"
 					}
 				},
-				"description": "{Pogromca}\n\nZwiększa siłę ataku wybranego oddziału podczas walki ze smokami, behemotami i hydrami."
+				"description": "{Slayer}\n\nIncreases the Attack skill of the selected allied stack when fighting Dragons, Behemoths and Hydras."
 			},
 			"basic": {
 				"cost": 14,
@@ -49,7 +49,7 @@
 						"duration": "N_TURNS"
 					}
 				},
-				"description": "{Pogromca - poziom podstawowy}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym."
+				"description": "{Slayer - Basic level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures."
 			},
 			"advanced": {
 				"cost": 12,
@@ -67,7 +67,7 @@
 						"duration": "N_TURNS"
 					}
 				},
-				"description": "{Pogromca - poziom zaawansowany}\n\nWybrany sprzymierzony oddział zadaje o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+				"description": "{Slayer - Advanced level}\n\nThe selected allied stack deals {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts."
 			},
 			"expert": {
 				"cost": 10,
@@ -85,7 +85,7 @@
 						"duration": "N_TURNS"
 					}
 				},
-				"description": "{Pogromca - poziom mistrzowski}\n\nWszystkie sprzymierzone oddziały zadają o {40%} większe obrażenia jednostkom {7.} poziomu i wyższym. Efekt kumuluje się przy kolejnych rzuceniach."
+				"description": "{Slayer - Expert level}\n\nAll allied stacks deal {40%} more damage to level {7} and higher creatures. The effect stacks with repeated casts."
 			}
 		}
 	}
