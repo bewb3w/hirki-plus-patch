@@ -150,7 +150,13 @@ def check_root(root: Path, report: Report) -> None:
 def check_conflict_markers(root: Path, report: Report) -> None:
     found: list[str] = []
 
+    marker_pattern = re.compile(
+        r"^(?:<<<<<<<(?: .+)?|=======|>>>>>>>(?: .+)?)$"
+    )
+
     for path in root.rglob("*"):
+        if ".git" in path.parts:
+            continue
         if not path.is_file() or path.suffix.lower() not in TEXT_EXTENSIONS:
             continue
         try:
@@ -158,10 +164,11 @@ def check_conflict_markers(root: Path, report: Report) -> None:
         except UnicodeDecodeError:
             continue
 
-        for marker in CONFLICT_MARKERS:
-            if marker in text:
-                found.append(f"{path.relative_to(root)}: {marker}")
-                break
+        for line_number, line in enumerate(text.splitlines(), start=1):
+            if marker_pattern.fullmatch(line.strip()):
+                found.append(
+                    f"{path.relative_to(root)}:{line_number}: {line.strip()}"
+                )
 
     if found:
         report.error(
@@ -277,6 +284,20 @@ def check_mod_file_references(
         )
 
 
+def detect_translation_language(path: Path) -> str | None:
+    supported = {"english", "polish"}
+
+    if path.stem.lower() in supported:
+        return path.stem.lower()
+
+    for part in reversed(path.parts):
+        lowered = part.lower()
+        if lowered in supported:
+            return lowered
+
+    return None
+
+
 def collect_translation_keys(
     root: Path,
     parsed: dict[Path, Any],
@@ -289,7 +310,10 @@ def collect_translation_keys(
         if not isinstance(data, dict):
             continue
 
-        language = path.stem.lower()
+        language = detect_translation_language(path)
+        if language is None:
+            continue
+
         target = by_language.setdefault(language, {})
         for key, value in data.items():
             target.setdefault(key, []).append(value)
