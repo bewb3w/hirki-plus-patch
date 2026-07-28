@@ -1,5 +1,4 @@
 {
-	"hpp.towns.resourceSpecialistSilos.silentEmpty": "",
 	"hpp.towns.resourceSpecialistSilos.castleWoodOre": "{Resource Silo}\n\nThis hero's resource-management experience helps uncover additional reserves in the visited town's Resource Silo.\n\nYou receive 5 wood and 5 ore.",
 	"hpp.towns.resourceSpecialistSilos.rampartCrystal": "{Resource Silo}\n\nThis hero's resource-management experience helps uncover additional reserves in the visited town's Resource Silo.\n\nYou receive 5 crystals.",
 	"hpp.towns.resourceSpecialistSilos.towerGems": "{Resource Silo}\n\nThis hero's resource-management experience helps uncover additional reserves in the visited town's Resource Silo.\n\nYou receive 5 gems.",

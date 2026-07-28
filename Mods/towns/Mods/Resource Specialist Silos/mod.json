@@ -2,7 +2,7 @@
 	"name": "Resource Specialist Silos",
 	"description": "Adds a weekly **Resource Silo** reward for heroes specialized in producing rare resources.\n\nEach **Resource Silo** can automatically grant **+5 of each resource produced by that Resource Silo** once per week to the first eligible hero visiting the town.\n\nEligible heroes:\n\n**Rare resource specialists:**\n- **Calid** — sulfur\n- **Rissa** — mercury\n- **Saurug** — gems\n- **Sephinroth** — crystals\n- **Andal** — crystals",
 	"author": "bew_",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"modType": "Town",
 	"depends": [
 		"hota",
@@ -32,6 +32,9 @@
 		]
 	},
 	"changelog": {
+		"1.0.1": [
+			"Fixed unresolved and empty Resource Silo fallback messages."
+		],
 		"1.0.0": [
 			"Initial release."
 		]
