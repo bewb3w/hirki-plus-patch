@@ -1,5 +1,4 @@
 {
-	"hpp.towns.goldSpecialistHalls.cityHall": "{Ratusz}\n\nDoświadczenie tego bohatera w zarządzaniu finansami pomaga odkryć dodatkowe dochody w administracji odwiedzanego miasta.\n\nOtrzymujesz 4000 sztuk złota.",
 	"hero.core.octavia.specialty.name": "350 szt. złota",
 	"hero.core.octavia.specialty.description": "Zwiększa dochód królestwa o {+350} złotych monet dziennie.\n\n{Dodatkowo}: każdy {Ratusz} raz w tygodniu automatycznie przyznaje bonus w wysokości {+4000} sztuk złota pierwszemu odwiedzającemu bohaterowi ze specjalizacją w {+350} złota dziennie albo {Lordowi Haartowi}.",
 	"hero.core.octavia.specialty.tooltip": "{+350} złota dziennie; raz w tygodniu pierwszy specjalista od złota albo {Lord Haart} otrzymuje {+4000} złota z odwiedzanego {Ratusza}.",

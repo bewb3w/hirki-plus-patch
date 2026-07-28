@@ -21,14 +21,16 @@
 	],
 	"english": {
 		"translations": [
-			"translation/english.json"
+			"translation/english.json",
+			"config/translation/hpp/english/game.json"
 		]
 	},
 	"polish": {
 		"name": "Specjaliści rzadkich surowców i Magazyny zasobów",
 		"description": "Dodaje tygodniową nagrodę z **Magazynu zasobów** dla bohaterów wyspecjalizowanych w produkcji rzadkich surowców.\n\nKażdy **Magazyn zasobów** może raz w tygodniu automatycznie przyznać **+5 każdego zasobu produkowanego przez ten Magazyn zasobów** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści rzadkich surowców:**\n- **Calid** — siarka\n- **Rissa** — rtęć\n- **Saurug** — klejnoty\n- **Sephinroth** — kryształy\n- **Andal** — kryształy",
 		"translations": [
-			"translation/polish.json"
+			"translation/polish.json",
+			"config/translation/hpp/polish/game.json"
 		]
 	},
 	"changelog": {

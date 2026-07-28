@@ -1,5 +1,4 @@
 {
-	"hpp.towns.goldSpecialistHalls.cityHall": "{City Hall}\n\nThis hero's experience in financial management helps uncover additional income in the administration of the visited town.\n\nYou receive 4000 gold.",
 	"hero.core.octavia.specialty.name": "+350 Gold",
 	"hero.core.octavia.specialty.description": "Increases kingdom's income by {+350} gold per day.\n\n{Additionally}: once per week, each {City Hall} automatically grants a bonus of {+4000} gold to the first visiting hero with a {+350} gold per day specialty or to {Lord Haart}.",
 	"hero.core.octavia.specialty.tooltip": "{+350} gold per day; once per week, the first gold specialist or {Lord Haart} receives {+4000} gold from the visited {City Hall}.",

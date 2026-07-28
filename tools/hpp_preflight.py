@@ -84,6 +84,35 @@ ESTATES_MOD = Path("Mods/skills/Mods/Estates/mod.json")
 ESTATES_DEPENDENCY = "hirki-plus-patch.skills.estates"
 
 
+PIPELINE_SAFE_TOWN_TRANSLATIONS = (
+    {
+        "name": "Gold Specialist Halls",
+        "module_root": Path("Mods/towns/Mods/Gold Specialist Halls"),
+        "runtime_keys": (
+            "hpp.towns.goldSpecialistHalls.cityHall",
+        ),
+    },
+    {
+        "name": "Resource Specialist Silos",
+        "module_root": Path("Mods/towns/Mods/Resource Specialist Silos"),
+        "runtime_keys": (
+            "hpp.towns.resourceSpecialistSilos.castleWoodOre",
+            "hpp.towns.resourceSpecialistSilos.rampartCrystal",
+            "hpp.towns.resourceSpecialistSilos.towerGems",
+            "hpp.towns.resourceSpecialistSilos.infernoMercury",
+            "hpp.towns.resourceSpecialistSilos.necropolisWoodOre",
+            "hpp.towns.resourceSpecialistSilos.dungeonSulfur",
+            "hpp.towns.resourceSpecialistSilos.strongholdWoodOre",
+            "hpp.towns.resourceSpecialistSilos.fortressWoodOre",
+            "hpp.towns.resourceSpecialistSilos.confluxMercury",
+            "hpp.towns.resourceSpecialistSilos.coveSulfur",
+            "hpp.towns.resourceSpecialistSilos.factoryCrystal",
+            "hpp.towns.resourceSpecialistSilos.bulwarkWoodOre",
+        ),
+    },
+)
+
+
 @dataclass
 class Report:
     errors: list[str] = field(default_factory=list)
@@ -520,6 +549,102 @@ def check_golden_goose_estates(
 
 
 
+
+def check_pipeline_safe_town_runtime_translations(
+    root: Path,
+    parsed: dict[Path, Any],
+    report: Report,
+) -> None:
+    errors: list[str] = []
+
+    for rule in PIPELINE_SAFE_TOWN_TRANSLATIONS:
+        module_root = root / rule["module_root"]
+        mod_path = module_root / "mod.json"
+        english_game_path = (
+            module_root / "Content/config/translation/hpp/english/game.json"
+        )
+        polish_game_path = (
+            module_root / "Content/config/translation/hpp/polish/game.json"
+        )
+        english_legacy_path = module_root / "Content/translation/english.json"
+        polish_legacy_path = module_root / "Content/translation/polish.json"
+
+        mod_data = parsed.get(mod_path)
+        english_game = parsed.get(english_game_path)
+        polish_game = parsed.get(polish_game_path)
+        english_legacy = parsed.get(english_legacy_path)
+        polish_legacy = parsed.get(polish_legacy_path)
+
+        if not isinstance(mod_data, dict):
+            errors.append(f'{rule["name"]}: brak lub niepoprawny mod.json')
+            continue
+
+        expected_english = "config/translation/hpp/english/game.json"
+        expected_polish = "config/translation/hpp/polish/game.json"
+
+        english_block = mod_data.get("english")
+        polish_block = mod_data.get("polish")
+        english_paths = (
+            english_block.get("translations", [])
+            if isinstance(english_block, dict)
+            else []
+        )
+        polish_paths = (
+            polish_block.get("translations", [])
+            if isinstance(polish_block, dict)
+            else []
+        )
+
+        if expected_english not in english_paths:
+            errors.append(
+                f'{rule["name"]}: English game.json nie jest ładowany przez mod.json'
+            )
+        if expected_polish not in polish_paths:
+            errors.append(
+                f'{rule["name"]}: Polish game.json nie jest ładowany przez mod.json'
+            )
+
+        if not isinstance(english_game, dict):
+            errors.append(f'{rule["name"]}: brak angielskiego pipeline-safe game.json')
+            english_game = {}
+        if not isinstance(polish_game, dict):
+            errors.append(f'{rule["name"]}: brak polskiego pipeline-safe game.json')
+            polish_game = {}
+
+        if not isinstance(english_legacy, dict):
+            english_legacy = {}
+        if not isinstance(polish_legacy, dict):
+            polish_legacy = {}
+
+        for key in rule["runtime_keys"]:
+            if not english_game.get(key):
+                errors.append(
+                    f'{rule["name"]}: brak niepustego EN runtime key {key} w game.json'
+                )
+            if not polish_game.get(key):
+                errors.append(
+                    f'{rule["name"]}: brak niepustego PL runtime key {key} w game.json'
+                )
+            if key in english_legacy:
+                errors.append(
+                    f'{rule["name"]}: EN runtime key {key} pozostał w legacy translation'
+                )
+            if key in polish_legacy:
+                errors.append(
+                    f'{rule["name"]}: PL runtime key {key} pozostał w legacy translation'
+                )
+
+    if errors:
+        report.error(
+            "Customowe komunikaty nagród Towns nie są pipeline-safe:\n  - "
+            + "\n  - ".join(errors)
+        )
+    else:
+        report.ok(
+            "Runtime translations Gold Halls i Resource Silos są odseparowane "
+            "od pipeline-managed hero texts w EN/PL."
+        )
+
 def normalize_launcher_description(text: str) -> str:
     return text.replace("\r\n", "\n").replace("\r", "\n").strip()
 
@@ -662,6 +787,7 @@ def main() -> int:
         check_town_rewardables(root, parsed, report)
         check_golden_goose_estates(root, parsed, report)
         check_root_launcher_descriptions(root, parsed, report)
+        check_pipeline_safe_town_runtime_translations(root, parsed, report)
 
     return print_report(root, report)
 
