@@ -21,14 +21,16 @@
 	],
 	"english": {
 		"translations": [
-			"translation/english.json"
+			"translation/english.json",
+			"config/translation/hpp/english/game.json"
 		]
 	},
 	"polish": {
 		"name": "Specjaliści złota i Ratusze",
 		"description": "Dodaje tygodniową nagrodę z **Ratusza** dla bohaterów wyspecjalizowanych w zdobywaniu złota.\n\nKażdy **Ratusz** może raz w tygodniu automatycznie przyznać **4000 sztuk złota** pierwszemu uprawnionemu bohaterowi odwiedzającemu miasto.\n\nUprawnieni bohaterowie:\n\n**Specjaliści +350 złota dziennie:**\n- **Octavia**\n- **Nagash**\n- **Jenova**\n- **Grindan**\n- **Gelare**\n- **Damacon**\n- **Clavius**\n- **Caitlin**\n- **Aine**\n- **Leena**\n- **Bertram**\n- **Vehr**\n\n**Wyjątek:**\n- **Lord Haart** — jako jedyny w grze specjalista w **Finansach** również może otrzymać tę nagrodę.",
 		"translations": [
-			"translation/polish.json"
+			"translation/polish.json",
+			"config/translation/hpp/polish/game.json"
 		]
 	},
 	"changelog": {
