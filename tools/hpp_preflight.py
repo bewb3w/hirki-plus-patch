@@ -519,6 +519,78 @@ def check_golden_goose_estates(
         )
 
 
+
+def normalize_launcher_description(text: str) -> str:
+    return text.replace("\r\n", "\n").replace("\r", "\n").strip()
+
+
+def check_root_launcher_descriptions(
+    root: Path,
+    parsed: dict[Path, Any],
+    report: Report,
+) -> None:
+    root_mod_path = root / "mod.json"
+    english_path = root / "description/english.md"
+    polish_path = root / "description/polish.md"
+
+    errors: list[str] = []
+
+    root_mod = parsed.get(root_mod_path)
+    if not isinstance(root_mod, dict):
+        errors.append("Brak lub niepoprawny root mod.json")
+    if not english_path.is_file():
+        errors.append("Brak description/english.md")
+    if not polish_path.is_file():
+        errors.append("Brak description/polish.md")
+
+    if errors:
+        report.error(
+            "Problem z rootowymi opisami Launchera:\n  - "
+            + "\n  - ".join(errors)
+        )
+        return
+
+    english_source = normalize_launcher_description(
+        english_path.read_text(encoding="utf-8-sig")
+    )
+    polish_source = normalize_launcher_description(
+        polish_path.read_text(encoding="utf-8-sig")
+    )
+
+    english_runtime = normalize_launcher_description(
+        root_mod.get("description", "")
+    )
+
+    polish_block = root_mod.get("polish")
+    if not isinstance(polish_block, dict):
+        polish_runtime = ""
+    else:
+        polish_runtime = normalize_launcher_description(
+            polish_block.get("description", "")
+        )
+
+    if english_runtime != english_source:
+        errors.append(
+            "root mod.json description różni się od description/english.md"
+        )
+
+    if polish_runtime != polish_source:
+        errors.append(
+            "root mod.json polish.description różni się od "
+            "description/polish.md"
+        )
+
+    if errors:
+        report.error(
+            "Rootowe opisy Launchera nie są zsynchronizowane:\n  - "
+            + "\n  - ".join(errors)
+        )
+    else:
+        report.ok(
+            "Rootowe opisy Launchera EN/PL są zgodne z "
+            "description/english.md i description/polish.md."
+        )
+
 def print_report(root: Path, report: Report) -> int:
     print("=" * 72)
     print("HPP PREFLIGHT")
@@ -589,6 +661,7 @@ def main() -> int:
         check_forbidden_silent_empty(root, report)
         check_town_rewardables(root, parsed, report)
         check_golden_goose_estates(root, parsed, report)
+        check_root_launcher_descriptions(root, parsed, report)
 
     return print_report(root, report)
 
