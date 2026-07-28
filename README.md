@@ -27,6 +27,7 @@ The mod focuses on making underused creatures, skills, spells, heroes, war machi
 ## Version 1.3.1 hotfix
 
 - Fixed unresolved and empty town-building fallback messages in **Gold Specialist Halls**, **Resource Specialist Silos** and **Elemental Ritual**.
+
 ## Version 1.3.0 highlights
 
 - **Artifacts** — reworked **Armageddon's Blade**.
@@ -86,6 +87,7 @@ HPP zawiera polską lokalizację opisów Launchera oraz wybranych tekstów w grz
 ## Hotfix 1.3.1
 
 - Naprawiono nierozwiązane i puste komunikaty awaryjne budynków miejskich w modułach **Specjaliści złota i Ratusze**, **Specjaliści rzadkich surowców i Magazyny zasobów** oraz **Rytuał żywiołów**.
+
 ## Najważniejsze elementy wersji 1.3.0
 
 - **Artefakty** — przebudowano **Ostrze Armagedonu**.

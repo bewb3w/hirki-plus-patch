@@ -31,7 +31,7 @@
 			"translation/polish.json"
 		]
 	},
-	"changelog": {
+	"changelog": {
 		"1.0.1": [
 			"Fixed unresolved and empty City Hall fallback messages."
 		],

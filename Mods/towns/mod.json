@@ -10,7 +10,7 @@
 	"compatibility": {
 		"min": "1.7.4"
 	},
-	"changelog": {
+	"changelog": {
 		"1.0.1": [
 			"Fixed unresolved and empty fallback messages in town reward modules."
 		],
